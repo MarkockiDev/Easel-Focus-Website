@@ -28,7 +28,7 @@
   <link rel="icon" href="assets/img/icon-192.png" sizes="192x192" type="image/png">
   <link rel="apple-touch-icon" href="apple-touch-icon.png">
   <link rel="preload" href="assets/img/van-gogh.jpg" as="image">
-  <link rel="stylesheet" href="assets/site.css">
+  <link rel="stylesheet" href="assets/site.css?v=2">
   <script>document.documentElement.classList.add('js')</script>
   <script type="application/ld+json">
   {
@@ -54,8 +54,8 @@
         Easel
       </a>
       <nav aria-label="Primary" class="label">
-        <a class="opt" href="#rooms">The rooms</a>
-        <a class="opt" href="#patronage">Patronage</a>
+        <a class="opt" href="guides/">Guides</a>
+        <a class="opt" href="faq/">Questions</a>
         <a href="https://apps.apple.com/app/id6793262483">Download</a>
       </nav>
     </div>
@@ -155,7 +155,10 @@
             <li><strong>Start from anywhere:</strong> Siri, Shortcuts, Control Center or a widget.</li>
           </ul>
         </div>
-        <figure class="shot wide"><img src="assets/img/setup.jpg" width="900" height="985" loading="lazy" alt="The setup screen: the intention “Finish the chapter draft”, Single or Pomodoro, durations of 5, 15, 25, 45 and 60 minutes or custom, and Focus with: All paintings."></figure>
+        <div class="shots">
+          <figure class="shot"><img src="assets/img/shot-setup.jpg" width="603" height="1311" loading="lazy" alt="Easel’s home screen: the intention “Finish the chapter draft”, Single or Pomodoro, durations of 5, 15, 25, 45 and 60 minutes or Custom, Focus with All paintings, and Begin."></figure>
+          <figure class="shot"><img src="assets/img/shot-question.jpg" width="603" height="1311" loading="lazy" alt="The focus question: What will you focus on? with recent intentions and subjects such as Study and Work."></figure>
+        </div>
       </div>
     </section>
 
@@ -224,6 +227,23 @@
       </div>
     </section>
 
+    <section class="room" aria-labelledby="help-title">
+      <div class="wrap" style="grid-template-columns: minmax(0, 1fr);">
+        <div class="text">
+          <p class="label">Visitor information</p>
+          <h2 id="help-title">Guides for every room</h2>
+          <p class="lede">Illustrated, step-by-step guides to Easel, and answers to the questions people ask most. If you ever lose your way in the app, you’ll find it again here.</p>
+        </div>
+        <div class="placards">
+          <a class="card" href="guides/getting-started/"><span class="n">I</span><h3>Getting started</h3><p>Your first session, from Begin to 0:00.</p></a>
+          <a class="card" href="guides/pomodoro/"><span class="n">IV</span><h3>Pomodoro</h3><p>Four blocks, four paintings.</p></a>
+          <a class="card" href="guides/widgets-and-live-activities/"><span class="n">X</span><h3>Widgets &amp; Live Activities</h3><p>A painting of the day that clears as you focus.</p></a>
+          <a class="card" href="faq/"><span class="n">?</span><h3>Questions &amp; answers</h3><p>Free? Offline? Which paintings? All answered.</p></a>
+        </div>
+        <p><a href="guides/">See all fourteen guides ›</a></p>
+      </div>
+    </section>
+
     <section class="closing" aria-labelledby="closing-title">
       <div class="wrap">
         <p class="label">Now showing</p>
@@ -247,8 +267,11 @@
         <a class="brand" href="./" aria-label="Easel, home"><img src="assets/img/icon.jpg" alt="" width="36" height="36" loading="lazy">Easel</a>
         <nav aria-label="Footer">
           <a href="https://apps.apple.com/app/id6793262483">App Store</a>
+          <a href="guides/">Guides</a>
+          <a href="faq/">Questions</a>
+          <a href="privacy/">Privacy policy</a>
           <a href="https://markockidev.canny.io/easel">Feedback &amp; ideas</a>
-          <a href="https://markockidev.github.io/Easel-privacy-policy/">Privacy policy</a>
+          <a href="mailto:adam@easelfocus.app">Contact</a>
           <a href="https://markockiadam.com">The maker</a>
         </nav>
       </div>
