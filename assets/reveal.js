@@ -23,7 +23,7 @@
   }
 
   function frame(now) {
-    if (start === null) start = now;
+    if (start === null) start = now - REVEAL * 0.35;          // open a third of the way in, so the frame is never empty on arrival
     var t = (now - start) % CYCLE, p;
     if (t < REVEAL) p = t / REVEAL;
     else if (t < REVEAL + HOLD) p = 1;

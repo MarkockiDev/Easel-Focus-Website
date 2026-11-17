@@ -28,7 +28,7 @@
   <link rel="icon" href="assets/img/icon-192.png" sizes="192x192" type="image/png">
   <link rel="apple-touch-icon" href="apple-touch-icon.png">
   <link rel="preload" href="assets/img/van-gogh.jpg" as="image">
-  <link rel="stylesheet" href="assets/site.css?v=2">
+  <link rel="stylesheet" href="assets/site.css?v=4">
   <script>document.documentElement.classList.add('js')</script>
   <script type="application/ld+json">
   {
@@ -44,7 +44,7 @@
   }
   </script>
 </head>
-<body>
+<body class="has-getbar">
   <a class="skip" href="#main">Skip to content</a>
 
   <header class="top">
@@ -54,9 +54,9 @@
         Easel
       </a>
       <nav aria-label="Primary" class="label">
-        <a class="opt" href="guides/">Guides</a>
-        <a class="opt" href="faq/">Questions</a>
-        <a href="https://apps.apple.com/app/id6793262483">Download</a>
+        <a href="guides/">Guides</a>
+        <a href="faq/"><span class="long">Questions</span><span class="short" aria-hidden="true">FAQ</span></a>
+        <a class="get" href="https://apps.apple.com/app/id6793262483">Download</a>
       </nav>
     </div>
   </header>
@@ -113,14 +113,14 @@
           <h2 id="r1">Focus, and the fog lifts</h2>
           <p class="lede">Every session hangs a new painting behind a soft, drifting fog. It clears from the centre outward as the minutes pass, so you can feel your progress without watching the clock.</p>
           <ul class="facts">
-            <li><strong>Fully unveiled at 0:00</strong>, with its museum label: title, artist, date and story.</li>
+            <li><strong>Fully unveiled at 0:00</strong>, with a museum placard: what you focused on, the title, the artist and the date.</li>
             <li><strong>Never waits on the network.</strong> The painting is ready before you begin.</li>
             <li><strong>Leave and come back.</strong> The timer keeps true time, even with your phone locked.</li>
           </ul>
         </div>
         <div class="shots">
-          <figure class="shot"><img src="assets/img/shot-fog.jpg" width="603" height="1311" loading="lazy" alt="Easel on iPhone during a focus session: a painting half hidden in fog, the countdown above it."></figure>
-          <figure class="shot"><img src="assets/img/shot-revealed.jpg" width="603" height="1311" loading="lazy" alt="The same painting fully revealed at the end of the session, with its title and artist underneath."></figure>
+          <figure class="shot"><img src="assets/img/shot-fog.jpg" width="603" height="1311" loading="lazy" alt="Easel on iPhone during a focus session: a Cézanne portrait emerging from the fog, 2:23 remaining, with the intention Finish the chapter draft."></figure>
+          <figure class="shot"><img src="assets/img/shot-revealed.jpg" width="603" height="1311" loading="lazy" alt="Cézanne’s Gustave Boyer in a Straw Hat, fully revealed at 0:00, with a cream museum placard: 5 minutes · Finish the chapter draft, the title and artist, info and share buttons, and Done."></figure>
         </div>
       </div>
     </section>
@@ -138,7 +138,7 @@
             <li><strong>Share a painting</strong> in a gilded frame, as a Story or a Post.</li>
           </ul>
         </div>
-        <figure class="shot"><img src="assets/img/shot-gallery.jpg" width="603" height="1311" loading="lazy" alt="Easel’s gallery on iPhone: a grid of earned paintings, from Audubon’s birds to Van Gogh’s irises, above a card reading 57 hours 30 minutes in focus, 109 paintings, 6-day streak."></figure>
+        <figure class="shot"><img src="assets/img/shot-gallery.jpg" width="603" height="1311" loading="lazy" alt="Easel’s gallery on iPhone: a grid of earned paintings, from Cézanne’s portrait in a straw hat to Audubon’s birds, above a card reading 57 hours 40 minutes in focus, 111 paintings, 7-day streak."></figure>
       </div>
     </section>
 
@@ -279,6 +279,17 @@
     </div>
   </footer>
 
-  <script src="assets/reveal.js" defer></script>
+  <div class="getbar" role="complementary" aria-label="Get Easel">
+    <img class="icon" src="assets/img/icon.jpg" alt="" width="40" height="40">
+    <span class="t"><b>Easel</b><span>Focus timer &amp; art</span></span>
+    <a class="badge" href="https://apps.apple.com/app/id6793262483">
+      <picture>
+        <source srcset="assets/img/app-store-badge-white.svg" media="(prefers-color-scheme: dark)">
+        <img src="assets/img/app-store-badge-black.svg" alt="Download on the App Store" width="120" height="40">
+      </picture>
+    </a>
+  </div>
+  <script src="assets/reveal.js?v=4" defer></script>
+  <script src="assets/site.js?v=4" defer></script>
 </body>
 </html>

@@ -24,11 +24,11 @@
   <link rel="icon" href="../../favicon-32.png" sizes="32x32" type="image/png">
   <link rel="icon" href="../../assets/img/icon-192.png" sizes="192x192" type="image/png">
   <link rel="apple-touch-icon" href="../../apple-touch-icon.png">
-  <link rel="stylesheet" href="../../assets/site.css?v=2">
+  <link rel="stylesheet" href="../../assets/site.css?v=4">
   <script type="application/ld+json">{"@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Easel", "item": "https://markockidev.github.io/Easel-Focus-Website/"}, {"@type": "ListItem", "position": 2, "name": "Guides", "item": "https://markockidev.github.io/Easel-Focus-Website/guides/"}, {"@type": "ListItem", "position": 3, "name": "Focus sessions", "item": "https://markockidev.github.io/Easel-Focus-Website/guides/focus-sessions/"}]}</script>
   <script type="application/ld+json">{"@context": "https://schema.org", "@type": "TechArticle", "headline": "Focus sessions and the fog reveal", "description": "How a focus session works in Easel: the fog reveal, the timer, leaving the app or locking your phone, ending early, ambient music, sound effects and haptics.", "dateModified": "2026-11-17", "about": {"@type": "MobileApplication", "name": "Easel: Focus Timer & Art", "operatingSystem": "iOS"}, "author": {"@type": "Person", "name": "Adam", "url": "https://markockiadam.com"}, "mainEntityOfPage": "https://markockidev.github.io/Easel-Focus-Website/guides/focus-sessions/"}</script>
 </head>
-<body>
+<body class="has-getbar">
   <a class="skip" href="#main">Skip to content</a>
   <header class="top">
     <div class="wrap">
@@ -37,9 +37,9 @@
         Easel
       </a>
       <nav aria-label="Primary" class="label">
-        <a class="opt" href="../../guides/" aria-current="page">Guides</a>
-        <a class="opt" href="../../faq/">Questions</a>
-        <a href="https://apps.apple.com/app/id6793262483">Download</a>
+        <a href="../../guides/" aria-current="page">Guides</a>
+        <a href="../../faq/"><span class="long">Questions</span><span class="short" aria-hidden="true">FAQ</span></a>
+        <a class="get" href="https://apps.apple.com/app/id6793262483">Download</a>
       </nav>
     </div>
   </header>
@@ -81,13 +81,14 @@
   <li><strong>Haptic feedback</strong>: gentle taps on buttons and at the start and end of a session.</li>
 </ul>
 <h2 id="label">When the painting is revealed</h2>
-<p>At 0:00 the painting’s title, artist and date rise beneath it. From there you can:</p>
+<p>At 0:00 the whole painting is clear, and a museum placard rises at the bottom of the screen: the session’s length and your intention, then the painting’s title, artist and date. On the placard you can:</p>
 <ul>
-  <li>Tap <strong>ⓘ</strong> for the full museum label: medium, dimensions, credit line and a link to view the work at The Met.</li>
+  <li>Tap <strong>ⓘ</strong> for the full museum label: medium, dimensions, credit line and a link to view the work at The Met. The label opens to exactly its own height; swipe down to close it.</li>
   <li>Tap <strong>Share</strong> to make a framed card for Stories or posts (see <a href="../../guides/sharing/">Sharing</a>).</li>
   <li>Tap <strong>Done</strong> to hang it in your gallery and return to the home screen.</li>
 </ul>
 <p>Every few milestones (10, 25, 50, 100 paintings and beyond) Done opens a small celebration first.</p>
+<div class="figs"><figure><div class="shot"><img src="../../assets/img/shot-revealed.jpg" width="603" height="1311" loading="lazy" alt="Cézanne’s Gustave Boyer in a Straw Hat, fully revealed at 0:00, with a cream museum placard: 5 minutes · Finish the chapter draft, the title and artist, info and share buttons, and Done."></div><figcaption>The placard at 0:00.</figcaption></figure><figure><div class="shot"><img src="../../assets/img/shot-label.jpg" width="603" height="1311" loading="lazy" alt="The museum label sheet over the painting: Gustave Boyer (b. 1840) in a Straw Hat, 1870–71, Paul Cézanne, with medium, dimensions, credit line and View at The Met."></div><figcaption>Tap ⓘ for the full museum label.</figcaption></figure></div>
 
           <nav class="pager" aria-label="More guides"><a class="prev" href="../../guides/getting-started/"><span class="label">‹ Previous</span><span>Getting started</span></a><a class="next" href="../../guides/focus-question/"><span class="label">Next ›</span><span>What will you focus on?</span></a></nav>
         </article>
@@ -112,5 +113,16 @@
       <p class="fine">Paintings are public-domain works from The Metropolitan Museum of Art’s Open Access collection. Easel is an independent app and is not affiliated with or endorsed by The Met. Apple, the Apple logo, iPhone and iPad are trademarks of Apple Inc., registered in the U.S. and other countries and regions. App Store is a service mark of Apple Inc.</p>
     </div>
   </footer>
+  <div class="getbar" role="complementary" aria-label="Get Easel">
+    <img class="icon" src="../../assets/img/icon.jpg" alt="" width="40" height="40">
+    <span class="t"><b>Easel</b><span>Focus timer &amp; art</span></span>
+    <a class="badge" href="https://apps.apple.com/app/id6793262483">
+      <picture>
+        <source srcset="../../assets/img/app-store-badge-white.svg" media="(prefers-color-scheme: dark)">
+        <img src="../../assets/img/app-store-badge-black.svg" alt="Download on the App Store" width="120" height="40">
+      </picture>
+    </a>
+  </div>
+  <script src="../../assets/site.js?v=4" defer></script>
 </body>
 </html>

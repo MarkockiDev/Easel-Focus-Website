@@ -38,9 +38,9 @@ def header(p, current=""):
         Easel
       </a>
       <nav aria-label="Primary" class="label">
-        {nav(p + "guides/", "Guides", "guides", "opt")}
-        {nav(p + "faq/", "Questions", "faq", "opt")}
-        <a href="{APP}">Download</a>
+        {nav(p + "guides/", "Guides", "guides")}
+        {nav(p + "faq/", '<span class="long">Questions</span><span class="short" aria-hidden="true">FAQ</span>', "faq")}
+        <a class="get" href="{APP}">Download</a>
       </nav>
     </div>
   </header>"""
@@ -100,9 +100,9 @@ def page(path, title, description, body, current="", jsonld=None, og_title=None)
   <link rel="icon" href="{p}favicon-32.png" sizes="32x32" type="image/png">
   <link rel="icon" href="{p}assets/img/icon-192.png" sizes="192x192" type="image/png">
   <link rel="apple-touch-icon" href="{p}apple-touch-icon.png">
-  <link rel="stylesheet" href="{p}assets/site.css?v=2">
+  <link rel="stylesheet" href="{p}assets/site.css?v=4">
 {ld}</head>
-<body>
+<body class="has-getbar">
 {header(p, current)}
 
   <main id="main">
@@ -110,14 +110,43 @@ def page(path, title, description, body, current="", jsonld=None, og_title=None)
   </main>
 
 {footer(p)}
+  <div class="getbar" role="complementary" aria-label="Get Easel">
+    <img class="icon" src="{p}assets/img/icon.jpg" alt="" width="40" height="40">
+    <span class="t"><b>Easel</b><span>Focus timer &amp; art</span></span>
+    <a class="badge" href="https://apps.apple.com/app/id6793262483">
+      <picture>
+        <source srcset="{p}assets/img/app-store-badge-white.svg" media="(prefers-color-scheme: dark)">
+        <img src="{p}assets/img/app-store-badge-black.svg" alt="Download on the App Store" width="120" height="40">
+      </picture>
+    </a>
+  </div>
+  <script src="{p}assets/site.js?v=4" defer></script>
 </body>
 </html>
 """
+    doc = label_tables(doc)
     out = os.path.join(ROOT, path, "index.html")
     os.makedirs(os.path.dirname(out), exist_ok=True)
     with open(out, "w") as f:
         f.write(doc)
     return url
+
+
+def label_tables(doc):
+    """Give each table cell a data-label from its column heading, so phones can stack rows."""
+    import re
+    def one(m):
+        t = m.group(0)
+        heads = [strip_tags(h).strip() for h in re.findall(r"<th[^>]*>(.*?)</th>", t)]
+        def row(r):
+            i = [0]
+            def cell(c):
+                lab = heads[i[0]] if i[0] < len(heads) else ""
+                i[0] += 1
+                return f'<td data-label="{e(lab)}">'
+            return re.sub(r"<td>", cell, r.group(0))
+        return re.sub(r"<tr>.*?</tr>", row, t, flags=re.S)
+    return re.sub(r'<table class="data">.*?</table>', one, doc, flags=re.S)
 
 
 def crumbs(p, trail):
@@ -181,10 +210,10 @@ GUIDES = [
   <li><strong>Say what it’s for</strong> (optional). Type it in the line at the top, or leave it empty and Easel will ask you <em>“What will you focus on?”</em> when you tap Begin. See <a href="{p}guides/focus-question/">the focus question</a>.</li>
   <li><strong>Tap Begin.</strong> Easel picks a painting and loads it completely before the session starts, so the reveal never waits on your connection.</li>
   <li><strong>Work.</strong> The painting clears from the centre outward as the minutes pass. The timer sits quietly at the top; you don’t need to watch it.</li>
-  <li><strong>At 0:00 the painting is fully revealed</strong>, with its title, artist and date. Tap <strong>Done</strong> and it hangs in your gallery.</li>
+  <li><strong>At 0:00 the painting is fully revealed.</strong> A cream museum placard rises at the bottom with how long you focused, what for, the title, artist and date. Tap <strong>Done</strong> and it hangs in your gallery.</li>
 </ol>
-""" + figs(shot("shot-fog.jpg", "A focus session halfway through: a painting partly hidden by fog, 2:29 remaining.", "Halfway: the fog is lifting."),
-           shot("shot-revealed.jpg", "The same painting fully revealed at 0:00, with its title, artist and a Done button.", "At 0:00: revealed, and yours to keep.")) + """
+""" + figs(shot("shot-fog.jpg", "A focus session halfway through: a Cézanne portrait emerging from the fog, 2:23 remaining.", "Halfway: the fog is lifting."),
+           shot("shot-revealed.jpg", "Cézanne’s Gustave Boyer in a Straw Hat, fully revealed at 0:00, with a cream museum placard: 5 minutes · Finish the chapter draft, the title and artist, info and share buttons, and Done.", "At 0:00: revealed, with its placard.")) + """
 <h2 id="where-next">Where to go next</h2>
 <ul>
   <li><a href="{p}guides/focus-sessions/">Focus sessions and the fog reveal</a>: locking your phone, ending early, sounds.</li>
@@ -221,13 +250,15 @@ GUIDES = [
   <li><strong>Haptic feedback</strong>: gentle taps on buttons and at the start and end of a session.</li>
 </ul>
 <h2 id="label">When the painting is revealed</h2>
-<p>At 0:00 the painting’s title, artist and date rise beneath it. From there you can:</p>
+<p>At 0:00 the whole painting is clear, and a museum placard rises at the bottom of the screen: the session’s length and your intention, then the painting’s title, artist and date. On the placard you can:</p>
 <ul>
-  <li>Tap <strong>ⓘ</strong> for the full museum label: medium, dimensions, credit line and a link to view the work at The Met.</li>
+  <li>Tap <strong>ⓘ</strong> for the full museum label: medium, dimensions, credit line and a link to view the work at The Met. The label opens to exactly its own height; swipe down to close it.</li>
   <li>Tap <strong>Share</strong> to make a framed card for Stories or posts (see <a href="{p}guides/sharing/">Sharing</a>).</li>
   <li>Tap <strong>Done</strong> to hang it in your gallery and return to the home screen.</li>
 </ul>
 <p>Every few milestones (10, 25, 50, 100 paintings and beyond) Done opens a small celebration first.</p>
+""" + figs(shot("shot-revealed.jpg", "Cézanne’s Gustave Boyer in a Straw Hat, fully revealed at 0:00, with a cream museum placard: 5 minutes · Finish the chapter draft, the title and artist, info and share buttons, and Done.", "The placard at 0:00."),
+           shot("shot-label.jpg", "The museum label sheet over the painting: Gustave Boyer (b. 1840) in a Straw Hat, 1870–71, Paul Cézanne, with medium, dimensions, credit line and View at The Met.", "Tap ⓘ for the full museum label.")) + """
 """,
   ),
   dict(
@@ -319,8 +350,8 @@ GUIDES = [
 <h2 id="open">Opening the gallery</h2>
 <p>Tap the <strong>gallery button</strong> at the top left of the home screen. The gallery slides in from the left; tap <strong>‹</strong> to slide it back.</p>
 <p>Paintings are arranged newest first. At the bottom, a card shows your total time in focus, paintings and current streak; tap it to open <a href="{p}guides/statistics/">Statistics</a>.</p>
-""" + figs(shot("shot-gallery.jpg", "The gallery: a grid of earned paintings and a card showing 57h 30m in focus, 109 paintings, a 6-day streak.", "The gallery, with your focus totals at the bottom."),
-           shot("shot-exhibit.jpg", "A painting’s page: Cézanne’s portrait of his uncle as a monk, with its title, date and artist below.", "A painting’s own page, like a museum wall.")) + """
+""" + figs(shot("shot-gallery.jpg", "The gallery: a grid of earned paintings and a card showing 57h 40m in focus, 111 paintings, a 7-day streak.", "The gallery, with your focus totals at the bottom."),
+           shot("shot-exhibit.jpg", "A painting’s page: Cézanne’s Gustave Boyer in a Straw Hat, with its title, date, artist and medium below.", "A painting’s own page, like a museum wall.")) + """
 <h2 id="painting">A painting’s page</h2>
 <p>Tap any painting to open its page: the work large, then its museum label (title, date, artist, medium, dimensions and more from The Met), then <em>Your visit</em>: the day and time you uncovered it, and what it was for.</p>
 <ul>
