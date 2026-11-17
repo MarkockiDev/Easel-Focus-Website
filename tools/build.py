@@ -29,7 +29,7 @@ FEEDBACK = "https://markockidev.canny.io/easel"
 MAKER = "https://markockiadam.com"
 EMAIL = "adam@easelfocus.app"
 UPDATED_ISO = "2026-11-17"
-VERSION = "5"   # bump to bust browser caches of css/js
+VERSION = "6"   # bump to bust browser caches of css/js
 
 # code, folder, html lang / hreflang, Apple badge locale
 LANGS = [
@@ -70,6 +70,13 @@ def badge_width(locale, height):
     svg = open(os.path.join(ROOT, "assets/img/badges", f"{locale}-black.svg")).read()
     _, _, w, h = map(float, re.search(r'viewBox="([^"]+)"', svg).group(1).split())
     return round(w / h * height)
+
+
+def og_alt(code):
+    """Describes the share card in its own language: the headline, then the one-line pitch."""
+    h = C[code]["home"]
+    h1 = re.search(r"<h1[^>]*>(.*?)</h1>", h["body"]).group(1).replace("<br>", " ")
+    return f'Easel · {strip_tags(h1)} {h["og_description"]}'
 
 
 def strip_tags(s):
@@ -215,13 +222,15 @@ def page(L, rel, title, description, body, current="", jsonld=None, og_title=Non
   <meta property="og:title" content="{e(og_title or title)}">
   <meta property="og:description" content="{e(description)}">
   <meta property="og:url" content="{url}">
-  <meta property="og:image" content="{BASE}assets/img/og.jpg">
+  <meta property="og:image" content="{BASE}assets/img/og/{code}.jpg?v={VERSION}">
   <meta property="og:image:width" content="1200">
   <meta property="og:image:height" content="630">
+  <meta property="og:image:alt" content="{e(og_alt(code))}">
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:title" content="{e(og_title or title)}">
   <meta name="twitter:description" content="{e(description)}">
-  <meta name="twitter:image" content="{BASE}assets/img/og.jpg">
+  <meta name="twitter:image" content="{BASE}assets/img/og/{code}.jpg?v={VERSION}">
+  <meta name="twitter:image:alt" content="{e(og_alt(code))}">
   <link rel="icon" href="{p}favicon-32.png" sizes="32x32" type="image/png">
   <link rel="icon" href="{p}assets/img/icon-192.png" sizes="192x192" type="image/png">
   <link rel="apple-touch-icon" href="{p}apple-touch-icon.png">
@@ -303,7 +312,7 @@ def build_home(L):
            "author": {"@type": "Person", "name": "Adam", "url": MAKER}}]
     return page(L, "", h["title"], h["description"], lambda p, l: fill(h["body"], p, l),
                 current="home", jsonld=ld, og_title=h["og_title"], og_type="website",
-                extra_head=f'  <meta property="og:image:alt" content="{e(h["og_image_alt"])}">\n  <link rel="preload" href="{{p}}assets/img/van-gogh.jpg" as="image">\n',
+                extra_head=f'  <link rel="preload" href="{{p}}assets/img/van-gogh.jpg" as="image">\n',
                 extra_scripts=f'  <script src="{{p}}assets/reveal.js?v={VERSION}" defer></script>\n')
 
 

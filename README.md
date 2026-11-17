@@ -11,6 +11,8 @@ Plain HTML and CSS with two small scripts (`assets/reveal.js`, the hero's fog re
 
 To change text: edit `content/en/…`, update the same string in each language folder, check with `python3 tools/check_i18n.py <lang>`, run `python3 tools/build.py`, and commit the output.
 
+Link previews (the image shown when the site is shared on X, iMessage, WhatsApp…) are rendered per language by `python3 tools/og.py` (needs Google Chrome and a local server on port 8642) into `assets/img/og/`.
+
 Preview locally:
 
 ```sh
