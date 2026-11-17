@@ -2,7 +2,7 @@
 
 The marketing site for **Easel: Focus Timer & Art**, an iPhone and iPad focus timer that slowly reveals a public-domain painting from The Met as you focus.
 
-- Live: https://markockidev.github.io/Easel-Focus-Website/
+- Live: https://easelfocus.app/
 - App Store: https://apps.apple.com/app/id6793262483
 
 Plain HTML and CSS with two small scripts (`assets/reveal.js`, the hero's fog reveal; `assets/site.js`, the menu, day/night switch, language suggestion and download bar). GitHub Pages serves the repository root from `main`, with no build step.

@@ -23,7 +23,7 @@ import os
 import re
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-BASE = "https://markockidev.github.io/Easel-Focus-Website/"   # change here when easelfocus.app goes live
+BASE = "https://easelfocus.app/"
 APP = "https://apps.apple.com/app/id6793262483"
 FEEDBACK = "https://markockidev.canny.io/easel"
 MAKER = "https://markockiadam.com"
