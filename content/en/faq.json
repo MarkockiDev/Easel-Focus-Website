@@ -1,0 +1,144 @@
+[
+ {
+  "group": "About Easel",
+  "items": [
+   {
+    "q": "What is Easel?",
+    "a": "Easel is a focus timer for iPhone and iPad. You choose how long you’ll focus, and a public-domain painting from The Metropolitan Museum of Art slowly emerges from fog while you work. At 0:00 it’s fully revealed and hangs in your own gallery. <a href=\"{l}guides/getting-started/\">Get started</a>."
+   },
+   {
+    "q": "Is Easel free?",
+    "a": "Yes. Easel is free to download and use, with no ads, no subscription and nothing locked. If you’d like to support it, you can leave an optional one-time tip in Settings → Become a Patron. <a href=\"{l}guides/patronage/\">About patronage</a>."
+   },
+   {
+    "q": "Which devices does Easel run on?",
+    "a": "iPhone and iPad with iOS or iPadOS 17 or later. Some features need newer versions: the Control Center button needs iOS 18, and Liquid Glass styling appears on iOS 26."
+   },
+   {
+    "q": "Which languages does Easel support?",
+    "a": "English, Polish, Spanish, French, Simplified Chinese, Hindi, Japanese, Korean and Brazilian Portuguese. Change it in Settings → Language."
+   },
+   {
+    "q": "Do I need an account?",
+    "a": "No. There’s no sign-up, login or account of any kind. Open the app and begin."
+   }
+  ]
+ },
+ {
+  "group": "The paintings",
+  "items": [
+   {
+    "q": "Where do the paintings come from?",
+    "a": "From The Met’s Open Access collection: works in the public domain that the museum shares freely. Easel draws from a hand-picked selection of more than 600, including European paintings, Japanese prints, American landscapes and flowers and birds. Easel is independent and not affiliated with The Met."
+   },
+   {
+    "q": "Are the paintings suitable for all ages?",
+    "a": "Easel only ever picks from its own curated selection of celebrated, calm works, never at random from the museum’s whole collection, and the selection is filtered to avoid nudity and violent scenes."
+   },
+   {
+    "q": "Can I choose which paintings I see?",
+    "a": "Yes. Tap the card under “Focus with” on the home screen and choose a style (European Paintings, Japanese Prints, American Paintings, Flowers &amp; Birds), an artist or an era. <a href=\"{l}guides/collections/\">How collections work</a>."
+   },
+   {
+    "q": "Do I keep the paintings I uncover?",
+    "a": "Yes. Every completed session hangs its painting in your gallery, with its museum label, the date and what you were focusing on. <a href=\"{l}guides/gallery/\">Your gallery</a>."
+   },
+   {
+    "q": "Can I learn more about a painting?",
+    "a": "Tap ⓘ on a revealed painting, or open it in your gallery, to read its museum label: artist, date, medium, dimensions, credit line and a link to view it at The Met."
+   }
+  ]
+ },
+ {
+  "group": "Focusing",
+  "items": [
+   {
+    "q": "How long can a session be?",
+    "a": "Choose 5, 15, 25, 45 or 60 minutes, or tap Custom for any length from 5 to 120 minutes."
+   },
+   {
+    "q": "Does Easel work as a Pomodoro timer?",
+    "a": "Yes. Pomodoro mode runs four 25-minute focus blocks with 5-minute breaks, and every block reveals its own painting. <a href=\"{l}guides/pomodoro/\">How Pomodoro works</a>."
+   },
+   {
+    "q": "Can I leave the app or lock my phone during a session?",
+    "a": "Yes. The timer keeps true time in the background, and a Live Activity shows the countdown on your Lock Screen and in the Dynamic Island. When you come back, the painting is exactly as far along as it should be."
+   },
+   {
+    "q": "What happens if I end a session early?",
+    "a": "The painting won’t finish, so it isn’t added to your gallery, and the session doesn’t count towards your time or streak. In Pomodoro, ending early ends the whole set; blocks you finished are kept."
+   },
+   {
+    "q": "What is “What will you focus on?”",
+    "a": "An optional intention for each session. Type it on the home screen, or let Easel ask when you tap Begin, with your recent intentions and subjects like Study, Work or Writing. <a href=\"{l}guides/focus-question/\">Setting an intention</a>."
+   },
+   {
+    "q": "Does Easel work offline?",
+    "a": "Easel needs a connection to fetch a new painting when you tap Begin; it downloads the whole image before the session starts, so the reveal never waits. Paintings you’ve seen are kept on your device, so your gallery works offline."
+   }
+  ]
+ },
+ {
+  "group": "Progress",
+  "items": [
+   {
+    "q": "How are streaks counted?",
+    "a": "A day counts when you complete at least one session. Your current streak counts consecutive days, and Statistics also keeps your best streak. <a href=\"{l}guides/statistics/\">Statistics and streaks</a>."
+   },
+   {
+    "q": "What is Year in Review?",
+    "a": "Every year from 15 December to 2 January, Easel turns your year of focus into a short, self-playing exhibition, with your hours, paintings, favourite artist, longest run and painting of the year, ending with a card to share. <a href=\"{l}guides/year-in-review/\">Year in Review</a>."
+   },
+   {
+    "q": "How do I share a painting?",
+    "a": "Tap Share on a revealed painting or a painting in your gallery, choose Story (9:16) or Post (4:5), then Save to Photos or Share to Instagram, TikTok, X, Messages and more. <a href=\"{l}guides/sharing/\">Sharing</a>."
+   }
+  ]
+ },
+ {
+  "group": "Widgets and notifications",
+  "items": [
+   {
+    "q": "Does Easel have widgets?",
+    "a": "Yes: Painting of the Day, which starts each day in fog and clears as you focus until your daily goal reveals it, and Focus &amp; Streak. Both work on the Home Screen, the Lock Screen and in StandBy. <a href=\"{l}guides/widgets-and-live-activities/\">Widgets and Live Activities</a>."
+   },
+   {
+    "q": "Can I start a session with Siri or Control Center?",
+    "a": "Yes. Say “Start a focus session in Easel”, use the Start Focus action in Shortcuts, or add Easel’s button to Control Center on iOS 18 and later."
+   },
+   {
+    "q": "Why don’t I see the Live Activity?",
+    "a": "In the iPhone Settings app, open Apps → Easel and turn on Live Activities."
+   },
+   {
+    "q": "What notifications does Easel send?",
+    "a": "Only ones you’ve allowed: an optional daily reminder at a time you choose, up to three Year in Review notes in December and early January, and a short Saturday note about supporting Easel, which you can turn off in Settings and which stops once you’ve tipped. <a href=\"{l}guides/reminders-and-notifications/\">Reminders and notifications</a>."
+   }
+  ]
+ },
+ {
+  "group": "Privacy and support",
+  "items": [
+   {
+    "q": "Does Easel collect my data?",
+    "a": "Your sessions, gallery and intentions stay on your device. Easel sends anonymous usage statistics and crash reports, never linked to you, to improve the app, and it doesn’t track you or show ads. The <a href=\"{l}privacy/\">privacy policy</a> lists exactly what is sent."
+   },
+   {
+    "q": "How do I delete my data?",
+    "a": "Delete Easel from your device; everything it stored is removed with it. For the anonymous statistics, write to adam@easelfocus.app."
+   },
+   {
+    "q": "Will my gallery move to a new iPhone?",
+    "a": "Yes, with an iPhone backup or a direct transfer to the new iPhone. Easel has no account or server, so your gallery lives only on your devices and their backups."
+   },
+   {
+    "q": "I’m lost in the app. How do I get back?",
+    "a": "Every screen has a way home: ‹ at the top left of the gallery, Settings and the focus question; ⌄ on Statistics; Done or a swipe down on sheets; End during a session. <a href=\"{l}guides/troubleshooting/#lost\">Finding your way</a>."
+   },
+   {
+    "q": "How can I contact the developer or suggest a feature?",
+    "a": "Write to <a href=\"mailto:adam@easelfocus.app\">adam@easelfocus.app</a>, or post and vote on ideas on the <a href=\"https://markockidev.canny.io/easel\">feedback board</a>."
+   }
+  ]
+ }
+]

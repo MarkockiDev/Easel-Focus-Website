@@ -1,0 +1,92 @@
+[
+ {
+  "id": "who",
+  "title": "Kim jesteśmy",
+  "body": "<p>Easel („aplikacja”, „my”, „nas”) to timer skupienia na iPhone’a i iPada stworzony przez <strong>Adama</strong>, niezależnego twórcę. Adam jest administratorem ograniczonego zakresu danych opisanych w niniejszej polityce.</p>\n<p>Kontakt: <a href=\"mailto:adam@easelfocus.app\">adam@easelfocus.app</a>.</p>\n<p>Niniejsza polityka obejmuje aplikację Easel (w tym jej widżety, Aktywności na żywo oraz funkcje Siri i Centrum sterowania) oraz tę stronę internetową.</p>"
+ },
+ {
+  "id": "on-device",
+  "title": "Co zostaje na twoim urządzeniu",
+  "body": "<p>Większość tego, co Easel wie o tobie, nigdy nie opuszcza twojego iPhone’a ani iPada. Easel nie ma konta, logowania ani serwera, który przechowywałby twoje dane. Na urządzeniu przechowuje:</p>\n<ul>\n  <li><strong>Historię skupienia</strong>: dla każdej ukończonej sesji obraz, czas jej rozpoczęcia i zakończenia, długość, tryb (Pojedyncza lub Pomodoro) oraz wpisany lub wybrany zamiar, jeśli go podano. Na tej podstawie działają galeria, Statystyki, serie, kamienie milowe i Podsumowanie roku.</li>\n  <li><strong>Ostatnie zamiary</strong>, ponownie proponowane w sekcji „Ostatnio”.</li>\n  <li><strong>Preferencje</strong>: wygląd, muzykę w tle, efekty dźwiękowe, wibracje, wybraną kolekcję i czas trwania, dzienny cel, codzienne przypomnienie i jego godzinę, Sobotnią notkę oraz informację, czy wprowadzenie zostało już obejrzane.</li>\n  <li><strong>Pamięć podręczną obrazów</strong>, dzięki której galeria działa offline. Starsze obrazy są usuwane automatycznie.</li>\n  <li><strong>Dane widżetów i Aktywności na żywo</strong>: dzisiejszy obraz, dzisiejsze minuty skupienia, twoją serię i małe obrazy, przechowywane w kontenerze współdzielonym wyłącznie przez Easel i jego własne widżety.</li>\n  <li><strong>Drobne zapisy aplikacji</strong>: które kamienie milowe i prośby o ocenę zostały już wyświetlone oraz czy zostawiono napiwek (aby Sobotnia notka mogła przestać przychodzić).</li>\n</ul>\n<p>Nie mamy wglądu w żadne z tych danych. Są one uwzględniane w kopiach zapasowych urządzenia (iCloud lub komputer) zgodnie z twoimi ustawieniami Apple i są usuwane, gdy usuniesz Easel.</p>"
+ },
+ {
+  "id": "analytics",
+  "title": "Anonimowe statystyki użycia",
+  "body": "<p>Aby zrozumieć, z których funkcji się korzysta, i ulepszać Easel, wersja Easel z App Store wysyła <strong>anonimowe zdarzenia użycia</strong> do PostHog, usługi analitycznej, korzystając z jej <strong>chmury w UE</strong>. Zdarzenia są powiązane z losowym identyfikatorem utworzonym na twoim urządzeniu przy pierwszym otwarciu Easel, nigdy z twoim imieniem i nazwiskiem, adresem e-mail, Apple ID ani identyfikatorem reklamowym. Nigdy nie wywołujemy funkcji „identify” PostHog, więc nigdy nie powstaje żaden profil osoby.</p>\n<p>Zdarzenia wysyłane przez Easel i przekazywane wraz z nimi szczegóły:</p>\n<div class=\"table-wrap\"><table class=\"data\">\n  <tr><th scope=\"col\">Zdarzenie</th><th scope=\"col\">Szczegóły wysyłane wraz z nim</th></tr>\n  <tr><td>Rozpoczęcie sesji</td><td>Pojedyncza lub Pomodoro, długość w minutach, nazwa kolekcji, czy ustawiono zamiar (tak/nie) oraz który z ośmiu stałych tematów wybrano, jeśli wybrano któryś. <strong>Nigdy treść, którą wpisujesz.</strong></td></tr>\n  <tr><td>Ukończenie sesji</td><td>Pojedyncza lub Pomodoro, długość, numer obiektu obrazu w The Met</td></tr>\n  <tr><td>Wcześniejsze zakończenie sesji</td><td>Pojedyncza lub Pomodoro, długość, stopień zaawansowania sesji (lub liczba ukończonych bloków)</td></tr>\n  <tr><td>Ukończenie Pomodoro</td><td>Liczba bloków</td></tr>\n  <tr><td>Zakończenie wprowadzenia</td><td>Czy zostało pominięte, czy ukończone, i na której stronie</td></tr>\n  <tr><td>Wybór kolekcji</td><td>Nazwa kolekcji</td></tr>\n  <tr><td>Otwarcie udostępniania · Zapisanie karty</td><td>Która karta (obraz, galeria, rok, kamień milowy) i format (Relacja lub Post)</td></tr>\n  <tr><td>Włączenie/wyłączenie przypomnienia</td><td>Włączone lub wyłączone</td></tr>\n  <tr><td>Otwarcie Podsumowania roku</td><td>Rok</td></tr>\n  <tr><td>Osiągnięcie kamienia milowego</td><td>Liczba obrazów danego kamienia milowego</td></tr>\n  <tr><td>Otwarcie Mecenatu · Przekazanie napiwku</td><td>Który dar i skąd otwarto Mecenat; bez danych płatniczych</td></tr>\n  <tr><td>Wywołanie prośby o ocenę</td><td>Który etap (pierwszy, drugi, trzeci)</td></tr>\n  <tr><td>Otwarcie powiadomienia</td><td>Jaki rodzaj (przypomnienie, Podsumowanie roku, Sobotnia notka)</td></tr>\n  <tr><td>Wyświetlenie ekranu</td><td>Galeria, Statystyki, Ustawienia lub Obraz</td></tr>\n  <tr><td>Cykl życia aplikacji</td><td>Instalacja, aktualizacja, otwarcie, przejście do tła (wysyłane automatycznie przez SDK PostHog)</td></tr>\n</table></div>\n<p>Z każdym zdarzeniem SDK PostHog rejestruje też <strong>kontekst techniczny</strong>: wersję i numer kompilacji aplikacji, wersję iOS, model urządzenia, rozmiar ekranu, ustawienia języka i regionu, strefę czasową oraz czas zdarzenia. Jak każda usługa internetowa, PostHog otrzymuje <strong>adres IP</strong> twojego urządzenia podczas wysyłania zdarzeń i może go używać do oszacowania przybliżonej lokalizacji, np. kraju. Nie używamy go do identyfikowania cię.</p>\n<p><strong>Nigdy nie zbieramy</strong>: twojego imienia i nazwiska, adresu e-mail ani kontaktów; treści twoich zamiarów ani niczego, co wpisujesz; dokładnej lokalizacji; zdjęć; danych o zdrowiu; identyfikatora reklamowego (IDFA); nagrań ekranu ani nagrań sesji (session replay).</p>\n<p>Wersje deweloperskie Easel nigdy nie wysyłają zdarzeń.</p>"
+ },
+ {
+  "id": "crashes",
+  "title": "Raporty awarii i błędów",
+  "body": "<p>Jeśli Easel ulegnie awarii, raport o awarii jest przygotowywany na twoim urządzeniu i wysyłany do PostHog (chmura w UE) przy następnym otwarciu aplikacji. Easel zgłasza też niewielką liczbę nieoczekiwanych błędów, oznaczonych miejscem, w którym wystąpiły (np. „nie udało się wczytać obrazu”). Raporty te zawierają szczegóły techniczne: błąd, ścieżkę wykonania kodu (stack trace), wersje aplikacji i iOS oraz model urządzenia, powiązane z tym samym anonimowym identyfikatorem. Zwykłe błędy typu „brak internetu” nie są zgłaszane. Raportów awarii używamy wyłącznie do znajdowania i naprawiania błędów.</p>"
+ },
+ {
+  "id": "met",
+  "title": "Obrazy z The Met",
+  "body": "<p>Easel pobiera obrazy i informacje o nich z API Open Access Metropolitan Museum of Art (<code>collectionapi.metmuseum.org</code> i <code>images.metmuseum.org</code>). Żądania te dotyczą wyłącznie dzieł sztuki, wskazywanych przez ich publiczny numer obiektu. Nie zawierają żadnych informacji o tobie, ale, jak przy odwiedzaniu każdej strony internetowej, serwery The Met widzą adres IP twojego urządzenia. Sposób, w jaki The Met obsługuje te połączenia, regulują jego własne zasady. Easel jest niezależny i nie jest powiązany z The Met.</p>"
+ },
+ {
+  "id": "apple",
+  "title": "Usługi Apple",
+  "body": "<ul>\n  <li><strong>Napiwki</strong> to zakupy w aplikacji obsługiwane w całości przez Apple. Nigdy nie widzimy twojego imienia i nazwiska, danych płatniczych ani Apple ID; Apple informuje Easel jedynie o tym, że zakup został zrealizowany.</li>\n  <li><strong>Prośby o ocenę</strong> korzystają ze standardowego mechanizmu Apple; to Apple decyduje, czy prośba się pojawi, a każda wystawiona ocena trafia do App Store.</li>\n  <li><strong>Powiadomienia</strong> są planowane lokalnie na twoim urządzeniu. Easel nie korzysta z serwera powiadomień push.</li>\n  <li><strong>Widżety, Aktywności na żywo, Siri, Skróty i Centrum sterowania</strong> działają na twoim urządzeniu za pośrednictwem frameworków Apple. Żądania Siri są obsługiwane przez Apple zgodnie z polityką prywatności Apple.</li>\n  <li><strong>Pobieranie z App Store</strong> i własna analityka Apple (jeśli zdecydujesz się udostępniać ją deweloperom) podlegają polityce prywatności Apple. Apple może udostępniać nam zagregowane, anonimowe statystyki App Store.</li>\n</ul>"
+ },
+ {
+  "id": "permissions",
+  "title": "Uprawnienia, o które prosi Easel",
+  "body": "<p>Każde uprawnienie jest opcjonalne, a Easel działa bez żadnego z nich.</p>\n<div class=\"table-wrap\"><table class=\"data\">\n  <tr><th scope=\"col\">Uprawnienie</th><th scope=\"col\">Po co</th><th scope=\"col\">Gdzie je zmienić</th></tr>\n  <tr><td>Powiadomienia</td><td>Codzienne przypomnienie (jeśli je włączysz), wiadomości Podsumowania roku (15 gru, 30 gru, 2 sty), Sobotnia notka</td><td>Ustawienia Easel lub Ustawienia iPhone’a → Aplikacje → Easel → Powiadomienia</td></tr>\n  <tr><td>Zdjęcia (tylko dodawanie)</td><td>Zapisywanie karty do udostępnienia w bibliotece. Easel może dodawać obrazy, ale nie widzi ani nie odczytuje twoich zdjęć.</td><td>Ustawienia iPhone’a → Aplikacje → Easel → Zdjęcia</td></tr>\n  <tr><td>Aktywności na żywo</td><td>Odliczanie sesji na ekranie blokady i w Dynamic Island</td><td>Ustawienia iPhone’a → Aplikacje → Easel → Aktywności na żywo</td></tr>\n</table></div>\n<p>Easel nigdy nie prosi o dostęp do lokalizacji, aparatu, mikrofonu, kontaktów, kalendarzy ani danych o zdrowiu, ani o pozwolenie na śledzenie cię.</p>"
+ },
+ {
+  "id": "sharing",
+  "title": "Gdy udostępniasz",
+  "body": "<p>Gdy udostępniasz kartę, Easel przekazuje obraz (a jeśli miejsce docelowe to obsługuje, także krótki wpis z linkiem do App Store) do arkusza udostępniania Apple. To, dokąd trafi dalej, zależy od ciebie, a wybrana aplikacja lub usługa (np. Instagram lub Wiadomości) obsługuje go zgodnie z własną polityką. Karty pokazują obraz, czas skupienia oraz, w przypadku pojedynczego obrazu, twój zamiar, jeśli go ustawiono, więc przed udostępnieniem sprawdź podgląd.</p>"
+ },
+ {
+  "id": "no-tracking",
+  "title": "Bez śledzenia, bez reklam, bez sprzedaży danych",
+  "body": "<p>Easel nie wyświetla reklam, nie zawiera żadnych SDK reklamowych i nie śledzi cię w aplikacjach ani witrynach należących do innych firm. Dlatego nigdy nie wyświetla monitu Apple dotyczącego przejrzystości śledzenia w aplikacjach (App Tracking Transparency). Nie sprzedajemy ani nie udostępniamy danych osobowych i nie korzystamy z usług brokerów danych.</p>\n<p>W App Store etykieta prywatności Easel wskazuje, że zbierane są <strong>Dane użycia</strong> (interakcja z produktem) i <strong>Diagnostyka</strong> (dane o awariach), które <strong>nie są powiązane z tobą</strong>, oraz że <strong>nie ma śledzenia</strong>.</p>"
+ },
+ {
+  "id": "basis",
+  "title": "Dlaczego możemy wykorzystywać dane (podstawy prawne)",
+  "body": "<p>Tam, gdzie mają zastosowanie przepisy takie jak ogólne rozporządzenie o ochronie danych UE (RODO) i jego brytyjski odpowiednik (UK GDPR):</p>\n<ul>\n  <li><strong>Statystyki użycia i raporty awarii</strong>: nasz prawnie uzasadniony interes w utrzymaniu niezawodności Easel i jego ulepszaniu, przy użyciu anonimowych danych i bez profilowania.</li>\n  <li><strong>Powiadomienia i zapisywanie w Zdjęciach</strong>: twoja zgoda, wyrażona za pośrednictwem uprawnień iOS, którą możesz w każdej chwili wycofać.</li>\n  <li><strong>Napiwki</strong>: realizacja zakupu, o który prosisz, obsługiwanego przez Apple.</li>\n</ul>"
+ },
+ {
+  "id": "retention",
+  "title": "Jak długo przechowujemy dane",
+  "body": "<ul>\n  <li><strong>Na twoim urządzeniu</strong>: do czasu usunięcia Easel. Pamięć podręczna obrazów jest automatycznie przycinana.</li>\n  <li><strong>Statystyki użycia i raporty awarii</strong>: przechowywane tylko tak długo, jak są przydatne do zrozumienia i naprawiania Easel, i w granicach okresów przechowywania PostHog, po czym są usuwane.</li>\n  <li><strong>E-maile, które do nas wysyłasz</strong>: tak długo, jak jest to potrzebne, by ci odpowiedzieć.</li>\n</ul>"
+ },
+ {
+  "id": "rights",
+  "title": "Twoje prawa i wybory",
+  "body": "<p>W zależności od miejsca zamieszkania możesz mieć prawo dostępu do swoich danych osobowych, ich sprostowania, usunięcia lub otrzymania ich kopii, prawo do wniesienia sprzeciwu wobec ich wykorzystywania lub do jego ograniczenia oraz prawo do wniesienia skargi do lokalnego organu ochrony danych.</p>\n<ul>\n  <li><strong>Dane na urządzeniu</strong>: wszystkie są dla ciebie widoczne w aplikacji, a usunięcie Easel je usuwa.</li>\n  <li><strong>Statystyki użycia</strong>: są anonimowe, więc zwykle nie możemy powiązać ich z tobą. Jeśli chcesz, abyśmy spróbowali je odnaleźć i usunąć, albo chcesz wnieść wobec nich sprzeciw, napisz na <a href=\"mailto:adam@easelfocus.app\">adam@easelfocus.app</a>. Ponowna instalacja Easel tworzy nowy losowy identyfikator.</li>\n  <li><strong>Powiadomienia, Zdjęcia i Aktywności na żywo</strong> możesz w każdej chwili wyłączyć w Ustawieniach.</li>\n</ul>\n<p>Mieszkańcy Kalifornii: nie sprzedajemy ani nie udostępniamy danych osobowych w rozumieniu CCPA/CPRA i nie wykorzystujemy wrażliwych danych osobowych.</p>"
+ },
+ {
+  "id": "transfers",
+  "title": "Gdzie przetwarzane są dane",
+  "body": "<p>Statystyki użycia i raporty awarii są wysyłane do chmury PostHog w UE i przechowywane w Unii Europejskiej. PostHog, Inc. ma siedzibę w Stanach Zjednoczonych; wszelki dostęp spoza UE jest objęty umową powierzenia przetwarzania danych PostHog oraz standardowymi klauzulami umownymi Komisji Europejskiej.</p>"
+ },
+ {
+  "id": "children",
+  "title": "Dzieci",
+  "body": "<p>Easel jest przeznaczony dla ogółu odbiorców i nie jest skierowany do dzieci poniżej 13. roku życia (lub odpowiedniego minimalnego wieku obowiązującego w twoim kraju). Obrazy są dobierane tak, by były odpowiednie dla wszystkich, a Easel nie zbiera danych osobowych od nikogo, w tym od dzieci: żadnych imion, kontaktów ani kont. Jeśli uważasz, że dziecko przekazało nam dane osobowe, np. e-mailem, skontaktuj się z nami, a je usuniemy.</p>"
+ },
+ {
+  "id": "security",
+  "title": "Bezpieczeństwo",
+  "body": "<p>Twoje dane w Easel są chronione przez zabezpieczenia twojego urządzenia, w tym kod dostępu i ochronę danych. Wszystko, co Easel wysyła przez internet, do PostHog lub The Met, jest szyfrowane za pomocą HTTPS.</p>"
+ },
+ {
+  "id": "website",
+  "title": "Ta strona internetowa",
+  "body": "<p>Ta strona nie używa plików cookie, analityki ani skryptów śledzących. Jest hostowana w GitHub Pages; jak każdy dostawca hostingu, GitHub przetwarza twój adres IP i podstawowe informacje o żądaniu, aby dostarczać strony i dbać o ich bezpieczeństwo, zgodnie z oświadczeniem GitHub o ochronie prywatności. Linki do innych witryn (App Store, nasza tablica opinii w Canny, markockiadam.com, The Met) podlegają ich własnym zasadom.</p>"
+ },
+ {
+  "id": "changes",
+  "title": "Zmiany w tej polityce",
+  "body": "<p>Gdy praktyki Easel się zmieniają, aktualizujemy tę stronę i podaną niżej datę, zanim zmiana zostanie wprowadzona. Istotne zmiany będą też odnotowane tutaj.</p>\n<p><strong>Co zmieniło się 17 listopada 2026 r.</strong>: ta wersja zastępuje politykę z 22 lipca 2026 r. Dodaje anonimowe statystyki użycia i raporty awarii (PostHog, chmura w UE); zamiary i pytanie o skupienie; powiadomienia (codzienne przypomnienie, Podsumowanie roku, Sobotnia notka); zapisywanie kart w Zdjęciach; Aktywności na żywo, widżety, Siri, Skróty i Centrum sterowania; Podsumowanie roku, kamienie milowe i prośby o ocenę; napiwki w ramach mecenatu; wygląd nocny; oraz tę stronę internetową.</p>"
+ },
+ {
+  "id": "contact",
+  "title": "Kontakt",
+  "body": "<p>Pytania lub wnioski dotyczące prywatności: <a href=\"mailto:adam@easelfocus.app\">adam@easelfocus.app</a>. Odpowiemy najszybciej, jak to możliwe, i nie później niż w ciągu miesiąca.</p>"
+ }
+]

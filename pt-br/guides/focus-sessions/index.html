@@ -1,0 +1,149 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>Como funcionam as sessões de foco e a névoa no Easel</title>
+  <meta name="description" content="Como funciona uma sessão de foco no Easel: a névoa que se dissipa, o timer, sair do app ou bloquear o celular, encerrar antes, música ambiente, efeitos sonoros e resposta tátil.">
+  <link rel="canonical" href="https://markockidev.github.io/Easel-Focus-Website/pt-br/guides/focus-sessions/">
+  <link rel="alternate" hreflang="en" href="https://markockidev.github.io/Easel-Focus-Website/guides/focus-sessions/">
+  <link rel="alternate" hreflang="pl" href="https://markockidev.github.io/Easel-Focus-Website/pl/guides/focus-sessions/">
+  <link rel="alternate" hreflang="es" href="https://markockidev.github.io/Easel-Focus-Website/es/guides/focus-sessions/">
+  <link rel="alternate" hreflang="fr" href="https://markockidev.github.io/Easel-Focus-Website/fr/guides/focus-sessions/">
+  <link rel="alternate" hreflang="zh-Hans" href="https://markockidev.github.io/Easel-Focus-Website/zh-hans/guides/focus-sessions/">
+  <link rel="alternate" hreflang="hi" href="https://markockidev.github.io/Easel-Focus-Website/hi/guides/focus-sessions/">
+  <link rel="alternate" hreflang="ja" href="https://markockidev.github.io/Easel-Focus-Website/ja/guides/focus-sessions/">
+  <link rel="alternate" hreflang="ko" href="https://markockidev.github.io/Easel-Focus-Website/ko/guides/focus-sessions/">
+  <link rel="alternate" hreflang="pt-BR" href="https://markockidev.github.io/Easel-Focus-Website/pt-br/guides/focus-sessions/">
+  <link rel="alternate" hreflang="x-default" href="https://markockidev.github.io/Easel-Focus-Website/guides/focus-sessions/">
+  <meta name="apple-itunes-app" content="app-id=6793262483">
+  <meta name="theme-color" content="#F5F2EC">
+  <meta property="og:type" content="article">
+  <meta property="og:site_name" content="Easel">
+  <meta property="og:locale" content="pt_BR">
+  <meta property="og:title" content="Sessões de foco e a névoa que se dissipa">
+  <meta property="og:description" content="Como funciona uma sessão de foco no Easel: a névoa que se dissipa, o timer, sair do app ou bloquear o celular, encerrar antes, música ambiente, efeitos sonoros e resposta tátil.">
+  <meta property="og:url" content="https://markockidev.github.io/Easel-Focus-Website/pt-br/guides/focus-sessions/">
+  <meta property="og:image" content="https://markockidev.github.io/Easel-Focus-Website/assets/img/og.jpg">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Sessões de foco e a névoa que se dissipa">
+  <meta name="twitter:description" content="Como funciona uma sessão de foco no Easel: a névoa que se dissipa, o timer, sair do app ou bloquear o celular, encerrar antes, música ambiente, efeitos sonoros e resposta tátil.">
+  <meta name="twitter:image" content="https://markockidev.github.io/Easel-Focus-Website/assets/img/og.jpg">
+  <link rel="icon" href="../../../favicon-32.png" sizes="32x32" type="image/png">
+  <link rel="icon" href="../../../assets/img/icon-192.png" sizes="192x192" type="image/png">
+  <link rel="apple-touch-icon" href="../../../apple-touch-icon.png">
+  <link rel="stylesheet" href="../../../assets/site.css?v=5">
+  <script>document.documentElement.classList.add('js');try{var t=localStorage.getItem('easel-theme');if(t==='light'||t==='dark')document.documentElement.setAttribute('data-theme',t)}catch(e){}</script>
+  <script type="application/ld+json">{"@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Easel", "item": "https://markockidev.github.io/Easel-Focus-Website/pt-br/"}, {"@type": "ListItem", "position": 2, "name": "Guias", "item": "https://markockidev.github.io/Easel-Focus-Website/pt-br/guides/"}, {"@type": "ListItem", "position": 3, "name": "Sessões de foco", "item": "https://markockidev.github.io/Easel-Focus-Website/pt-br/guides/focus-sessions/"}]}</script>
+  <script type="application/ld+json">{"@context": "https://schema.org", "@type": "TechArticle", "inLanguage": "pt-BR", "headline": "Sessões de foco e a névoa que se dissipa", "description": "Como funciona uma sessão de foco no Easel: a névoa que se dissipa, o timer, sair do app ou bloquear o celular, encerrar antes, música ambiente, efeitos sonoros e resposta tátil.", "dateModified": "2026-11-17", "about": {"@type": "MobileApplication", "name": "Easel: Focus Timer & Art", "operatingSystem": "iOS"}, "author": {"@type": "Person", "name": "Adam", "url": "https://markockiadam.com"}, "mainEntityOfPage": "https://markockidev.github.io/Easel-Focus-Website/pt-br/guides/focus-sessions/"}</script>
+</head>
+<body class="has-getbar">
+  <a class="skip" href="#main">Pular para o conteúdo</a>
+  <header class="top">
+    <div class="wrap">
+      <a class="brand" href="../../../pt-br/" aria-label="Easel, início">
+        <img src="../../../assets/img/icon.jpg" alt="" width="36" height="36">
+        <span>Easel</span>
+      </a>
+      <nav class="primary" aria-label="Principal"><a href="../../../pt-br/guides/" aria-current="page">Guias</a><a href="../../../pt-br/faq/">Perguntas</a><a href="../../../pt-br/privacy/">Privacidade</a></nav>
+      <div class="tools">
+        <details class="lang pop">
+          <summary title="Idioma" aria-label="Idioma: Português (Brasil)"><svg aria-hidden="true" viewBox="0 0 24 24" width="18" height="18"><circle cx="12" cy="12" r="9" fill="none" stroke="currentColor" stroke-width="1.5"/><path d="M3 12h18M12 3c2.6 2.6 3.8 5.6 3.8 9s-1.2 6.4-3.8 9c-2.6-2.6-3.8-5.6-3.8-9S9.4 5.6 12 3z" fill="none" stroke="currentColor" stroke-width="1.5"/></svg><span>Português (Brasil)</span><svg class="chev" aria-hidden="true" viewBox="0 0 12 12" width="10" height="10"><path d="M2.5 4.5 6 8l3.5-3.5" fill="none" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"/></svg></summary>
+          <div class="pop-panel"><ul class="langs"><li><a href="../../../guides/focus-sessions/" hreflang="en" lang="en" data-lang="en">English</a></li><li><a href="../../../pl/guides/focus-sessions/" hreflang="pl" lang="pl" data-lang="pl">Polski</a></li><li><a href="../../../es/guides/focus-sessions/" hreflang="es" lang="es" data-lang="es">Español</a></li><li><a href="../../../fr/guides/focus-sessions/" hreflang="fr" lang="fr" data-lang="fr">Français</a></li><li><a href="../../../zh-hans/guides/focus-sessions/" hreflang="zh-Hans" lang="zh-Hans" data-lang="zh-Hans">简体中文</a></li><li><a href="../../../hi/guides/focus-sessions/" hreflang="hi" lang="hi" data-lang="hi">हिन्दी</a></li><li><a href="../../../ja/guides/focus-sessions/" hreflang="ja" lang="ja" data-lang="ja">日本語</a></li><li><a href="../../../ko/guides/focus-sessions/" hreflang="ko" lang="ko" data-lang="ko">한국어</a></li><li><a href="../../../pt-br/guides/focus-sessions/" hreflang="pt-BR" lang="pt-BR" data-lang="pt-BR" aria-current="true">Português (Brasil)</a></li></ul></div>
+        </details>
+        <button class="theme-toggle" type="button" title="Aparência" data-to-dark="Mudar para a aparência noturna" data-to-light="Mudar para a aparência diurna" aria-label="Mudar para a aparência noturna"><svg class="i-sun" aria-hidden="true" viewBox="0 0 24 24" width="20" height="20"><circle cx="12" cy="12" r="4.2" fill="none" stroke="currentColor" stroke-width="1.5"/><path d="M12 2.5v2.2M12 19.3v2.2M4.6 4.6l1.6 1.6M17.8 17.8l1.6 1.6M2.5 12h2.2M19.3 12h2.2M4.6 19.4l1.6-1.6M17.8 6.2l1.6-1.6" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/></svg><svg class="i-moon" aria-hidden="true" viewBox="0 0 24 24" width="20" height="20"><path d="M19.5 14.6A8 8 0 0 1 9.4 4.5a8 8 0 1 0 10.1 10.1z" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"/></svg></button>
+        <a class="get" href="https://apps.apple.com/app/id6793262483">Baixar</a>
+        <details class="menu pop">
+          <summary title="Menu" aria-label="Menu"><svg aria-hidden="true" viewBox="0 0 24 24" width="22" height="22"><path d="M4 8.5h16M4 15.5h16" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/></svg></summary>
+          <div class="pop-panel menu-panel">
+            <nav class="menu-links" aria-label="Menu"><a href="../../../pt-br/">Início</a><a href="../../../pt-br/guides/" aria-current="page">Guias</a><a href="../../../pt-br/faq/">Perguntas</a><a href="../../../pt-br/privacy/">Privacidade</a></nav>
+            <p class="label">Aparência</p>
+            <div class="seg" role="group" aria-label="Aparência"><button type="button" data-theme-set="auto" aria-pressed="false">Automático</button><button type="button" data-theme-set="light" aria-pressed="false">De dia</button><button type="button" data-theme-set="dark" aria-pressed="false">De noite</button></div>
+            <p class="label">Idioma</p>
+            <ul class="langs"><li><a href="../../../guides/focus-sessions/" hreflang="en" lang="en" data-lang="en">English</a></li><li><a href="../../../pl/guides/focus-sessions/" hreflang="pl" lang="pl" data-lang="pl">Polski</a></li><li><a href="../../../es/guides/focus-sessions/" hreflang="es" lang="es" data-lang="es">Español</a></li><li><a href="../../../fr/guides/focus-sessions/" hreflang="fr" lang="fr" data-lang="fr">Français</a></li><li><a href="../../../zh-hans/guides/focus-sessions/" hreflang="zh-Hans" lang="zh-Hans" data-lang="zh-Hans">简体中文</a></li><li><a href="../../../hi/guides/focus-sessions/" hreflang="hi" lang="hi" data-lang="hi">हिन्दी</a></li><li><a href="../../../ja/guides/focus-sessions/" hreflang="ja" lang="ja" data-lang="ja">日本語</a></li><li><a href="../../../ko/guides/focus-sessions/" hreflang="ko" lang="ko" data-lang="ko">한국어</a></li><li><a href="../../../pt-br/guides/focus-sessions/" hreflang="pt-BR" lang="pt-BR" data-lang="pt-BR" aria-current="true">Português (Brasil)</a></li></ul>
+          </div>
+        </details>
+      </div>
+    </div>
+  </header>
+
+  <main id="main">
+    <div class="wrap">
+      <header class="page-head">
+        <nav class="crumbs" aria-label="Trilha de navegação"><a href="../../../pt-br/">Easel</a> <span aria-hidden="true">/</span> <a href="../../../pt-br/guides/">Guias</a> <span aria-hidden="true">/</span> <span aria-current="page">Sessões de foco</span></nav>
+        <p class="label"><span class="numeral">II</span> &nbsp;Durante uma sessão</p>
+        <h1>Sessões de foco e a névoa que se dissipa</h1>
+        <p class="lede">A sessão é o coração do Easel: uma pintura, revelada aos poucos enquanto você trabalha. Este guia explica o que acontece durante uma sessão e o que você pode fazer enquanto ela acontece.</p>
+      </header>
+      <div class="doc">
+        <aside class="toc">
+          <details open><summary>Todos os guias</summary>
+            <nav aria-label="Os guias"><p class="label">Os guias</p><ol><li><a href="../../../pt-br/guides/getting-started/"><span class="n">I</span>Primeiros passos</a></li><li><a href="../../../pt-br/guides/focus-sessions/" aria-current="page"><span class="n">II</span>Sessões de foco</a></li><li><a href="../../../pt-br/guides/focus-question/"><span class="n">III</span>No que você vai se concentrar?</a></li><li><a href="../../../pt-br/guides/pomodoro/"><span class="n">IV</span>Pomodoro</a></li><li><a href="../../../pt-br/guides/collections/"><span class="n">V</span>Coleções</a></li><li><a href="../../../pt-br/guides/gallery/"><span class="n">VI</span>Sua galeria</a></li><li><a href="../../../pt-br/guides/sharing/"><span class="n">VII</span>Compartilhamento</a></li><li><a href="../../../pt-br/guides/statistics/"><span class="n">VIII</span>Estatísticas e sequências</a></li><li><a href="../../../pt-br/guides/year-in-review/"><span class="n">IX</span>Retrospectiva do ano</a></li><li><a href="../../../pt-br/guides/widgets-and-live-activities/"><span class="n">X</span>Widgets e Atividades ao Vivo</a></li><li><a href="../../../pt-br/guides/reminders-and-notifications/"><span class="n">XI</span>Lembretes</a></li><li><a href="../../../pt-br/guides/settings-and-appearance/"><span class="n">XII</span>Ajustes e aparência</a></li><li><a href="../../../pt-br/guides/patronage/"><span class="n">XIII</span>Mecenato</a></li><li><a href="../../../pt-br/guides/troubleshooting/"><span class="n">XIV</span>Solução de problemas</a></li></ol></nav>
+          </details>
+        </aside>
+        <article class="prose">
+
+<h2 id="reveal">Como funciona a revelação</h2>
+<p>Cada sessão pendura uma pintura atrás de uma névoa suave e em movimento. Com o passar do tempo, ela se dissipa do centro para as bordas. O ritmo é lento no começo e se abre perto do fim, para que os últimos minutos pareçam uma chegada. Em 0:00 a pintura está completamente visível, cantos incluídos.</p>
+<p>Acima da pintura você vê o tempo restante e, se tiver definido uma, a sua intenção. Os dois são discretos de propósito: o Easel quer você olhando para o seu trabalho, não para o relógio.</p>
+<div class="figs"><figure><div class="shot"><img src="../../../assets/img/shot-fog.jpg" width="603" height="1311" loading="lazy" alt="Uma sessão em andamento, com a contagem regressiva, a intenção, o botão de som e Encerrar."></div><figcaption>A tela da sessão: som no canto superior esquerdo, Encerrar no canto superior direito.</figcaption></figure></div>
+<h2 id="leaving">Sair do app ou bloquear o celular</h2>
+<p>Pode sair. O timer está ancorado no momento em que sua sessão vai terminar, e não em contagens enquanto o app está aberto, então ele marca o tempo real com o Easel em segundo plano ou com o celular bloqueado. Ao voltar, a pintura está exatamente no ponto em que deveria estar.</p>
+<ul>
+  <li>Enquanto o Easel está aberto numa sessão, ele impede que a tela escureça para você acompanhar a revelação.</li>
+  <li>Na Tela Bloqueada e na Dynamic Island, uma <strong>Atividade ao Vivo</strong> mostra a contagem regressiva. Veja <a href="../../../pt-br/guides/widgets-and-live-activities/">Widgets e Atividades ao Vivo</a>.</li>
+  <li>Se a sessão terminar enquanto você estiver fora, a pintura estará esperando por você quando voltar.</li>
+</ul>
+<h2 id="end-early">Encerrar uma sessão antes</h2>
+<p>Toque em <strong>Encerrar</strong> no canto superior direito e confirme. A pintura não será concluída, então não entra na sua galeria, e a sessão não conta para as suas estatísticas nem para a sua sequência. No Pomodoro, encerrar antes encerra a série inteira.</p>
+<h2 id="sound">Som, música e resposta tátil</h2>
+<ul>
+  <li><strong>O botão de alto-falante</strong> (canto superior esquerdo durante uma sessão) ativa ou silencia o som da sessão.</li>
+  <li><strong>Música ambiente</strong>: piano suave enquanto a pintura se revela. Ative em <em>Ajustes → Durante uma sessão</em>.</li>
+  <li><strong>Efeitos sonoros</strong>: o som quando uma pintura se completa.</li>
+  <li><strong>Resposta tátil</strong>: toques suaves nos botões e no início e fim de uma sessão.</li>
+</ul>
+<h2 id="label">Quando a pintura é revelada</h2>
+<p>Em 0:00 a pintura inteira está visível, e uma etiqueta de museu surge na parte de baixo da tela: a duração da sessão e a sua intenção, depois o título, o artista e a data da pintura. Na etiqueta você pode:</p>
+<ul>
+  <li>Tocar em <strong>ⓘ</strong> para ver a etiqueta completa do museu: técnica, dimensões, procedência e um link para ver a obra no site do The Met. A etiqueta abre exatamente na altura do seu conteúdo; deslize para baixo para fechá-la.</li>
+  <li>Tocar em <strong>Compartilhar</strong> para criar um cartão emoldurado para Stories ou posts (veja <a href="../../../pt-br/guides/sharing/">Compartilhamento</a>).</li>
+  <li>Tocar em <strong>OK</strong> para pendurá-la na sua galeria e voltar à tela inicial.</li>
+</ul>
+<p>A cada marco (10, 25, 50, 100 pinturas e além), OK abre antes uma pequena comemoração.</p>
+<div class="figs"><figure><div class="shot"><img src="../../../assets/img/shot-revealed.jpg" width="603" height="1311" loading="lazy" alt="Gustave Boyer com chapéu de palha, de Cézanne, revelado por inteiro em 0:00, com uma etiqueta de museu creme: 5 minutos · Terminar o rascunho do capítulo, o título e o artista, botões de informações e de compartilhar, e OK."></div><figcaption>A etiqueta em 0:00.</figcaption></figure><figure><div class="shot"><img src="../../../assets/img/shot-label.jpg" width="603" height="1311" loading="lazy" alt="A janela da etiqueta do museu sobre a pintura: Gustave Boyer (nasc. 1840) com chapéu de palha, 1870–71, Paul Cézanne, com técnica, dimensões, procedência e Ver no The Met."></div><figcaption>Toque em ⓘ para a etiqueta completa do museu.</figcaption></figure></div>
+
+          <nav class="pager" aria-label="Mais guias"><a class="prev" href="../../../pt-br/guides/getting-started/"><span class="label">‹ Anterior</span><span>Primeiros passos</span></a><a class="next" href="../../../pt-br/guides/focus-question/"><span class="label">Próximo ›</span><span>No que você vai se concentrar?</span></a></nav>
+        </article>
+      </div>
+    </div>
+  </main>
+
+  <footer>
+    <div class="wrap">
+      <div class="row">
+        <a class="brand" href="../../../pt-br/" aria-label="Easel, início"><img src="../../../assets/img/icon.jpg" alt="" width="36" height="36" loading="lazy"><span>Easel</span></a>
+        <nav aria-label="Rodapé">
+          <a href="https://apps.apple.com/app/id6793262483">App Store</a>
+          <a href="../../../pt-br/guides/">Guias</a>
+          <a href="../../../pt-br/faq/">Perguntas</a>
+          <a href="../../../pt-br/privacy/">Política de privacidade</a>
+          <a href="https://markockidev.canny.io/easel">Feedback e ideias</a>
+          <a href="mailto:adam@easelfocus.app">Contato</a>
+          <a href="https://markockiadam.com">O criador</a>
+        </nav>
+      </div>
+      <p class="fine">As pinturas são obras em domínio público da coleção Open Access do Metropolitan Museum of Art. O Easel é um app independente e não tem afiliação com o The Met nem é endossado por ele. Apple, o logotipo da Apple, iPhone e iPad são marcas comerciais da Apple Inc., registradas nos EUA e em outros países e regiões. App Store é uma marca de serviço da Apple Inc.</p>
+    </div>
+  </footer>
+  <div class="getbar" role="complementary" aria-label="Baixe o Easel">
+    <img class="icon" src="../../../assets/img/icon.jpg" alt="" width="40" height="40">
+    <span class="t"><b>Easel</b><span>Timer de foco e arte</span></span>
+    <a class="badge" href="https://apps.apple.com/app/id6793262483"><img class="on-light" src="../../../assets/img/badges/pt-br-black.svg" alt="Baixar na App Store" width="120" height="40" loading="lazy"><img class="on-dark" src="../../../assets/img/badges/pt-br-white.svg" alt="Baixar na App Store" width="120" height="40" loading="lazy"></a>
+  </div>
+  <script type="application/json" id="i18n" data-lang="pt-BR" data-root="../../../">{"en": {"text": "This page is also available in English.", "link": "Read in English", "dismiss": "Dismiss", "path": "guides/focus-sessions/", "hl": "en"}, "pl": {"text": "Ta strona jest dostępna także po polsku.", "link": "Czytaj po polsku", "dismiss": "Zamknij", "path": "pl/guides/focus-sessions/", "hl": "pl"}, "es": {"text": "Esta página también está disponible en español.", "link": "Leer en español", "dismiss": "Cerrar", "path": "es/guides/focus-sessions/", "hl": "es"}, "fr": {"text": "Cette page est aussi disponible en français.", "link": "Lire en français", "dismiss": "Fermer", "path": "fr/guides/focus-sessions/", "hl": "fr"}, "zh-Hans": {"text": "本页面也提供简体中文版本。", "link": "阅读中文版", "dismiss": "关闭", "path": "zh-hans/guides/focus-sessions/", "hl": "zh-Hans"}, "hi": {"text": "यह पेज हिन्दी में भी उपलब्ध है।", "link": "हिन्दी में पढ़ें", "dismiss": "बंद करें", "path": "hi/guides/focus-sessions/", "hl": "hi"}, "ja": {"text": "このページは日本語でもご覧いただけます。", "link": "日本語で読む", "dismiss": "閉じる", "path": "ja/guides/focus-sessions/", "hl": "ja"}, "ko": {"text": "이 페이지는 한국어로도 볼 수 있어요.", "link": "한국어로 읽기", "dismiss": "닫기", "path": "ko/guides/focus-sessions/", "hl": "ko"}, "pt-BR": {"text": "Esta página também está disponível em português.", "link": "Ler em português", "dismiss": "Fechar", "path": "pt-br/guides/focus-sessions/", "hl": "pt-BR"}}</script>
+  <script src="../../../assets/site.js?v=5" defer></script>
+</body>
+</html>

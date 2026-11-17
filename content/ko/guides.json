@@ -1,0 +1,156 @@
+[
+ {
+  "slug": "getting-started",
+  "nav": "시작하기",
+  "room": "첫 방문",
+  "title": "Easel 시작하기",
+  "seo": "Easel 시작하기: 명화가 드러나는 집중 타이머",
+  "desc": "Easel의 첫 집중 세션을 단계별로 안내해요. 집중할 시간을 정하고 시작하면, 메트로폴리탄 미술관의 그림이 안개 속에서 드러나 0:00에 완전히 공개돼요.",
+  "card": "Easel의 첫 집중 세션을 단계별로 안내해요. 집중할 시간을 정하고 시작하면, 메트로폴리탄 미술관의 그림이 안개 속에서 드러나 0:00에 완전히 공개돼요.",
+  "lede": "Easel은 눈에 보이는 보상이 있는 집중 타이머예요. 일할 시간을 정하면, 집중하는 동안 메트로폴리탄 미술관의 그림이 안개 속에서 천천히 드러나요. 앱을 여는 순간부터 그림이 완성될 때까지, 첫 세션을 함께 살펴봐요.",
+  "body": "\n<h2 id=\"home\">홈 화면</h2>\n<p>모든 것은 고요한 한 화면에서 시작돼요. 위에서부터 차례로:</p>\n<ul>\n  <li><strong>갤러리</strong>(왼쪽 위): 지금까지 드러낸 작품들.</li>\n  <li><strong>설정</strong>(오른쪽 위): 화면 모드, 사운드, 알림, 위젯의 하루 목표 등.</li>\n  <li><strong>무엇에 집중할까요?</strong> 지금 하는 일을 적는 선택 사항 입력란.</li>\n  <li><strong>단일 또는 뽀모도로</strong>: 한 번의 세션, 또는 짧은 휴식이 있는 집중 블록 네 개.</li>\n  <li><strong>집중 시간</strong>: 5, 15, 25, 45, 60분, 또는 5분부터 120분까지 정하는 <em>직접 설정</em>.</li>\n  <li><strong>함께할 작품</strong>: 어떤 작품 중에서 고를지. <em>모든 작품</em>을 고르면 매번 새로운 놀라움이 있어요.</li>\n  <li><strong>시작</strong>.</li>\n</ul>\n<div class=\"figs\"><figure><div class=\"shot\"><img src=\"{p}assets/img/shot-home.jpg\" width=\"603\" height=\"1311\" loading=\"lazy\" alt=\"Easel의 홈 화면: 갤러리와 설정 버튼, 무엇에 집중할까요? 입력란, 단일 또는 뽀모도로, 5~60분 또는 직접 설정, 함께할 작품은 모든 작품, 그리고 시작.\"></div><figcaption>모든 세션이 시작되는 홈 화면.</figcaption></figure><figure><div class=\"shot\"><img src=\"{p}assets/img/shot-setup.jpg\" width=\"603\" height=\"1311\" loading=\"lazy\" alt=\"목표가 입력된 홈 화면: 챕터 초안 완성하기, 25분 선택.\"></div><figcaption>목표를 적고 25분을 고른 모습.</figcaption></figure></div>\n<h2 id=\"first-session\">첫 세션</h2>\n<ol class=\"steps\">\n  <li><strong>시간을 고르세요.</strong> 처음에는 25분이 좋아요. <em>직접 설정</em>을 탭하면 휠에서 5분부터 120분까지 원하는 시간을 고를 수 있어요.</li>\n  <li><strong>무엇을 위한 시간인지 적어 보세요</strong>(선택 사항). 맨 위 입력란에 적거나, 비워 두면 시작을 탭할 때 Easel이 <em>“무엇에 집중할까요?”</em>라고 물어봐요. <a href=\"{l}guides/focus-question/\">집중 질문</a>을 참고하세요.</li>\n  <li><strong>시작을 탭하세요.</strong> Easel이 그림을 고르고 세션이 시작되기 전에 완전히 불러오므로, 인터넷 연결 때문에 공개가 멈추는 일이 없어요.</li>\n  <li><strong>일하세요.</strong> 시간이 지날수록 그림이 가운데부터 바깥으로 드러나요. 타이머는 맨 위에 조용히 있으니 계속 볼 필요는 없어요.</li>\n  <li><strong>0:00에 그림이 완전히 공개돼요.</strong> 화면 아래에서 크림색 미술관 명판이 올라오며 집중한 시간, 목표, 작품 제목, 작가, 연도를 보여 줘요. <strong>완료</strong>를 탭하면 그림이 갤러리에 걸려요.</li>\n</ol>\n<div class=\"figs\"><figure><div class=\"shot\"><img src=\"{p}assets/img/shot-fog.jpg\" width=\"603\" height=\"1311\" loading=\"lazy\" alt=\"절반쯤 진행된 집중 세션: 안개 속에서 드러나는 세잔의 초상화, 남은 시간 2:23.\"></div><figcaption>절반: 안개가 걷히고 있어요.</figcaption></figure><figure><div class=\"shot\"><img src=\"{p}assets/img/shot-revealed.jpg\" width=\"603\" height=\"1311\" loading=\"lazy\" alt=\"0:00에 완전히 공개된 세잔의 「밀짚모자를 쓴 귀스타브 부아예」와 크림색 미술관 명판: 5분 · 챕터 초안 완성하기, 제목과 작가, 정보 및 공유 버튼, 완료.\"></div><figcaption>0:00: 명판과 함께 공개된 그림.</figcaption></figure></div>\n<h2 id=\"where-next\">다음으로 볼 가이드</h2>\n<ul>\n  <li><a href=\"{l}guides/focus-sessions/\">집중 세션과 안개 속 공개</a>: iPhone 잠그기, 일찍 종료하기, 사운드.</li>\n  <li><a href=\"{l}guides/pomodoro/\">뽀모도로</a>: 휴식이 있는 네 개의 블록, 매번 새로운 그림.</li>\n  <li><a href=\"{l}guides/gallery/\">나의 갤러리</a>: 미술관 레이블과 함께 보는, 지금까지 얻은 모든 그림.</li>\n</ul>\n<div class=\"callout\"><span class=\"label\">앱에서 길을 잃었나요?</span><p>Easel의 모든 화면에는 돌아가는 길이 있어요. 왼쪽 위의 <strong>‹ 뒤로</strong> 버튼, 통계의 <strong>⌄</strong> 버튼, 또는 시트를 아래로 쓸어내리면 돼요. 언제나 홈 화면으로 돌아와요. 자세한 내용은 <a href=\"{l}guides/troubleshooting/#lost\">문제 해결</a>에 있어요.</p></div>"
+ },
+ {
+  "slug": "focus-sessions",
+  "nav": "집중 세션",
+  "room": "세션 중",
+  "title": "집중 세션과 안개 속 공개",
+  "seo": "Easel의 집중 세션과 안개 속 공개는 어떻게 작동하나요",
+  "desc": "Easel 집중 타이머의 세션 작동 방식: 안개 속 공개, 타이머, 앱을 나가거나 iPhone 잠그기, 일찍 종료하기, 배경 음악, 효과음, 햅틱.",
+  "card": "Easel 집중 타이머의 세션 작동 방식: 안개 속 공개, 타이머, 앱을 나가거나 iPhone 잠그기, 일찍 종료하기, 배경 음악, 효과음, 햅틱.",
+  "lede": "세션은 Easel의 중심이에요. 일하는 동안 한 점의 그림이 천천히 드러나죠. 이 가이드는 세션 중에 어떤 일이 일어나는지, 진행 중에 무엇을 할 수 있는지 설명해요.",
+  "body": "\n<h2 id=\"reveal\">공개는 어떻게 이루어지나요</h2>\n<p>세션마다 부드럽게 흐르는 안개 뒤에 그림이 걸려요. 시간이 지나면서 안개는 가운데부터 바깥으로 걷혀요. 처음에는 천천히, 끝으로 갈수록 활짝 열려서 마지막 몇 분은 마치 도착하는 순간처럼 느껴져요. 0:00에는 모서리까지 그림 전체가 완전히 드러나요.</p>\n<p>그림 위에는 남은 시간과, 설정했다면 목표가 보여요. 둘 다 일부러 희미하게 표시돼요. Easel은 당신이 시계가 아닌 일에 시선을 두길 바라거든요.</p>\n<div class=\"figs\"><figure><div class=\"shot\"><img src=\"{p}assets/img/shot-fog.jpg\" width=\"603\" height=\"1311\" loading=\"lazy\" alt=\"카운트다운, 목표, 음소거 버튼, 종료가 보이는 진행 중인 세션.\"></div><figcaption>세션 화면: 왼쪽 위에는 사운드, 오른쪽 위에는 종료.</figcaption></figure></div>\n<h2 id=\"leaving\">앱을 나가거나 iPhone을 잠글 때</h2>\n<p>괜찮아요. 타이머는 앱이 열려 있는 동안의 틱이 아니라 세션이 끝날 시각에 맞춰져 있어서, Easel이 백그라운드에 있거나 iPhone이 잠겨 있어도 정확한 시간을 지켜요. 돌아오면 그림은 정확히 진행되어 있어야 할 만큼 드러나 있어요.</p>\n<ul>\n  <li>세션 중에 Easel이 열려 있으면, 공개 과정을 볼 수 있도록 화면이 어두워지지 않아요.</li>\n  <li>잠금 화면과 Dynamic Island에서는 <strong>실시간 현황</strong>이 카운트다운을 보여 줘요. <a href=\"{l}guides/widgets-and-live-activities/\">위젯과 실시간 현황</a>을 참고하세요.</li>\n  <li>자리를 비운 사이에 세션이 끝나면, 돌아왔을 때 그림이 기다리고 있어요.</li>\n</ul>\n<h2 id=\"end-early\">세션 일찍 종료하기</h2>\n<p>오른쪽 위의 <strong>종료</strong>를 탭한 다음 확인하세요. 그림이 완성되지 않아 갤러리에 추가되지 않고, 그 세션은 통계나 연속 기록에 포함되지 않아요. 뽀모도로에서는 일찍 종료하면 세트 전체가 끝나요.</p>\n<h2 id=\"sound\">사운드, 음악, 햅틱</h2>\n<ul>\n  <li><strong>스피커 버튼</strong>(세션 중 왼쪽 위)으로 그 세션의 소리를 끄거나 켤 수 있어요.</li>\n  <li><strong>배경 음악</strong>: 명화가 드러나는 동안 잔잔한 피아노. <em>설정 → 세션 중</em>에서 켜세요.</li>\n  <li><strong>효과음</strong>: 작품이 완성될 때 울리는 소리.</li>\n  <li><strong>햅틱 피드백</strong>: 버튼을 누를 때와 세션 시작·종료 시의 부드러운 진동.</li>\n</ul>\n<h2 id=\"label\">그림이 공개되면</h2>\n<p>0:00에 그림 전체가 드러나고, 화면 아래에서 미술관 명판이 올라와요. 세션 길이와 목표, 그리고 작품 제목, 작가, 연도가 적혀 있어요. 명판에서 할 수 있는 일:</p>\n<ul>\n  <li><strong>ⓘ</strong>를 탭하면 전체 미술관 레이블을 볼 수 있어요. 재료, 크기, 출처, 그리고 메트로폴리탄 미술관에서 작품을 볼 수 있는 링크가 있어요. 레이블은 내용에 딱 맞는 높이로 열리며, 아래로 쓸어내리면 닫혀요.</li>\n  <li><strong>공유</strong>를 탭하면 스토리나 게시물용 액자 카드를 만들 수 있어요(<a href=\"{l}guides/sharing/\">공유하기</a> 참고).</li>\n  <li><strong>완료</strong>를 탭하면 그림이 갤러리에 걸리고 홈 화면으로 돌아가요.</li>\n</ul>\n<p>이정표(작품 10점, 25점, 50점, 100점, 그 이상)에 도달하면 완료를 누를 때 작은 축하 화면이 먼저 열려요.</p>\n<div class=\"figs\"><figure><div class=\"shot\"><img src=\"{p}assets/img/shot-revealed.jpg\" width=\"603\" height=\"1311\" loading=\"lazy\" alt=\"0:00에 완전히 공개된 세잔의 「밀짚모자를 쓴 귀스타브 부아예」와 크림색 미술관 명판: 5분 · 챕터 초안 완성하기, 제목과 작가, 정보 및 공유 버튼, 완료.\"></div><figcaption>0:00의 명판.</figcaption></figure><figure><div class=\"shot\"><img src=\"{p}assets/img/shot-label.jpg\" width=\"603\" height=\"1311\" loading=\"lazy\" alt=\"그림 위에 열린 미술관 레이블 시트: 「밀짚모자를 쓴 귀스타브 부아예(1840년생)」, 1870–71, 폴 세잔, 재료, 크기, 출처, 메트로폴리탄 미술관에서 보기.\"></div><figcaption>ⓘ를 탭하면 전체 미술관 레이블이 열려요.</figcaption></figure></div>\n"
+ },
+ {
+  "slug": "focus-question",
+  "nav": "무엇에 집중할까요?",
+  "room": "목표",
+  "title": "무엇에 집중할까요? 목표 정하기",
+  "seo": "Easel에서 집중 목표 정하기: 무엇에 집중할까요?",
+  "desc": "Easel의 세션마다 목적을 정해 보세요. 목표를 직접 적거나, 최근 목표를 다시 쓰거나, 공부, 업무, 글쓰기, 독서 같은 주제를 고르세요. 목표는 그림과 함께 갤러리에 남아요.",
+  "card": "Easel의 세션마다 목적을 정해 보세요. 목표를 직접 적거나, 최근 목표를 다시 쓰거나, 공부, 업무, 글쓰기, 독서 같은 주제를 고르세요.",
+  "lede": "Easel의 모든 그림은 무언가를 위해 얻는 것이에요. 지금 할 일에 이름을 붙이면 세션을 시작하기가 쉬워지고, 나중에 갤러리가 각 그림이 무엇을 위한 것이었는지 기억해 줘요.",
+  "body": "\n<h2 id=\"type\">직접 적기</h2>\n<p>홈 화면에서 <em>무엇에 집중할까요?</em>를 탭하고 <em>“챕터 초안 완성하기”</em>처럼 짧게 적으세요. 키보드의 <strong>이동</strong>을 누르면 바로 시작돼요. 목표는 최대 60자까지 적을 수 있고, 다음 세션에도 그대로 남아 있어 같은 일의 다음 블록을 바로 이어 갈 수 있어요.</p>\n<h2 id=\"question\">또는 Easel이 물어보게 하기</h2>\n<p><strong>시작</strong>을 탭할 때 입력란이 비어 있으면 Easel이 전체 화면으로 <em>무엇에 집중할까요?</em>라고 물어요. 그 아래에는 곧 시작될 세션(예: <em>25분 · 모든 작품</em>)이 보이고, 이어서 두 개의 전시실이 있어요.</p>\n<ol class=\"steps\">\n  <li><strong>최근</strong>: 가장 최근의 목표 세 개. 한 번 탭으로 다시 쓸 수 있어요.</li>\n  <li><strong>주제</strong>: 공부, 업무, 글쓰기, 독서, 창작, 계획, 연습, 생각.</li>\n</ol>\n<p>하나를 고르면 세션이 시작돼요. 시작하지 않고 돌아가려면 왼쪽 위의 <strong>‹</strong>를 탭하세요.</p>\n<div class=\"figs\"><figure><div class=\"shot\"><img src=\"{p}assets/img/shot-setup.jpg\" width=\"603\" height=\"1311\" loading=\"lazy\" alt=\"목표 ‘챕터 초안 완성하기’가 입력된 홈 화면.\"></div><figcaption>홈 화면에 적은 목표.</figcaption></figure><figure><div class=\"shot\"><img src=\"{p}assets/img/shot-question.jpg\" width=\"603\" height=\"1311\" loading=\"lazy\" alt=\"전체 화면 집중 질문: 무엇에 집중할까요? 최근 목표와 공부, 업무 같은 주제가 함께 표시됨.\"></div><figcaption>입력란이 비어 있을 때 나타나는 집중 질문.</figcaption></figure></div>\n<h2 id=\"where\">목표가 나타나는 곳</h2>\n<ul>\n  <li>세션 중 타이머 아래에 희미하게.</li>\n  <li>잠금 화면과 Dynamic Island의 실시간 현황에.</li>\n  <li>갤러리의 그림 페이지에 <em>“목표: …”</em>로.</li>\n  <li>그 그림을 공유할 때 공유 카드에.</li>\n</ul>\n<div class=\"callout\"><span class=\"label\">비공개</span><p>목표는 기기에만 저장돼요. Easel은 그 텍스트를 어디에도 보내지 않아요. <a href=\"{l}privacy/\">개인정보 처리방침</a>을 참고하세요.</p></div>"
+ },
+ {
+  "slug": "pomodoro",
+  "nav": "뽀모도로",
+  "room": "뽀모도로",
+  "title": "Easel을 뽀모도로 타이머로 사용하기",
+  "seo": "명화와 함께하는 뽀모도로 타이머: Easel의 뽀모도로 사용법",
+  "desc": "Easel의 뽀모도로 모드: 5분 휴식이 있는 25분 집중 블록 네 개, 블록마다 새로운 그림이 드러나요. 세트를 시작하고, 휴식을 건너뛰고, 종료하는 방법.",
+  "card": "Easel의 뽀모도로 모드: 5분 휴식이 있는 25분 집중 블록 네 개, 블록마다 새로운 그림이 드러나요.",
+  "lede": "뽀모도로는 긴 작업을 집중 블록으로 나누고 그 사이에 짧게 쉬는 방법이에요. Easel에서는 블록마다 각각의 그림이 드러나서, 한 세트를 마치면 갤러리에 새 작품 네 점이 걸려요.",
+  "body": "\n<h2 id=\"how\">뽀모도로 세트는 이렇게 진행돼요</h2>\n<ul>\n  <li>25분짜리 <strong>집중 블록 네 개</strong>.</li>\n  <li>처음 세 블록이 끝날 때마다 <strong>5분 휴식</strong>.</li>\n  <li>블록마다 <strong>새로운 그림</strong>이 단일 세션처럼 안개 속에서 드러나요.</li>\n</ul>\n<h2 id=\"start\">세트 시작하기</h2>\n<ol class=\"steps\">\n  <li>홈 화면에서 <strong>뽀모도로</strong>를 탭하세요.</li>\n  <li>원한다면 <em>함께할 작품</em>에서 컬렉션을 고르세요.</li>\n  <li><strong>시작</strong>을 탭하세요. 집중 질문에 세트가 <em>4 × 25분</em>으로 표시돼요.</li>\n</ol>\n<h2 id=\"breaks\">휴식 중에는</h2>\n<p>블록이 끝나면 그 그림이 공개되어 저장되고 휴식이 시작돼요. 휴식 화면에는 방금 얻은 그림과 카운트다운이 보여요. 쉬고, 스트레칭하고, 그림을 바라보세요. 준비가 되면 <strong>다음 집중 시작</strong>을 탭하세요. 휴식이 끝나기 전에 시작해도 돼요.</p>\n<h2 id=\"end\">세트 일찍 종료하기</h2>\n<p>블록이나 휴식 중에 <strong>종료</strong>를 탭하세요. 이미 마친 블록은 갤러리에 남고, 진행 중이던 블록은 포함되지 않아요.</p>\n<div class=\"callout\"><span class=\"label\">팁</span><p>네 번째 그림이 공개되면 뽀모도로 완료를 축하하는 특별한 햅틱 패턴이 울려요. 햅틱은 <em>설정 → 세션 중</em>에서 켜거나 끌 수 있어요.</p></div>"
+ },
+ {
+  "slug": "collections",
+  "nav": "컬렉션",
+  "room": "함께할 작품",
+  "title": "함께 집중할 작품 고르기",
+  "seo": "Easel 컬렉션: 유럽 회화, 일본 판화, 화조화",
+  "desc": "Easel에서 606점의 모든 작품과 함께 집중하거나 컬렉션을 고르세요. 유럽 회화, 일본 판화, 미국 회화, 화조화, 호쿠사이나 렘브란트 같은 한 명의 작가, 또는 한 시대.",
+  "card": "Easel에서 606점의 모든 작품과 함께 집중하거나 컬렉션을 고르세요. 유럽 회화, 일본 판화, 미국 회화, 화조화, 호쿠사이나 렘브란트 같은 한 명의 작가, 또는 한 시대.",
+  "lede": "Easel의 작품은 메트로폴리탄 미술관 소장품 중 엄선한 600점 이상의 퍼블릭 도메인 작품에서 와요. Easel에 맡겨 매번 새로운 작품을 만나도 되고, 한 스타일이나 작가, 시대와 함께 집중해도 돼요.",
+  "body": "\n<h2 id=\"choose\">컬렉션 고르기</h2>\n<ol class=\"steps\">\n  <li>홈 화면에서 <strong>함께할 작품</strong> 아래 카드를 탭하세요(처음에는 <em>모든 작품</em>으로 표시돼요).</li>\n  <li>컬렉션을 고르세요. 각 줄에는 <em>22 / 90</em>처럼 그 컬렉션에서 드러낸 작품 수가 표시돼요.</li>\n  <li><strong>완료</strong>를 탭하세요. 바꾸기 전까지 다음 세션들은 그 컬렉션에서만 그림을 골라요.</li>\n</ol>\n<div class=\"figs\"><figure><div class=\"shot\"><img src=\"{p}assets/img/shot-collections.jpg\" width=\"603\" height=\"1311\" loading=\"lazy\" alt=\"컬렉션 시트: 모든 작품, 그 아래 스타일별(유럽 회화, 일본 판화, 미국 회화, 화조화)과 작가별, 각각 드러낸 작품 수 표시.\"></div><figcaption>컬렉션별 진행 상황.</figcaption></figure></div>\n<h2 id=\"styles\">스타일별</h2>\n<ul>\n  <li><strong>유럽 회화</strong>: 렘브란트, 페르메이르, 반 고흐, 세잔, 코로, 쿠르베, 마네, 르누아르, 드가 등.</li>\n  <li><strong>일본 판화</strong>: 가쓰시카 호쿠사이, 우타가와 히로시게를 비롯한 에도·메이지 시대의 거장들.</li>\n  <li><strong>미국 회화</strong>: 켄셋, 이니스, 처치 등 허드슨강 화파의 풍경화.</li>\n  <li><strong>화조화</strong>: 존 제임스 오듀본, 오가타 고린, 그리고 식물화의 거장들.</li>\n</ul>\n<h2 id=\"artists\">작가별, 시대별</h2>\n<p>스타일 아래에는 Easel에 여러 작품이 있는 작가들과, 르네상스부터 근대(1880년 이후)까지의 시대가 나열돼요. 하나를 골라 일주일은 호쿠사이와, 한 달은 19세기 속에서 보내 보세요.</p>\n<h2 id=\"curation\">작품은 이렇게 골라요</h2>\n<p>모든 작품은 퍼블릭 도메인이며 메트로폴리탄 미술관의 오픈 액세스 컬렉션에서 와요. 유명한 작품을 중심으로, 차분하고 모두에게 적합하도록 엄선했어요. Easel은 미술관 전체 컬렉션에서 무작위로 그림을 고르지 않아요.</p>\n"
+ },
+ {
+  "slug": "gallery",
+  "nav": "나의 갤러리",
+  "room": "갤러리",
+  "title": "집중으로 얻은 그림을 모은 나의 갤러리",
+  "seo": "Easel 갤러리: 지금까지 드러낸 모든 그림",
+  "desc": "Easel에서 공개한 모든 그림은 갤러리에 걸려요. 그림을 열어 크게 보고, 미술관 레이블을 읽고, 무엇에 집중했는지 확인하고, 공유하세요.",
+  "card": "Easel에서 공개한 모든 그림은 갤러리에 걸려요.",
+  "lede": "마친 세션의 그림은 모두 갤러리에 걸려요. 몇 주가 지나면, 시간을 내어 해낸 모든 일의 고요한 기록이 돼요.",
+  "body": "\n<h2 id=\"open\">갤러리 열기</h2>\n<p>홈 화면 왼쪽 위의 <strong>갤러리 버튼</strong>을 탭하세요. 갤러리가 왼쪽에서 밀려 들어오고, <strong>‹</strong>를 탭하면 다시 들어가요.</p>\n<p>그림은 최신순으로 걸려 있어요. 맨 아래 카드에는 총 집중 시간, 작품 수, 현재 연속 기록이 보이며, 탭하면 <a href=\"{l}guides/statistics/\">통계</a>가 열려요.</p>\n<div class=\"figs\"><figure><div class=\"shot\"><img src=\"{p}assets/img/shot-gallery.jpg\" width=\"603\" height=\"1311\" loading=\"lazy\" alt=\"갤러리: 얻은 작품들의 격자와 집중 57시간 40분, 작품 111점, 7일 연속이 표시된 카드.\"></div><figcaption>맨 아래에 집중 합계가 보이는 갤러리.</figcaption></figure><figure><div class=\"shot\"><img src=\"{p}assets/img/shot-exhibit.jpg\" width=\"603\" height=\"1311\" loading=\"lazy\" alt=\"그림 페이지: 세잔의 「밀짚모자를 쓴 귀스타브 부아예」와 그 아래 제목, 연도, 작가, 재료.\"></div><figcaption>미술관 벽처럼 꾸민 그림만의 페이지.</figcaption></figure></div>\n<h2 id=\"painting\">그림 페이지</h2>\n<p>그림을 탭하면 페이지가 열려요. 큼직한 작품, 미술관 레이블(제목, 연도, 작가, 재료, 크기 등 메트로폴리탄 미술관의 정보), 그리고 <em>나의 관람</em>: 그림을 드러낸 날짜와 시간, 무엇을 위한 것이었는지가 이어져요.</p>\n<ul>\n  <li>오른쪽 위의 <strong>공유</strong>를 탭하면 액자 카드를 만들 수 있어요. <a href=\"{l}guides/sharing/\">공유하기</a>를 참고하세요.</li>\n  <li>인터넷에 연결되어 있지 않으면, 기기에 저장된 내용과 함께 더 자세한 정보는 인터넷 연결이 필요하다는 짧은 안내가 표시돼요.</li>\n</ul>\n<h2 id=\"whole\">갤러리 전체 공유하기</h2>\n<p>갤러리 오른쪽 위의 공유 버튼을 누르면 최근 그림들로 콜라주 카드를 만들어요.</p>\n"
+ },
+ {
+  "slug": "sharing",
+  "nav": "공유하기",
+  "room": "공유",
+  "title": "드러낸 그림 공유하기",
+  "seo": "Easel 그림을 Instagram 스토리 등에 공유하는 방법",
+  "desc": "Easel에서 얻은 그림을 스토리 (9:16) 또는 게시물 (4:5) 형식의 액자 카드로 공유하세요. 사진 앱에 저장하거나 Instagram, TikTok, X, Facebook, 메시지 등으로 보낼 수 있어요.",
+  "card": "Easel에서 얻은 그림을 스토리 (9:16) 또는 게시물 (4:5) 형식의 액자 카드로 공유하세요.",
+  "lede": "드러낸 모든 그림은 작은 축하가 될 수 있어요. 금박 액자에 담긴 그림과 그 그림을 위해 집중한 시간이 적힌 카드로요.",
+  "body": "\n<h2 id=\"make\">카드 만들기</h2>\n<ol class=\"steps\">\n  <li><strong>공유</strong>를 탭하세요. 0:00에 완성된 그림, 갤러리의 그림 페이지, 갤러리 자체, 이정표, 올해 돌아보기의 마지막에서 할 수 있어요.</li>\n  <li>스토리와 릴스용은 <strong>스토리 (9:16)</strong>, 피드용은 <strong>게시물 (4:5)</strong>를 고르세요.</li>\n  <li><strong>저장</strong>을 탭하면 사진 앱에 추가되고, <strong>공유</strong>를 탭하면 공유 시트가 열려요.</li>\n</ol>\n<div class=\"figs\"><figure><div class=\"shot\"><img src=\"{p}assets/img/shot-share.jpg\" width=\"603\" height=\"1311\" loading=\"lazy\" alt=\"공유 화면: ‘집중한 시간 1시간 그리고 드러난 명화’라고 적힌 스토리 카드, 금박 액자 속 세잔의 그림, 저장 및 공유 버튼.\"></div><figcaption>스토리와 게시물 형식을 고르는 공유 화면.</figcaption></figure></div>\n<h2 id=\"apps\">Instagram, TikTok, X 등</h2>\n<p>Instagram, TikTok, X, Facebook, 메시지, WhatsApp, Mail은 앱이 설치되어 있다면 모두 <strong>공유</strong>에서 찾을 수 있어요. 대상이 텍스트를 지원하면 Easel이 카드와 함께 짧은 문구와 App Store 링크를 덧붙여요.</p>\n<h2 id=\"photos\">사진 앱에 저장하기</h2>\n<p>처음 저장을 탭하면 iOS가 Easel이 사진 보관함에 <em>추가</em>하도록 허용할지 물어요. Easel은 이미지를 추가만 할 수 있고, 사진을 보거나 읽을 수는 없어요. 허용하지 않았다면 iPhone 설정 앱의 <em>앱 → Easel → 사진</em>에서 켤 수 있어요.</p>\n"
+ },
+ {
+  "slug": "statistics",
+  "nav": "통계와 연속 기록",
+  "room": "숫자로 보기",
+  "title": "통계, 연속 기록, 이정표",
+  "seo": "Easel의 집중 통계와 연속 기록",
+  "desc": "Easel이 집중 시간, 작품, 연속 기록을 세는 방법: 주간 차트, 16주 집중 달력, 현재 연속과 최장 연속, 그리고 작품 10점, 25점, 50점, 100점의 이정표.",
+  "card": "Easel이 집중 시간, 작품, 연속 기록을 세는 방법: 주간 차트, 16주 집중 달력, 현재 연속과 최장 연속, 그리고 작품 10점, 25점, 50점, 100점의 이정표.",
+  "lede": "Easel은 당신의 집중을 차분하게 기록해요. 시간, 작품, 연속 기록, 한눈에 보는 한 주, 그리고 꾸준히 집중한 모든 날을 담은 달력까지.",
+  "body": "\n<h2 id=\"open\">통계 열기</h2>\n<p>갤러리를 열고 맨 아래 카드(시간 · 작품 · 연속 기록)를 탭하세요. 통계가 화면 아래에서 올라오고, <strong>⌄</strong>를 탭하면 닫혀요. 키보드를 연결한 iPad에서는 <kbd>⌘</kbd><kbd>⇧</kbd><kbd>S</kbd>를 누르세요.</p>\n<div class=\"figs\"><figure><div class=\"shot\"><img src=\"{p}assets/img/shot-stats.jpg\" width=\"603\" height=\"1311\" loading=\"lazy\" alt=\"통계: 집중 57시간 30분, 현재 연속 6, 최장 연속 12, 지난 7일 막대 차트와 16주 달력.\"></div><figcaption>통계: 합계, 연속 기록, 한 주, 그리고 한 계절.</figcaption></figure></div>\n<h2 id=\"what\">볼 수 있는 것</h2>\n<ul>\n  <li><strong>집중한 시간</strong>: 완료한 모든 세션의 합계.</li>\n  <li><strong>현재 연속과 최장 연속</strong>: 세션을 하나 이상 완료한 날이 이어진 일수.</li>\n  <li><strong>지난 7일</strong>: 하루에 막대 하나, 오늘은 맨 오른쪽.</li>\n  <li><strong>최근 16주</strong>(iPad에서는 26주): 한 칸이 하루예요. 진할수록 오래 집중한 날이에요.</li>\n  <li><strong>작품</strong>: 드러낸 서로 다른 작품의 수와 완료한 세션의 수.</li>\n</ul>\n<h2 id=\"streaks\">연속 기록은 이렇게 세요</h2>\n<p>세션을 하나 이상 완료한 날이 하루로 계산돼요. 현재 연속 기록은 오늘 하루 동안 유지되므로, 어제까지 이어진 기록은 오늘이 끝나기 전까지 끊기지 않아요. 일찍 종료한 세션은 포함되지 않아요.</p>\n<h2 id=\"milestones\">이정표</h2>\n<p>작품 10점, 25점, 50점, 100점, 250점, 500점, 1,000점에 이르면 Easel이 잠시 멈춰요. 금박 액자에 담긴 최근 그림 세 점이 부채꼴로 펼쳐지고 숫자가 나타나요. 공유하거나 계속할 수 있어요.</p>\n<p>그리고 매년 12월에는 <a href=\"{l}guides/year-in-review/\">올해 돌아보기</a>가 있어요.</p>\n"
+ },
+ {
+  "slug": "year-in-review",
+  "nav": "올해 돌아보기",
+  "room": "한 해",
+  "title": "올해 돌아보기: 집중으로 채운 한 해",
+  "seo": "Easel 올해 돌아보기: 한 해의 집중을 전시회처럼",
+  "desc": "매년 12월, Easel의 올해 돌아보기는 한 해의 집중을 짧은 전시회로 보여 줘요. 집중한 시간, 공개한 작품, 가장 자주 함께한 화가, 최장 연속 기록, 올해의 그림까지.",
+  "card": "매년 12월, Easel의 올해 돌아보기는 한 해의 집중을 짧은 전시회로 보여 줘요. 집중한 시간, 공개한 작품, 가장 자주 함께한 화가, 최장 연속 기록, 올해의 그림까지.",
+  "lede": "매년 12월, Easel은 헨델의 「수상 음악」과 함께 스스로 재생되는 짧은 전시회로 당신의 한 해를 돌아보고, 마지막에는 공유할 수 있는 카드를 건네요.",
+  "body": "\n<h2 id=\"when\">언제 나타나나요</h2>\n<p>매년 <strong>12월 15일부터 1월 2일까지</strong>, 통계 맨 위에 <em>“Easel과 함께한 한 해”</em>라는 초대장이 <em>전시회로 들어가기</em>와 함께 나타나요. 1월에는 막 끝난 한 해를 돌아봐요. 12월 31일까지의 세션은 언제나 포함돼요.</p>\n<p>알림이 켜져 있으면 Easel은 이 기간에 12월 15일, 12월 30일, 1월 2일, 최대 세 번 부드럽게 알려 줘요.</p>\n<h2 id=\"pages\">담긴 내용</h2>\n<ol class=\"steps\">\n  <li>그해.</li>\n  <li>집중한 시간, 그리고 가장 잘 집중하는 때(아침, 오후 또는 저녁).</li>\n  <li>공개한 작품, 그리고 가장 자주 함께한 화가.</li>\n  <li>가장 길게 이어진 연속 일수, 그리고 가장 충실했던 달.</li>\n  <li>올해의 그림: 가장 긴 한 번의 집중으로 얻은 그림.</li>\n  <li>감사 인사, 그리고 스토리나 게시물로 공유할 수 있는 금박 카드에 담은 한 해.</li>\n</ol>\n<h2 id=\"controls\">감상하기</h2>\n<ul>\n  <li>페이지마다 몇 초씩, 저절로 재생돼요.</li>\n  <li><strong>오른쪽을 탭</strong>하면 앞으로, <strong>왼쪽을 탭</strong>하면 뒤로 가요.</li>\n  <li><strong>길게 누르면</strong> 일시 정지돼요.</li>\n  <li><strong>아래로 쓸어내리면</strong> 닫혀요.</li>\n  <li>VoiceOver를 사용할 때는 쓸어넘겨 페이지를 이동하세요.</li>\n</ul>\n"
+ },
+ {
+  "slug": "widgets-and-live-activities",
+  "nav": "위젯 & 실시간 현황",
+  "room": "앱 밖에서도",
+  "title": "위젯, 실시간 현황, Siri, 제어 센터",
+  "seo": "Easel 위젯: 오늘의 명화, 실시간 현황, 제어 센터",
+  "desc": "Easel의 ‘오늘의 명화’와 ‘집중과 연속 기록’ 위젯을 홈 화면, 잠금 화면, 스탠바이에 추가하고, 실시간 현황으로 세션을 확인하고, Siri, 단축어, 제어 센터에서 집중을 시작하세요.",
+  "card": "Easel의 ‘오늘의 명화’와 ‘집중과 연속 기록’ 위젯을 홈 화면, 잠금 화면, 스탠바이에 추가하고, 실시간 현황으로 세션을 확인하고, Siri, 단축어, 제어 센터에서 집중을 시작하세요.",
+  "lede": "Easel은 앱 밖에서도 함께해요. 집중할수록 걷히는 오늘의 명화, 한눈에 보는 연속 기록, 잠금 화면의 카운트다운, 그리고 제어 센터의 버튼까지.",
+  "body": "\n<h2 id=\"painting-of-the-day\">오늘의 명화 위젯</h2>\n<p>매일 아침 위젯에 새 그림이 안개에 가려진 채 걸려요. 집중하는 1분마다 가운데부터 바깥으로 안개가 조금씩 걷혀요. 하루 목표를 채우면 제목, 작가와 함께 완전히 드러나요.</p>\n<p>목표는 <em>설정 → 나의 하루 의식 → 매일 집중</em>에서 정하세요. 15분부터 120분까지, 기본값은 25분이에요.</p>\n<h2 id=\"add\">위젯 추가하기</h2>\n<ol class=\"steps\">\n  <li>홈 화면의 빈 곳을 앱이 흔들릴 때까지 길게 누르세요.</li>\n  <li>맨 위의 <strong>편집</strong>(또는 <strong>+</strong>)을 탭한 다음 <strong>위젯 추가</strong>를 탭하세요.</li>\n  <li><strong>Easel</strong>을 검색하고 <em>오늘의 명화</em> 또는 <em>집중과 연속 기록</em>을 고른 다음, 크기를 선택하고 <strong>위젯 추가</strong>를 탭하세요.</li>\n</ol>\n<p>두 위젯 모두 잠금 화면용 크기도 있으며(잠금 화면을 사용자화하고 위젯 영역을 탭하세요), 작은 크기는 스탠바이에서도 사용할 수 있어요.</p>\n<h2 id=\"live-activity\">실시간 현황과 Dynamic Island</h2>\n<p>세션이 시작되면 Easel은 잠금 화면과, Dynamic Island가 있는 iPhone에서는 Dynamic Island에 카운트다운을 표시해요. 목표와 부드럽게 흐려진 그림의 실루엣도 함께 보여요. 세션이 끝나면 공개된 그림을 보여 줘요.</p>\n<div class=\"figs\"><figure><div class=\"shot\"><img src=\"{p}assets/img/shot-live.jpg\" width=\"603\" height=\"1311\" loading=\"lazy\" alt=\"Easel의 실시간 현황이 표시된 iPhone 잠금 화면: 목표 ‘챕터 초안 완성하기’와 카운트다운.\"></div><figcaption>잠금 화면에 표시된 세션의 실시간 현황.</figcaption></figure></div>\n<p>보이지 않나요? iPhone 설정 앱에서 <em>앱 → Easel</em>로 이동해 <strong>실시간 현황</strong>이 켜져 있는지 확인하세요.</p>\n<h2 id=\"siri\">Siri와 단축어</h2>\n<p><em>“Easel에서 집중 세션 시작”</em>, <em>“Easel로 집중 시작”</em> 또는 <em>“Easel에서 명화 공개”</em>라고 말해 보세요. 단축어 앱의 <strong>집중 시작</strong> 동작으로 5분부터 120분까지 시간을 정할 수 있어 자동화에 유용해요.</p>\n<h2 id=\"control-center\">제어 센터(iOS 18 이상)</h2>\n<p>제어 센터를 열고 <strong>+</strong>를 탭한 다음 <strong>제어 항목 추가</strong>를 탭하고 Easel을 검색하세요. 한 번만 탭하면 Easel이 열리고 현재 선택한 설정으로 바로 시작돼요.</p>\n"
+ },
+ {
+  "slug": "reminders-and-notifications",
+  "nav": "알림",
+  "room": "나의 하루 의식",
+  "title": "매일 알림과 기타 알림",
+  "seo": "Easel 매일 집중 알림과 알림 설정",
+  "desc": "Easel의 부드러운 매일 알림을 켜고 시간을 정하세요. Easel이 보낼 수 있는 다른 알림과 각각을 끄는 방법도 알아보세요.",
+  "card": "Easel의 부드러운 매일 알림을 켜고 시간을 정하세요. Easel이 보낼 수 있는 다른 알림과 각각을 끄는 방법도 알아보세요.",
+  "lede": "Easel은 그날의 명화를 알려 주며 다시 집중으로 이끄는 부드러운 알림을 하루에 한 번 보낼 수 있어요. 알림은 언제나 선택 사항이에요.",
+  "body": "\n<h2 id=\"daily\">매일 알림</h2>\n<ol class=\"steps\">\n  <li><strong>설정</strong>(홈 화면 오른쪽 위)을 여세요.</li>\n  <li><em>II · 나의 하루 의식</em>에서 <strong>매일 알림</strong>을 켜세요. 처음에는 iOS가 권한을 요청해요.</li>\n  <li>시간을 고르세요(기본값 9:00).</li>\n</ol>\n<p>그날 이미 집중했거나 시간이 지났다면 알림은 다음 날로 넘어가요. 소개의 마지막 페이지에서도 켤 수 있어요.</p>\n<div class=\"figs\"><figure><div class=\"shot\"><img src=\"{p}assets/img/shot-settings.jpg\" width=\"603\" height=\"1311\" loading=\"lazy\" alt=\"설정: 세션 중(배경 음악, 효과음, 햅틱 피드백), 나의 하루 의식(매일 집중, 매일 알림), 응원하기(후원자 되기, 토요일 메모).\"></div><figcaption>설정: 나의 하루 의식과 응원하기.</figcaption></figure></div>\n<h2 id=\"others\">기타 알림</h2>\n<ul>\n  <li><strong>올해 돌아보기</strong>: 그해에 집중한 적이 있을 때만, 해당 기간(12월 15일, 12월 30일, 1월 2일)에 최대 세 번.</li>\n  <li><strong>토요일 메모</strong>: 매주 토요일 아침에 오는 Easel 후원에 관한 짧은 메모. <em>설정 → 응원하기 → 토요일 메모</em>에서 언제든 끌 수 있어요. 팁을 보내면 저절로 더는 오지 않아요.</li>\n</ul>\n<p>Easel은 허용하지 않은 알림을 절대 보내지 않아요.</p>\n<h2 id=\"off\">알림 끄기</h2>\n<p>Easel 설정에서 개별 알림을 끄거나, iPhone 설정 앱의 <em>앱 → Easel → 알림</em>에서 모든 알림을 끌 수 있어요.</p>\n"
+ },
+ {
+  "slug": "settings-and-appearance",
+  "nav": "설정과 화면 모드",
+  "room": "설정",
+  "title": "설정: 낮과 밤, 사운드, 언어",
+  "seo": "Easel 설정: 다크 모드, 사운드, 햅틱, 언어",
+  "desc": "Easel 설정 둘러보기: 낮, 밤 또는 자동 화면 모드(다크 모드), 배경 음악, 효과음과 햅틱, 하루 목표, 언어, 소개, 개인정보, 의견 보내기.",
+  "card": "Easel 설정 둘러보기: 낮, 밤 또는 자동 화면 모드(다크 모드), 배경 음악, 효과음과 햅틱, 하루 목표, 언어, 소개, 개인정보, 의견 보내기.",
+  "lede": "Easel의 설정은 전시 안내서처럼 꾸며져 있어요. 맨 위에는 오늘의 명화가, 그 아래에는 번호가 매겨진 환경설정 전시실들이 이어져요.",
+  "body": "\n<h2 id=\"open\">설정 열기</h2>\n<p>홈 화면 오른쪽 위의 <strong>톱니바퀴</strong>를 탭하세요. 설정이 오른쪽에서 밀려 들어오고, <strong>‹</strong>를 탭하면 닫혀요. 키보드를 연결한 iPad에서는 <kbd>⌘</kbd><kbd>,</kbd>를 누르세요.</p>\n<div class=\"figs\"><figure><div class=\"shot\"><img src=\"{p}assets/img/shot-day.jpg\" width=\"603\" height=\"1311\" loading=\"lazy\" alt=\"낮 모드의 설정: 오늘의 이젤 위, 화면 모드는 낮으로 설정됨.\"></div><figcaption>낮.</figcaption></figure><figure><div class=\"shot\"><img src=\"{p}assets/img/shot-night.jpg\" width=\"603\" height=\"1311\" loading=\"lazy\" alt=\"밤 모드의 설정: 짙은 차콜색 벽 위의 같은 화면.\"></div><figcaption>밤.</figcaption></figure></div>\n<h2 id=\"rooms\">전시실</h2>\n<ol class=\"steps\">\n  <li><strong>갤러리</strong>: 화면 모드. <em>낮</em>은 조명이 비추는 따뜻한 벽, <em>밤</em>은 짙은 차콜빛 전시실, <em>자동</em>은 iPhone의 라이트·다크 모드 설정을 따라요.</li>\n  <li><strong>세션 중</strong>: 배경 음악, 효과음, 햅틱 피드백.</li>\n  <li><strong>나의 하루 의식</strong>: <em>매일 집중</em>(오늘의 명화 위젯의 안개를 걷어내는 목표)과 매일 알림.</li>\n  <li><strong>응원하기</strong>: <a href=\"{l}guides/patronage/\">후원자 되기</a>와 토요일 메모.</li>\n  <li><strong>Easel 소개</strong>: 언어, 만든 사람 소개, 소개 다시 보기, 개인정보 처리방침, 의견 보내기.</li>\n</ol>\n<h2 id=\"language\">언어</h2>\n<p>Easel은 영어, 폴란드어, 스페인어, 프랑스어, 중국어(간체), 힌디어, 일본어, 한국어, 브라질 포르투갈어를 지원해요. 설정에서 <strong>언어</strong>를 탭하면 iOS의 Easel 설정 페이지가 열리고, 원하는 언어를 고르면 Easel이 새 언어로 다시 시작돼요.</p>\n<h2 id=\"intro\">소개 다시 보기</h2>\n<p><strong>소개 보기</strong>(<em>Easel 소개</em> 항목)를 탭하면 Easel 사용법을 담은 네 페이지 소개를 다시 볼 수 있어요.</p>\n"
+ },
+ {
+  "slug": "patronage",
+  "nav": "후원",
+  "room": "응원하기",
+  "title": "후원: Easel 응원하기",
+  "seo": "Easel은 무료인가요? 후원과 선택 사항인 팁",
+  "desc": "Easel은 광고도 구독도 없는 무료 앱이에요. 응원하고 싶다면 고운 붓 한 자루, 안료 한 상자, 금박 액자 중 하나로 일회성 팁을 남길 수 있어요. 팁으로 잠금 해제되는 것은 없어요.",
+  "card": "Easel은 광고도 구독도 없는 무료 앱이에요.",
+  "lede": "Easel은 무료이며 한 사람이 만들어요. 모든 갤러리에는 후원자가 있죠. Easel이 하루에 작은 평온을 드렸다면, 그 후원자가 되어 주세요. 원하실 때만요.",
+  "body": "\n<h2 id=\"gifts\">선물</h2>\n<p><em>설정 → 응원하기 → 후원자 되기</em>를 여세요. 세 가지 일회성 선물이 있어요.</p>\n<ul>\n  <li><strong>고운 붓 한 자루</strong>: 앱을 더 좋게 만드는 작고 섬세한 붓질을 위해.</li>\n  <li><strong>안료 한 상자</strong>: 다음에 올 무엇이든을 위한 새로운 색.</li>\n  <li><strong>금박 액자</strong>: 작품 전체를 벽에 겁니다. 진정한 후원자의 선물.</li>\n</ul>\n<p>가격은 App Store에서 현지 통화로 표시돼요.</p>\n<div class=\"figs\"><figure><div class=\"shot\"><img src=\"{p}assets/img/shot-patronage.jpg\" width=\"603\" height=\"1311\" loading=\"lazy\" alt=\"후원 페이지: 모든 갤러리에는 후원자가 있습니다, 세 가지 선물: 고운 붓 한 자루 $2.99, 안료 한 상자 $4.99, 금박 액자 $9.99.\"></div><figcaption>설정의 후원 페이지.</figcaption></figure></div>\n<h2 id=\"what-it-does\">팁을 보내면</h2>\n<p>앱에서 달라지는 것은 없어요. Easel의 모든 것은 이미 당신의 것이니까요. 팁은 구독이 아닌 일회성 구입이며, 전적으로 Apple이 처리해요. 팁을 보내면 토요일 메모가 더는 오지 않아요.</p>\n<p>돈이 들지 않는 다른 응원 방법도 있어요. App Store에서 Easel을 평가하거나, 그림을 공유하거나, <a href=\"https://markockidev.canny.io/easel\">의견 게시판</a>에 아이디어를 보내 주세요.</p>\n"
+ },
+ {
+  "slug": "troubleshooting",
+  "nav": "문제 해결",
+  "room": "도움말",
+  "title": "문제 해결과 길 찾기",
+  "seo": "Easel 도움말: 문제 해결과 앱 둘러보기",
+  "desc": "Easel 도움말: 홈 화면으로 돌아가기, 그림이 불러와지지 않을 때, 실시간 현황이나 알림이 보이지 않을 때, 위젯의 안개가 걷히지 않을 때, iPad 키보드 단축키, 문의 방법.",
+  "card": "Easel 도움말: 홈 화면으로 돌아가기, 그림이 불러와지지 않을 때, 실시간 현황이나 알림이 보이지 않을 때, 위젯의 안개가 걷히지 않을 때, iPad 키보드 단축키, 문의 방법.",
+  "lede": "기대한 곳에 무언가가 없나요? 여기서부터 시작하세요. 궁금한 점이 해결되지 않으면 연락 주세요. 도와 드릴게요.",
+  "body": "\n<h2 id=\"lost\">홈 화면으로 돌아가기</h2>\n<ul>\n  <li><strong>갤러리</strong>와 <strong>설정</strong>은 왼쪽 위의 <strong>‹</strong>(또는 가장자리에서 쓸어넘기기)로 닫혀요. 갤러리는 왼쪽으로, 설정은 오른쪽으로 들어가요.</li>\n  <li><strong>통계</strong>는 왼쪽 위의 <strong>⌄</strong>로 닫혀요.</li>\n  <li><strong>시트</strong>(컬렉션, 공유, 미술관 레이블)는 <strong>완료</strong>나 아래로 쓸어내리기로 닫혀요.</li>\n  <li><strong>집중 질문</strong>은 <strong>‹</strong>로 닫히며, 세션은 시작되지 않아요.</li>\n  <li><strong>세션 중</strong>에는 <strong>종료</strong>를 누르고 확인하면 홈으로 돌아가요.</li>\n  <li>키보드를 연결한 iPad에서는 어디서든 <kbd>Esc</kbd>로 뒤로 갈 수 있어요.</li>\n</ul>\n<h2 id=\"wont-load\">“그림을 불러올 수 없습니다”</h2>\n<p>Easel은 세션이 시작되기 전에 새 그림을 다운로드하므로, 시작을 탭할 때 인터넷 연결이 필요해요. 연결을 확인하고 <strong>다시 시도</strong>를 탭하세요. 이미 본 그림은 기기에 보관되므로 갤러리는 오프라인에서도 볼 수 있어요.</p>\n<h2 id=\"live\">잠금 화면에 실시간 현황이 보이지 않아요</h2>\n<p>iPhone 설정 앱 → <em>앱 → Easel</em>을 열고 <strong>실시간 현황</strong>을 켜세요. 처음 물어봤을 때 <em>허용 안 함</em>을 탭했다면 여기서 바꿀 수 있어요.</p>\n<h2 id=\"reminder\">매일 알림이 오지 않아요</h2>\n<ul>\n  <li>iPhone 설정 앱 → <em>앱 → Easel → 알림</em>에서 알림이 켜져 있는지 확인하세요.</li>\n  <li>오늘 이미 집중했다면 알림은 내일까지 기다려요. 의도된 동작이에요.</li>\n  <li>집중 모드와 예약 요약 때문에 알림이 늦게 도착할 수 있어요.</li>\n</ul>\n<h2 id=\"widget\">위젯의 안개가 걷히지 않아요</h2>\n<p>안개는 완료한 세션으로만 걷히며, 일찍 종료한 세션은 포함되지 않아요. 하루 목표는 <em>설정 → 매일 집중</em>에서 정해요. 위젯은 Easel이 세션을 저장할 때 새로 고쳐지므로, 멈춘 것 같다면 Easel을 한 번 열어 주세요.</p>\n<h2 id=\"streak\">연속 기록이 초기화됐어요</h2>\n<p>연속 기록은 세션을 하나 이상 완료한 날이 이어진 일수예요. 완료한 세션이 없는 날이 있으면 기록이 끊겨요. 최장 연속 기록은 통계에 남아 있어요.</p>\n<h2 id=\"keyboard\">iPad 키보드 단축키</h2>\n<div class=\"table-wrap\"><table class=\"data\">\n  <tr><th scope=\"col\">키</th><th scope=\"col\">기능</th></tr>\n  <tr><td><kbd>Return</kbd></td><td>세션 시작, 그림이 공개되면 완료</td></tr>\n  <tr><td><kbd>Esc</kbd></td><td>세션 종료(확인 후), 패널 닫기</td></tr>\n  <tr><td><kbd>⌘</kbd> <kbd>G</kbd></td><td>갤러리 열기</td></tr>\n  <tr><td><kbd>⌘</kbd> <kbd>,</kbd></td><td>설정 열기</td></tr>\n  <tr><td><kbd>⌘</kbd> <kbd>⇧</kbd> <kbd>S</kbd></td><td>통계 열기</td></tr>\n</table></div>\n<h2 id=\"data\">새 iPhone으로 옮기기</h2>\n<p>갤러리와 기록은 기기에 있어요. iPhone 백업이나 새 iPhone으로 직접 전송하면 함께 옮겨져요. Easel에는 자체 계정이나 서버가 없어요. Easel을 삭제하면 갤러리와 기록도 삭제돼요.</p>\n<h2 id=\"contact\">아직 해결되지 않았나요?</h2>\n<p><a href=\"mailto:adam@easelfocus.app\">adam@easelfocus.app</a>로 메일을 보내거나 <a href=\"https://markockidev.canny.io/easel\">의견 게시판</a>에 글을 남겨 주세요. <a href=\"{l}faq/\">자주 묻는 질문</a>도 둘러볼 수 있어요.</p>\n"
+ }
+]

@@ -1,0 +1,108 @@
+<!doctype html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>Easelの使い方ガイド：名画が現れる集中タイマー</title>
+  <meta name="description" content="iPhone・iPad向け集中タイマーEaselの図解ガイド。はじめてのセッション、霧が晴れていく仕組み、ポモドーロタイマー、コレクション、ギャラリー、共有、統計、ウィジェット、リマインダー、トラブルシューティングまで。">
+  <link rel="canonical" href="https://markockidev.github.io/Easel-Focus-Website/ja/guides/">
+  <link rel="alternate" hreflang="en" href="https://markockidev.github.io/Easel-Focus-Website/guides/">
+  <link rel="alternate" hreflang="pl" href="https://markockidev.github.io/Easel-Focus-Website/pl/guides/">
+  <link rel="alternate" hreflang="es" href="https://markockidev.github.io/Easel-Focus-Website/es/guides/">
+  <link rel="alternate" hreflang="fr" href="https://markockidev.github.io/Easel-Focus-Website/fr/guides/">
+  <link rel="alternate" hreflang="zh-Hans" href="https://markockidev.github.io/Easel-Focus-Website/zh-hans/guides/">
+  <link rel="alternate" hreflang="hi" href="https://markockidev.github.io/Easel-Focus-Website/hi/guides/">
+  <link rel="alternate" hreflang="ja" href="https://markockidev.github.io/Easel-Focus-Website/ja/guides/">
+  <link rel="alternate" hreflang="ko" href="https://markockidev.github.io/Easel-Focus-Website/ko/guides/">
+  <link rel="alternate" hreflang="pt-BR" href="https://markockidev.github.io/Easel-Focus-Website/pt-br/guides/">
+  <link rel="alternate" hreflang="x-default" href="https://markockidev.github.io/Easel-Focus-Website/guides/">
+  <meta name="apple-itunes-app" content="app-id=6793262483">
+  <meta name="theme-color" content="#F5F2EC">
+  <meta property="og:type" content="article">
+  <meta property="og:site_name" content="Easel">
+  <meta property="og:locale" content="ja">
+  <meta property="og:title" content="Easelの使い方">
+  <meta property="og:description" content="iPhone・iPad向け集中タイマーEaselの図解ガイド。はじめてのセッション、霧が晴れていく仕組み、ポモドーロタイマー、コレクション、ギャラリー、共有、統計、ウィジェット、リマインダー、トラブルシューティングまで。">
+  <meta property="og:url" content="https://markockidev.github.io/Easel-Focus-Website/ja/guides/">
+  <meta property="og:image" content="https://markockidev.github.io/Easel-Focus-Website/assets/img/og.jpg">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Easelの使い方">
+  <meta name="twitter:description" content="iPhone・iPad向け集中タイマーEaselの図解ガイド。はじめてのセッション、霧が晴れていく仕組み、ポモドーロタイマー、コレクション、ギャラリー、共有、統計、ウィジェット、リマインダー、トラブルシューティングまで。">
+  <meta name="twitter:image" content="https://markockidev.github.io/Easel-Focus-Website/assets/img/og.jpg">
+  <link rel="icon" href="../../favicon-32.png" sizes="32x32" type="image/png">
+  <link rel="icon" href="../../assets/img/icon-192.png" sizes="192x192" type="image/png">
+  <link rel="apple-touch-icon" href="../../apple-touch-icon.png">
+  <link rel="stylesheet" href="../../assets/site.css?v=5">
+  <script>document.documentElement.classList.add('js');try{var t=localStorage.getItem('easel-theme');if(t==='light'||t==='dark')document.documentElement.setAttribute('data-theme',t)}catch(e){}</script>
+  <script type="application/ld+json">{"@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Easel", "item": "https://markockidev.github.io/Easel-Focus-Website/ja/"}, {"@type": "ListItem", "position": 2, "name": "ガイド", "item": "https://markockidev.github.io/Easel-Focus-Website/ja/guides/"}]}</script>
+</head>
+<body class="has-getbar">
+  <a class="skip" href="#main">本文へスキップ</a>
+  <header class="top">
+    <div class="wrap">
+      <a class="brand" href="../../ja/" aria-label="Easel ホーム">
+        <img src="../../assets/img/icon.jpg" alt="" width="36" height="36">
+        <span>Easel</span>
+      </a>
+      <nav class="primary" aria-label="メイン"><a href="../../ja/guides/" aria-current="page">ガイド</a><a href="../../ja/faq/">よくある質問</a><a href="../../ja/privacy/">プライバシー</a></nav>
+      <div class="tools">
+        <details class="lang pop">
+          <summary title="言語" aria-label="言語: 日本語"><svg aria-hidden="true" viewBox="0 0 24 24" width="18" height="18"><circle cx="12" cy="12" r="9" fill="none" stroke="currentColor" stroke-width="1.5"/><path d="M3 12h18M12 3c2.6 2.6 3.8 5.6 3.8 9s-1.2 6.4-3.8 9c-2.6-2.6-3.8-5.6-3.8-9S9.4 5.6 12 3z" fill="none" stroke="currentColor" stroke-width="1.5"/></svg><span>日本語</span><svg class="chev" aria-hidden="true" viewBox="0 0 12 12" width="10" height="10"><path d="M2.5 4.5 6 8l3.5-3.5" fill="none" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"/></svg></summary>
+          <div class="pop-panel"><ul class="langs"><li><a href="../../guides/" hreflang="en" lang="en" data-lang="en">English</a></li><li><a href="../../pl/guides/" hreflang="pl" lang="pl" data-lang="pl">Polski</a></li><li><a href="../../es/guides/" hreflang="es" lang="es" data-lang="es">Español</a></li><li><a href="../../fr/guides/" hreflang="fr" lang="fr" data-lang="fr">Français</a></li><li><a href="../../zh-hans/guides/" hreflang="zh-Hans" lang="zh-Hans" data-lang="zh-Hans">简体中文</a></li><li><a href="../../hi/guides/" hreflang="hi" lang="hi" data-lang="hi">हिन्दी</a></li><li><a href="../../ja/guides/" hreflang="ja" lang="ja" data-lang="ja" aria-current="true">日本語</a></li><li><a href="../../ko/guides/" hreflang="ko" lang="ko" data-lang="ko">한국어</a></li><li><a href="../../pt-br/guides/" hreflang="pt-BR" lang="pt-BR" data-lang="pt-BR">Português (Brasil)</a></li></ul></div>
+        </details>
+        <button class="theme-toggle" type="button" title="外観" data-to-dark="夜の外観に切り替える" data-to-light="昼の外観に切り替える" aria-label="夜の外観に切り替える"><svg class="i-sun" aria-hidden="true" viewBox="0 0 24 24" width="20" height="20"><circle cx="12" cy="12" r="4.2" fill="none" stroke="currentColor" stroke-width="1.5"/><path d="M12 2.5v2.2M12 19.3v2.2M4.6 4.6l1.6 1.6M17.8 17.8l1.6 1.6M2.5 12h2.2M19.3 12h2.2M4.6 19.4l1.6-1.6M17.8 6.2l1.6-1.6" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/></svg><svg class="i-moon" aria-hidden="true" viewBox="0 0 24 24" width="20" height="20"><path d="M19.5 14.6A8 8 0 0 1 9.4 4.5a8 8 0 1 0 10.1 10.1z" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"/></svg></button>
+        <a class="get" href="https://apps.apple.com/app/id6793262483">ダウンロード</a>
+        <details class="menu pop">
+          <summary title="メニュー" aria-label="メニュー"><svg aria-hidden="true" viewBox="0 0 24 24" width="22" height="22"><path d="M4 8.5h16M4 15.5h16" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/></svg></summary>
+          <div class="pop-panel menu-panel">
+            <nav class="menu-links" aria-label="メニュー"><a href="../../ja/">ホーム</a><a href="../../ja/guides/" aria-current="page">ガイド</a><a href="../../ja/faq/">よくある質問</a><a href="../../ja/privacy/">プライバシー</a></nav>
+            <p class="label">外観</p>
+            <div class="seg" role="group" aria-label="外観"><button type="button" data-theme-set="auto" aria-pressed="false">自動</button><button type="button" data-theme-set="light" aria-pressed="false">昼</button><button type="button" data-theme-set="dark" aria-pressed="false">夜</button></div>
+            <p class="label">言語</p>
+            <ul class="langs"><li><a href="../../guides/" hreflang="en" lang="en" data-lang="en">English</a></li><li><a href="../../pl/guides/" hreflang="pl" lang="pl" data-lang="pl">Polski</a></li><li><a href="../../es/guides/" hreflang="es" lang="es" data-lang="es">Español</a></li><li><a href="../../fr/guides/" hreflang="fr" lang="fr" data-lang="fr">Français</a></li><li><a href="../../zh-hans/guides/" hreflang="zh-Hans" lang="zh-Hans" data-lang="zh-Hans">简体中文</a></li><li><a href="../../hi/guides/" hreflang="hi" lang="hi" data-lang="hi">हिन्दी</a></li><li><a href="../../ja/guides/" hreflang="ja" lang="ja" data-lang="ja" aria-current="true">日本語</a></li><li><a href="../../ko/guides/" hreflang="ko" lang="ko" data-lang="ko">한국어</a></li><li><a href="../../pt-br/guides/" hreflang="pt-BR" lang="pt-BR" data-lang="pt-BR">Português (Brasil)</a></li></ul>
+          </div>
+        </details>
+      </div>
+    </div>
+  </header>
+
+  <main id="main">
+    <div class="wrap">
+      <header class="page-head">
+        <nav class="crumbs" aria-label="パンくずリスト"><a href="../../ja/">Easel</a> <span aria-hidden="true">/</span> <span aria-current="page">ガイド</span></nav>
+        <p class="label">展示ガイド</p>
+        <h1>Easelの使い方</h1>
+        <p class="lede">はじめてのセッションから、ウィジェット、ポモドーロ、年間のふり返りまで。アプリのすべての展示室を、図解つきの短いガイドでご案内します。Easelの中で迷ったときは、ここに戻ってきてください。</p>
+      </header>
+      <div class="cards"><a class="card" href="../../ja/guides/getting-started/"><span class="n">I</span><h2>はじめに</h2><p>Easelではじめての集中セッションをステップごとに。集中する時間を選んで始めると、メトロポリタン美術館の絵が霧の中から現れ、0:00で完全に公開されます。</p></a><a class="card" href="../../ja/guides/focus-sessions/"><span class="n">II</span><h2>集中セッション</h2><p>Easelの集中セッションの仕組み：霧が晴れていく演出、タイマー、アプリを離れたりiPhoneをロックしたりしたとき、途中での終了、環境音楽、効果音、触覚フィードバック。</p></a><a class="card" href="../../ja/guides/focus-question/"><span class="n">III</span><h2>何に集中しますか？</h2><p>Easelのセッションに目的を。目的を入力するか、最近の目的を使うか、勉強、仕事、執筆、読書などのテーマを選びましょう。</p></a><a class="card" href="../../ja/guides/pomodoro/"><span class="n">IV</span><h2>ポモドーロ</h2><p>Easelのポモドーロモード：25分の集中ブロックを5分の休憩をはさんで4回、ブロックごとに新しい絵が現れます。</p></a><a class="card" href="../../ja/guides/collections/"><span class="n">V</span><h2>コレクション</h2><p>Easelでは606点すべての作品と集中することも、コレクションを選ぶこともできます。ヨーロッパ絵画、浮世絵・版画、アメリカ絵画、花鳥画、北斎やレンブラントのようなひとりの画家、あるいはひとつの時代。</p></a><a class="card" href="../../ja/guides/gallery/"><span class="n">VI</span><h2>あなたのギャラリー</h2><p>Easelで公開した作品は、すべてギャラリーに飾られます。</p></a><a class="card" href="../../ja/guides/sharing/"><span class="n">VII</span><h2>共有</h2><p>Easelで手にした作品を、ストーリーズ (9:16) または投稿 (4:5) の額装カードとして共有しましょう。</p></a><a class="card" href="../../ja/guides/statistics/"><span class="n">VIII</span><h2>統計と連続記録</h2><p>Easelが集中時間、作品、連続記録をどう数えるか：週のグラフ、16週間の集中カレンダー、現在の連続記録と最長記録、作品10点・25点・50点・100点の節目。</p></a><a class="card" href="../../ja/guides/year-in-review/"><span class="n">IX</span><h2>年間のふり返り</h2><p>毎年12月、Easelの年間のふり返りがあなたの一年の集中を小さな展覧会に仕立てます。集中した時間、公開した名画、いちばん寄り添った画家、最長の連続記録、そして今年の一枚。</p></a><a class="card" href="../../ja/guides/widgets-and-live-activities/"><span class="n">X</span><h2>ウィジェットとライブアクティビティ</h2><p>Easelの「今日の名画」と「集中と連続記録」ウィジェットをホーム画面、ロック画面、スタンバイに追加し、ライブアクティビティでセッションを確認し、Siri、ショートカット、コントロールセンターから集中を始めましょう。</p></a><a class="card" href="../../ja/guides/reminders-and-notifications/"><span class="n">XI</span><h2>リマインダー</h2><p>Easelのやさしい毎日のリマインダーをオンにして時刻を選びましょう。Easelが送るそのほかの通知と、それぞれをオフにする方法もご紹介します。</p></a><a class="card" href="../../ja/guides/settings-and-appearance/"><span class="n">XII</span><h2>設定と外観</h2><p>Easelの設定をひとめぐり：外観（昼、夜、自動）、環境音楽、効果音、触覚フィードバック、1日の目標、言語、紹介、プライバシー、フィードバック。</p></a><a class="card" href="../../ja/guides/patronage/"><span class="n">XIII</span><h2>パトロン</h2><p>Easelは無料で、広告もサブスクリプションもありません。</p></a><a class="card" href="../../ja/guides/troubleshooting/"><span class="n">XIV</span><h2>トラブルシューティング</h2><p>Easelのヘルプ：ホーム画面への戻り方、絵が読み込めないとき、ライブアクティビティやリマインダーが表示されないとき、ウィジェットの霧が晴れないとき、iPadのキーボードショートカット、お問い合わせ方法。</p></a></div>
+    </div>
+  </main>
+
+  <footer>
+    <div class="wrap">
+      <div class="row">
+        <a class="brand" href="../../ja/" aria-label="Easel ホーム"><img src="../../assets/img/icon.jpg" alt="" width="36" height="36" loading="lazy"><span>Easel</span></a>
+        <nav aria-label="フッター">
+          <a href="https://apps.apple.com/app/id6793262483">App Store</a>
+          <a href="../../ja/guides/">ガイド</a>
+          <a href="../../ja/faq/">よくある質問</a>
+          <a href="../../ja/privacy/">プライバシーポリシー</a>
+          <a href="https://markockidev.canny.io/easel">フィードバックとアイデア</a>
+          <a href="mailto:adam@easelfocus.app">お問い合わせ</a>
+          <a href="https://markockiadam.com">開発者について</a>
+        </nav>
+      </div>
+      <p class="fine">作品はメトロポリタン美術館のオープンアクセス・コレクションに収められたパブリックドメインの作品です。Easelは独立したアプリであり、メトロポリタン美術館とは提携しておらず、同館の推奨を受けたものでもありません。Apple、Appleのロゴ、iPhone、iPadは、米国その他の国や地域で登録されたApple Inc.の商標です。App Storeは、Apple Inc.のサービスマークです。</p>
+    </div>
+  </footer>
+  <div class="getbar" role="complementary" aria-label="Easelを入手">
+    <img class="icon" src="../../assets/img/icon.jpg" alt="" width="40" height="40">
+    <span class="t"><b>Easel</b><span>集中タイマー＆アート</span></span>
+    <a class="badge" href="https://apps.apple.com/app/id6793262483"><img class="on-light" src="../../assets/img/badges/ja-jp-black.svg" alt="App Storeからダウンロード" width="109" height="40" loading="lazy"><img class="on-dark" src="../../assets/img/badges/ja-jp-white.svg" alt="App Storeからダウンロード" width="109" height="40" loading="lazy"></a>
+  </div>
+  <script type="application/json" id="i18n" data-lang="ja" data-root="../../">{"en": {"text": "This page is also available in English.", "link": "Read in English", "dismiss": "Dismiss", "path": "guides/", "hl": "en"}, "pl": {"text": "Ta strona jest dostępna także po polsku.", "link": "Czytaj po polsku", "dismiss": "Zamknij", "path": "pl/guides/", "hl": "pl"}, "es": {"text": "Esta página también está disponible en español.", "link": "Leer en español", "dismiss": "Cerrar", "path": "es/guides/", "hl": "es"}, "fr": {"text": "Cette page est aussi disponible en français.", "link": "Lire en français", "dismiss": "Fermer", "path": "fr/guides/", "hl": "fr"}, "zh-Hans": {"text": "本页面也提供简体中文版本。", "link": "阅读中文版", "dismiss": "关闭", "path": "zh-hans/guides/", "hl": "zh-Hans"}, "hi": {"text": "यह पेज हिन्दी में भी उपलब्ध है।", "link": "हिन्दी में पढ़ें", "dismiss": "बंद करें", "path": "hi/guides/", "hl": "hi"}, "ja": {"text": "このページは日本語でもご覧いただけます。", "link": "日本語で読む", "dismiss": "閉じる", "path": "ja/guides/", "hl": "ja"}, "ko": {"text": "이 페이지는 한국어로도 볼 수 있어요.", "link": "한국어로 읽기", "dismiss": "닫기", "path": "ko/guides/", "hl": "ko"}, "pt-BR": {"text": "Esta página também está disponível em português.", "link": "Ler em português", "dismiss": "Fechar", "path": "pt-br/guides/", "hl": "pt-BR"}}</script>
+  <script src="../../assets/site.js?v=5" defer></script>
+</body>
+</html>

@@ -1,0 +1,138 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>Widgets do Easel: Pintura do dia, Atividade ao Vivo e Central de Controle</title>
+  <meta name="description" content="Adicione os widgets Pintura do dia e Foco e sequência do Easel à Tela de Início, à Tela Bloqueada ou à Mesa de Cabeceira, acompanhe as sessões numa Atividade ao Vivo e comece a se concentrar pela Siri, pelo app Atalhos ou pela Central de Controle.">
+  <link rel="canonical" href="https://markockidev.github.io/Easel-Focus-Website/pt-br/guides/widgets-and-live-activities/">
+  <link rel="alternate" hreflang="en" href="https://markockidev.github.io/Easel-Focus-Website/guides/widgets-and-live-activities/">
+  <link rel="alternate" hreflang="pl" href="https://markockidev.github.io/Easel-Focus-Website/pl/guides/widgets-and-live-activities/">
+  <link rel="alternate" hreflang="es" href="https://markockidev.github.io/Easel-Focus-Website/es/guides/widgets-and-live-activities/">
+  <link rel="alternate" hreflang="fr" href="https://markockidev.github.io/Easel-Focus-Website/fr/guides/widgets-and-live-activities/">
+  <link rel="alternate" hreflang="zh-Hans" href="https://markockidev.github.io/Easel-Focus-Website/zh-hans/guides/widgets-and-live-activities/">
+  <link rel="alternate" hreflang="hi" href="https://markockidev.github.io/Easel-Focus-Website/hi/guides/widgets-and-live-activities/">
+  <link rel="alternate" hreflang="ja" href="https://markockidev.github.io/Easel-Focus-Website/ja/guides/widgets-and-live-activities/">
+  <link rel="alternate" hreflang="ko" href="https://markockidev.github.io/Easel-Focus-Website/ko/guides/widgets-and-live-activities/">
+  <link rel="alternate" hreflang="pt-BR" href="https://markockidev.github.io/Easel-Focus-Website/pt-br/guides/widgets-and-live-activities/">
+  <link rel="alternate" hreflang="x-default" href="https://markockidev.github.io/Easel-Focus-Website/guides/widgets-and-live-activities/">
+  <meta name="apple-itunes-app" content="app-id=6793262483">
+  <meta name="theme-color" content="#F5F2EC">
+  <meta property="og:type" content="article">
+  <meta property="og:site_name" content="Easel">
+  <meta property="og:locale" content="pt_BR">
+  <meta property="og:title" content="Widgets, Atividades ao Vivo, Siri e Central de Controle">
+  <meta property="og:description" content="Adicione os widgets Pintura do dia e Foco e sequência do Easel à Tela de Início, à Tela Bloqueada ou à Mesa de Cabeceira, acompanhe as sessões numa Atividade ao Vivo e comece a se concentrar pela Siri, pelo app Atalhos ou pela Central de Controle.">
+  <meta property="og:url" content="https://markockidev.github.io/Easel-Focus-Website/pt-br/guides/widgets-and-live-activities/">
+  <meta property="og:image" content="https://markockidev.github.io/Easel-Focus-Website/assets/img/og.jpg">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Widgets, Atividades ao Vivo, Siri e Central de Controle">
+  <meta name="twitter:description" content="Adicione os widgets Pintura do dia e Foco e sequência do Easel à Tela de Início, à Tela Bloqueada ou à Mesa de Cabeceira, acompanhe as sessões numa Atividade ao Vivo e comece a se concentrar pela Siri, pelo app Atalhos ou pela Central de Controle.">
+  <meta name="twitter:image" content="https://markockidev.github.io/Easel-Focus-Website/assets/img/og.jpg">
+  <link rel="icon" href="../../../favicon-32.png" sizes="32x32" type="image/png">
+  <link rel="icon" href="../../../assets/img/icon-192.png" sizes="192x192" type="image/png">
+  <link rel="apple-touch-icon" href="../../../apple-touch-icon.png">
+  <link rel="stylesheet" href="../../../assets/site.css?v=5">
+  <script>document.documentElement.classList.add('js');try{var t=localStorage.getItem('easel-theme');if(t==='light'||t==='dark')document.documentElement.setAttribute('data-theme',t)}catch(e){}</script>
+  <script type="application/ld+json">{"@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Easel", "item": "https://markockidev.github.io/Easel-Focus-Website/pt-br/"}, {"@type": "ListItem", "position": 2, "name": "Guias", "item": "https://markockidev.github.io/Easel-Focus-Website/pt-br/guides/"}, {"@type": "ListItem", "position": 3, "name": "Widgets e Atividades ao Vivo", "item": "https://markockidev.github.io/Easel-Focus-Website/pt-br/guides/widgets-and-live-activities/"}]}</script>
+  <script type="application/ld+json">{"@context": "https://schema.org", "@type": "TechArticle", "inLanguage": "pt-BR", "headline": "Widgets, Atividades ao Vivo, Siri e Central de Controle", "description": "Adicione os widgets Pintura do dia e Foco e sequência do Easel à Tela de Início, à Tela Bloqueada ou à Mesa de Cabeceira, acompanhe as sessões numa Atividade ao Vivo e comece a se concentrar pela Siri, pelo app Atalhos ou pela Central de Controle.", "dateModified": "2026-11-17", "about": {"@type": "MobileApplication", "name": "Easel: Focus Timer & Art", "operatingSystem": "iOS"}, "author": {"@type": "Person", "name": "Adam", "url": "https://markockiadam.com"}, "mainEntityOfPage": "https://markockidev.github.io/Easel-Focus-Website/pt-br/guides/widgets-and-live-activities/"}</script>
+</head>
+<body class="has-getbar">
+  <a class="skip" href="#main">Pular para o conteúdo</a>
+  <header class="top">
+    <div class="wrap">
+      <a class="brand" href="../../../pt-br/" aria-label="Easel, início">
+        <img src="../../../assets/img/icon.jpg" alt="" width="36" height="36">
+        <span>Easel</span>
+      </a>
+      <nav class="primary" aria-label="Principal"><a href="../../../pt-br/guides/" aria-current="page">Guias</a><a href="../../../pt-br/faq/">Perguntas</a><a href="../../../pt-br/privacy/">Privacidade</a></nav>
+      <div class="tools">
+        <details class="lang pop">
+          <summary title="Idioma" aria-label="Idioma: Português (Brasil)"><svg aria-hidden="true" viewBox="0 0 24 24" width="18" height="18"><circle cx="12" cy="12" r="9" fill="none" stroke="currentColor" stroke-width="1.5"/><path d="M3 12h18M12 3c2.6 2.6 3.8 5.6 3.8 9s-1.2 6.4-3.8 9c-2.6-2.6-3.8-5.6-3.8-9S9.4 5.6 12 3z" fill="none" stroke="currentColor" stroke-width="1.5"/></svg><span>Português (Brasil)</span><svg class="chev" aria-hidden="true" viewBox="0 0 12 12" width="10" height="10"><path d="M2.5 4.5 6 8l3.5-3.5" fill="none" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"/></svg></summary>
+          <div class="pop-panel"><ul class="langs"><li><a href="../../../guides/widgets-and-live-activities/" hreflang="en" lang="en" data-lang="en">English</a></li><li><a href="../../../pl/guides/widgets-and-live-activities/" hreflang="pl" lang="pl" data-lang="pl">Polski</a></li><li><a href="../../../es/guides/widgets-and-live-activities/" hreflang="es" lang="es" data-lang="es">Español</a></li><li><a href="../../../fr/guides/widgets-and-live-activities/" hreflang="fr" lang="fr" data-lang="fr">Français</a></li><li><a href="../../../zh-hans/guides/widgets-and-live-activities/" hreflang="zh-Hans" lang="zh-Hans" data-lang="zh-Hans">简体中文</a></li><li><a href="../../../hi/guides/widgets-and-live-activities/" hreflang="hi" lang="hi" data-lang="hi">हिन्दी</a></li><li><a href="../../../ja/guides/widgets-and-live-activities/" hreflang="ja" lang="ja" data-lang="ja">日本語</a></li><li><a href="../../../ko/guides/widgets-and-live-activities/" hreflang="ko" lang="ko" data-lang="ko">한국어</a></li><li><a href="../../../pt-br/guides/widgets-and-live-activities/" hreflang="pt-BR" lang="pt-BR" data-lang="pt-BR" aria-current="true">Português (Brasil)</a></li></ul></div>
+        </details>
+        <button class="theme-toggle" type="button" title="Aparência" data-to-dark="Mudar para a aparência noturna" data-to-light="Mudar para a aparência diurna" aria-label="Mudar para a aparência noturna"><svg class="i-sun" aria-hidden="true" viewBox="0 0 24 24" width="20" height="20"><circle cx="12" cy="12" r="4.2" fill="none" stroke="currentColor" stroke-width="1.5"/><path d="M12 2.5v2.2M12 19.3v2.2M4.6 4.6l1.6 1.6M17.8 17.8l1.6 1.6M2.5 12h2.2M19.3 12h2.2M4.6 19.4l1.6-1.6M17.8 6.2l1.6-1.6" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/></svg><svg class="i-moon" aria-hidden="true" viewBox="0 0 24 24" width="20" height="20"><path d="M19.5 14.6A8 8 0 0 1 9.4 4.5a8 8 0 1 0 10.1 10.1z" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"/></svg></button>
+        <a class="get" href="https://apps.apple.com/app/id6793262483">Baixar</a>
+        <details class="menu pop">
+          <summary title="Menu" aria-label="Menu"><svg aria-hidden="true" viewBox="0 0 24 24" width="22" height="22"><path d="M4 8.5h16M4 15.5h16" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/></svg></summary>
+          <div class="pop-panel menu-panel">
+            <nav class="menu-links" aria-label="Menu"><a href="../../../pt-br/">Início</a><a href="../../../pt-br/guides/" aria-current="page">Guias</a><a href="../../../pt-br/faq/">Perguntas</a><a href="../../../pt-br/privacy/">Privacidade</a></nav>
+            <p class="label">Aparência</p>
+            <div class="seg" role="group" aria-label="Aparência"><button type="button" data-theme-set="auto" aria-pressed="false">Automático</button><button type="button" data-theme-set="light" aria-pressed="false">De dia</button><button type="button" data-theme-set="dark" aria-pressed="false">De noite</button></div>
+            <p class="label">Idioma</p>
+            <ul class="langs"><li><a href="../../../guides/widgets-and-live-activities/" hreflang="en" lang="en" data-lang="en">English</a></li><li><a href="../../../pl/guides/widgets-and-live-activities/" hreflang="pl" lang="pl" data-lang="pl">Polski</a></li><li><a href="../../../es/guides/widgets-and-live-activities/" hreflang="es" lang="es" data-lang="es">Español</a></li><li><a href="../../../fr/guides/widgets-and-live-activities/" hreflang="fr" lang="fr" data-lang="fr">Français</a></li><li><a href="../../../zh-hans/guides/widgets-and-live-activities/" hreflang="zh-Hans" lang="zh-Hans" data-lang="zh-Hans">简体中文</a></li><li><a href="../../../hi/guides/widgets-and-live-activities/" hreflang="hi" lang="hi" data-lang="hi">हिन्दी</a></li><li><a href="../../../ja/guides/widgets-and-live-activities/" hreflang="ja" lang="ja" data-lang="ja">日本語</a></li><li><a href="../../../ko/guides/widgets-and-live-activities/" hreflang="ko" lang="ko" data-lang="ko">한국어</a></li><li><a href="../../../pt-br/guides/widgets-and-live-activities/" hreflang="pt-BR" lang="pt-BR" data-lang="pt-BR" aria-current="true">Português (Brasil)</a></li></ul>
+          </div>
+        </details>
+      </div>
+    </div>
+  </header>
+
+  <main id="main">
+    <div class="wrap">
+      <header class="page-head">
+        <nav class="crumbs" aria-label="Trilha de navegação"><a href="../../../pt-br/">Easel</a> <span aria-hidden="true">/</span> <a href="../../../pt-br/guides/">Guias</a> <span aria-hidden="true">/</span> <span aria-current="page">Widgets e Atividades ao Vivo</span></nav>
+        <p class="label"><span class="numeral">X</span> &nbsp;Além do app</p>
+        <h1>Widgets, Atividades ao Vivo, Siri e Central de Controle</h1>
+        <p class="lede">O Easel vai além do app: uma pintura do dia que se revela enquanto você se concentra, sua sequência num relance, uma contagem regressiva na Tela Bloqueada e um botão na Central de Controle.</p>
+      </header>
+      <div class="doc">
+        <aside class="toc">
+          <details open><summary>Todos os guias</summary>
+            <nav aria-label="Os guias"><p class="label">Os guias</p><ol><li><a href="../../../pt-br/guides/getting-started/"><span class="n">I</span>Primeiros passos</a></li><li><a href="../../../pt-br/guides/focus-sessions/"><span class="n">II</span>Sessões de foco</a></li><li><a href="../../../pt-br/guides/focus-question/"><span class="n">III</span>No que você vai se concentrar?</a></li><li><a href="../../../pt-br/guides/pomodoro/"><span class="n">IV</span>Pomodoro</a></li><li><a href="../../../pt-br/guides/collections/"><span class="n">V</span>Coleções</a></li><li><a href="../../../pt-br/guides/gallery/"><span class="n">VI</span>Sua galeria</a></li><li><a href="../../../pt-br/guides/sharing/"><span class="n">VII</span>Compartilhamento</a></li><li><a href="../../../pt-br/guides/statistics/"><span class="n">VIII</span>Estatísticas e sequências</a></li><li><a href="../../../pt-br/guides/year-in-review/"><span class="n">IX</span>Retrospectiva do ano</a></li><li><a href="../../../pt-br/guides/widgets-and-live-activities/" aria-current="page"><span class="n">X</span>Widgets e Atividades ao Vivo</a></li><li><a href="../../../pt-br/guides/reminders-and-notifications/"><span class="n">XI</span>Lembretes</a></li><li><a href="../../../pt-br/guides/settings-and-appearance/"><span class="n">XII</span>Ajustes e aparência</a></li><li><a href="../../../pt-br/guides/patronage/"><span class="n">XIII</span>Mecenato</a></li><li><a href="../../../pt-br/guides/troubleshooting/"><span class="n">XIV</span>Solução de problemas</a></li></ol></nav>
+          </details>
+        </aside>
+        <article class="prose">
+
+<h2 id="painting-of-the-day">Widget Pintura do dia</h2>
+<p>Toda manhã, uma nova pintura é pendurada no widget, escondida na névoa. Cada minuto de foco a revela um pouco mais, do centro para as bordas. Alcance sua meta diária e ela é revelada por inteiro, com título e artista.</p>
+<p>Defina a meta em <em>Ajustes → Seu ritual diário → Foco por dia</em>: de 15 a 120 minutos, 25 por padrão.</p>
+<h2 id="add">Adicionar um widget</h2>
+<ol class="steps">
+  <li>Toque e mantenha pressionada uma área vazia da Tela de Início até os apps começarem a tremer.</li>
+  <li>Toque em <strong>Editar</strong> (ou <strong>+</strong>) no topo e depois em <strong>Adicionar Widget</strong>.</li>
+  <li>Busque por <strong>Easel</strong>, escolha <em>Pintura do dia</em> ou <em>Foco e sequência</em>, escolha um tamanho e toque em <strong>Adicionar Widget</strong>.</li>
+</ol>
+<p>Os dois widgets também têm tamanhos para a Tela Bloqueada (personalize a Tela Bloqueada e toque na área dos widgets), e o tamanho pequeno funciona na Mesa de Cabeceira.</p>
+<h2 id="live-activity">Atividade ao Vivo e Dynamic Island</h2>
+<p>Quando uma sessão começa, o Easel mostra a contagem regressiva na Tela Bloqueada e, nos iPhones que têm, na Dynamic Island, com a sua intenção e uma prévia suavemente desfocada da pintura. Quando a sessão termina, mostra a pintura revelada.</p>
+<div class="figs"><figure><div class="shot"><img src="../../../assets/img/shot-live.jpg" width="603" height="1311" loading="lazy" alt="A Tela Bloqueada do iPhone mostrando a Atividade ao Vivo do Easel com a intenção Terminar o rascunho do capítulo e uma contagem regressiva."></div><figcaption>A Atividade ao Vivo de uma sessão na Tela Bloqueada.</figcaption></figure></div>
+<p>Não aparece? No app Ajustes do iPhone, abra <em>Apps → Easel</em> e confira se <strong>Atividades ao Vivo</strong> está ativado.</p>
+<h2 id="siri">Siri e Atalhos</h2>
+<p>Diga <em>“Comece uma sessão de foco no Easel”</em>, <em>“Comece a se concentrar com o Easel”</em> ou <em>“Revele uma pintura no Easel”</em>. No app Atalhos, a ação <strong>Começar foco</strong> pode definir uma duração de 5 a 120 minutos, útil para automações.</p>
+<h2 id="control-center">Central de Controle (iOS 18 ou posterior)</h2>
+<p>Abra a Central de Controle, toque em <strong>+</strong>, depois em <strong>Adicionar um Controle</strong>, e busque por Easel. Um toque abre o Easel e começa com a sua escolha atual.</p>
+
+          <nav class="pager" aria-label="Mais guias"><a class="prev" href="../../../pt-br/guides/year-in-review/"><span class="label">‹ Anterior</span><span>Retrospectiva do ano</span></a><a class="next" href="../../../pt-br/guides/reminders-and-notifications/"><span class="label">Próximo ›</span><span>Lembretes</span></a></nav>
+        </article>
+      </div>
+    </div>
+  </main>
+
+  <footer>
+    <div class="wrap">
+      <div class="row">
+        <a class="brand" href="../../../pt-br/" aria-label="Easel, início"><img src="../../../assets/img/icon.jpg" alt="" width="36" height="36" loading="lazy"><span>Easel</span></a>
+        <nav aria-label="Rodapé">
+          <a href="https://apps.apple.com/app/id6793262483">App Store</a>
+          <a href="../../../pt-br/guides/">Guias</a>
+          <a href="../../../pt-br/faq/">Perguntas</a>
+          <a href="../../../pt-br/privacy/">Política de privacidade</a>
+          <a href="https://markockidev.canny.io/easel">Feedback e ideias</a>
+          <a href="mailto:adam@easelfocus.app">Contato</a>
+          <a href="https://markockiadam.com">O criador</a>
+        </nav>
+      </div>
+      <p class="fine">As pinturas são obras em domínio público da coleção Open Access do Metropolitan Museum of Art. O Easel é um app independente e não tem afiliação com o The Met nem é endossado por ele. Apple, o logotipo da Apple, iPhone e iPad são marcas comerciais da Apple Inc., registradas nos EUA e em outros países e regiões. App Store é uma marca de serviço da Apple Inc.</p>
+    </div>
+  </footer>
+  <div class="getbar" role="complementary" aria-label="Baixe o Easel">
+    <img class="icon" src="../../../assets/img/icon.jpg" alt="" width="40" height="40">
+    <span class="t"><b>Easel</b><span>Timer de foco e arte</span></span>
+    <a class="badge" href="https://apps.apple.com/app/id6793262483"><img class="on-light" src="../../../assets/img/badges/pt-br-black.svg" alt="Baixar na App Store" width="120" height="40" loading="lazy"><img class="on-dark" src="../../../assets/img/badges/pt-br-white.svg" alt="Baixar na App Store" width="120" height="40" loading="lazy"></a>
+  </div>
+  <script type="application/json" id="i18n" data-lang="pt-BR" data-root="../../../">{"en": {"text": "This page is also available in English.", "link": "Read in English", "dismiss": "Dismiss", "path": "guides/widgets-and-live-activities/", "hl": "en"}, "pl": {"text": "Ta strona jest dostępna także po polsku.", "link": "Czytaj po polsku", "dismiss": "Zamknij", "path": "pl/guides/widgets-and-live-activities/", "hl": "pl"}, "es": {"text": "Esta página también está disponible en español.", "link": "Leer en español", "dismiss": "Cerrar", "path": "es/guides/widgets-and-live-activities/", "hl": "es"}, "fr": {"text": "Cette page est aussi disponible en français.", "link": "Lire en français", "dismiss": "Fermer", "path": "fr/guides/widgets-and-live-activities/", "hl": "fr"}, "zh-Hans": {"text": "本页面也提供简体中文版本。", "link": "阅读中文版", "dismiss": "关闭", "path": "zh-hans/guides/widgets-and-live-activities/", "hl": "zh-Hans"}, "hi": {"text": "यह पेज हिन्दी में भी उपलब्ध है।", "link": "हिन्दी में पढ़ें", "dismiss": "बंद करें", "path": "hi/guides/widgets-and-live-activities/", "hl": "hi"}, "ja": {"text": "このページは日本語でもご覧いただけます。", "link": "日本語で読む", "dismiss": "閉じる", "path": "ja/guides/widgets-and-live-activities/", "hl": "ja"}, "ko": {"text": "이 페이지는 한국어로도 볼 수 있어요.", "link": "한국어로 읽기", "dismiss": "닫기", "path": "ko/guides/widgets-and-live-activities/", "hl": "ko"}, "pt-BR": {"text": "Esta página também está disponível em português.", "link": "Ler em português", "dismiss": "Fechar", "path": "pt-br/guides/widgets-and-live-activities/", "hl": "pt-BR"}}</script>
+  <script src="../../../assets/site.js?v=5" defer></script>
+</body>
+</html>

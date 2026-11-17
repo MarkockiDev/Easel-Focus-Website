@@ -1,0 +1,144 @@
+[
+ {
+  "group": "Sobre o Easel",
+  "items": [
+   {
+    "q": "O que é o Easel?",
+    "a": "O Easel é um timer de foco para iPhone e iPad. Você escolhe quanto tempo vai se concentrar, e uma pintura em domínio público do Metropolitan Museum of Art surge aos poucos da névoa enquanto você trabalha. Em 0:00 ela é revelada por inteiro e fica pendurada na sua própria galeria. <a href=\"{l}guides/getting-started/\">Primeiros passos</a>."
+   },
+   {
+    "q": "O Easel é gratuito?",
+    "a": "Sim. O Easel é gratuito para baixar e usar, sem anúncios, sem assinatura e sem nada bloqueado. Se quiser apoiá-lo, você pode deixar uma gorjeta única e opcional em Ajustes → Torne-se um mecenas. <a href=\"{l}guides/patronage/\">Sobre o mecenato</a>."
+   },
+   {
+    "q": "Em quais dispositivos o Easel funciona?",
+    "a": "iPhone e iPad com iOS ou iPadOS 17 ou posterior. Alguns recursos exigem versões mais recentes: o botão da Central de Controle precisa do iOS 18, e o visual Liquid Glass aparece no iOS 26."
+   },
+   {
+    "q": "Quais idiomas o Easel oferece?",
+    "a": "Inglês, polonês, espanhol, francês, chinês simplificado, hindi, japonês, coreano e português do Brasil. Altere em Ajustes → Idioma."
+   },
+   {
+    "q": "Preciso criar uma conta?",
+    "a": "Não. Não há cadastro, login nem conta de nenhum tipo. Abra o app e comece."
+   }
+  ]
+ },
+ {
+  "group": "As pinturas",
+  "items": [
+   {
+    "q": "De onde vêm as pinturas?",
+    "a": "Da coleção Open Access do The Met: obras em domínio público que o museu compartilha livremente. O Easel escolhe a partir de uma seleção feita à mão com mais de 600 obras, incluindo pinturas europeias, gravuras japonesas, paisagens americanas e flores e pássaros. O Easel é independente e não tem afiliação com o The Met."
+   },
+   {
+    "q": "As pinturas são adequadas para todas as idades?",
+    "a": "O Easel escolhe sempre a partir da sua própria seleção de obras célebres e tranquilas, nunca ao acaso em todo o acervo do museu, e a seleção é filtrada para evitar nudez e cenas violentas."
+   },
+   {
+    "q": "Posso escolher quais pinturas vejo?",
+    "a": "Sim. Toque no cartão abaixo de “Focar com” na tela inicial e escolha um estilo (Pintura europeia, Gravuras japonesas, Pintura americana, Flores e pássaros), um artista ou uma época. <a href=\"{l}guides/collections/\">Como funcionam as coleções</a>."
+   },
+   {
+    "q": "As pinturas que revelo ficam comigo?",
+    "a": "Sim. Cada sessão concluída pendura sua pintura na sua galeria, com a etiqueta do museu, a data e aquilo em que você estava se concentrando. <a href=\"{l}guides/gallery/\">Sua galeria</a>."
+   },
+   {
+    "q": "Posso saber mais sobre uma pintura?",
+    "a": "Toque em ⓘ numa pintura revelada, ou abra-a na sua galeria, para ler a etiqueta do museu: artista, data, técnica, dimensões, procedência e um link para vê-la no site do The Met."
+   }
+  ]
+ },
+ {
+  "group": "Concentração",
+  "items": [
+   {
+    "q": "Quanto tempo pode durar uma sessão?",
+    "a": "Escolha 5, 15, 25, 45 ou 60 minutos, ou toque em Outro para qualquer duração de 5 a 120 minutos."
+   },
+   {
+    "q": "O Easel funciona como timer Pomodoro?",
+    "a": "Sim. O modo Pomodoro faz quatro blocos de foco de 25 minutos com pausas de 5 minutos, e cada bloco revela sua própria pintura. <a href=\"{l}guides/pomodoro/\">Como funciona o Pomodoro</a>."
+   },
+   {
+    "q": "Posso sair do app ou bloquear o celular durante uma sessão?",
+    "a": "Sim. O timer marca o tempo real em segundo plano, e uma Atividade ao Vivo mostra a contagem regressiva na Tela Bloqueada e na Dynamic Island. Quando você volta, a pintura está exatamente no ponto em que deveria estar."
+   },
+   {
+    "q": "O que acontece se eu encerrar uma sessão antes?",
+    "a": "A pintura não será concluída, então não entra na sua galeria, e a sessão não conta para o seu tempo nem para a sua sequência. No Pomodoro, encerrar antes encerra a série inteira; os blocos que você terminou são mantidos."
+   },
+   {
+    "q": "O que é “No que você vai se concentrar?”",
+    "a": "Uma intenção opcional para cada sessão. Digite-a na tela inicial, ou deixe o Easel perguntar quando você tocar em Começar, com suas intenções recentes e temas como Estudo, Trabalho ou Escrita. <a href=\"{l}guides/focus-question/\">Definir uma intenção</a>."
+   },
+   {
+    "q": "O Easel funciona offline?",
+    "a": "O Easel precisa de conexão para buscar uma nova pintura quando você toca em Começar; ele baixa a imagem inteira antes de a sessão começar, para que a revelação nunca fique esperando. As pinturas que você já viu ficam guardadas no seu dispositivo, então sua galeria funciona offline."
+   }
+  ]
+ },
+ {
+  "group": "Progresso",
+  "items": [
+   {
+    "q": "Como as sequências são contadas?",
+    "a": "Um dia conta quando você conclui pelo menos uma sessão. Sua sequência atual conta os dias seguidos, e as Estatísticas também guardam sua melhor sequência. <a href=\"{l}guides/statistics/\">Estatísticas e sequências</a>."
+   },
+   {
+    "q": "O que é a Retrospectiva do ano?",
+    "a": "Todos os anos, de 15 de dezembro a 2 de janeiro, o Easel transforma seu ano de foco numa pequena exposição que se apresenta sozinha, com suas horas, pinturas, artista favorito, maior sequência e a pintura do ano, terminando com um cartão para compartilhar. <a href=\"{l}guides/year-in-review/\">Retrospectiva do ano</a>."
+   },
+   {
+    "q": "Como compartilho uma pintura?",
+    "a": "Toque em Compartilhar numa pintura revelada ou numa pintura da sua galeria, escolha Story (9:16) ou Post (4:5) e depois Salvar no app Fotos ou Compartilhar no Instagram, TikTok, X, Mensagens e outros. <a href=\"{l}guides/sharing/\">Compartilhamento</a>."
+   }
+  ]
+ },
+ {
+  "group": "Widgets e notificações",
+  "items": [
+   {
+    "q": "O Easel tem widgets?",
+    "a": "Sim: Pintura do dia, que começa cada dia na névoa e se revela enquanto você se concentra até que sua meta diária a revele por completo, e Foco e sequência. Os dois funcionam na Tela de Início, na Tela Bloqueada e na Mesa de Cabeceira. <a href=\"{l}guides/widgets-and-live-activities/\">Widgets e Atividades ao Vivo</a>."
+   },
+   {
+    "q": "Posso começar uma sessão pela Siri ou pela Central de Controle?",
+    "a": "Sim. Diga “Comece uma sessão de foco no Easel”, use a ação Começar foco no app Atalhos ou adicione o botão do Easel à Central de Controle no iOS 18 ou posterior."
+   },
+   {
+    "q": "Por que não vejo a Atividade ao Vivo?",
+    "a": "No app Ajustes do iPhone, abra Apps → Easel e ative Atividades ao Vivo."
+   },
+   {
+    "q": "Que notificações o Easel envia?",
+    "a": "Só as que você permitiu: um lembrete diário opcional no horário que você escolher, até três avisos da Retrospectiva do ano em dezembro e no início de janeiro, e um breve recado de sábado sobre apoiar o Easel, que você pode desativar em Ajustes e que para depois que você der uma gorjeta. <a href=\"{l}guides/reminders-and-notifications/\">Lembretes e notificações</a>."
+   }
+  ]
+ },
+ {
+  "group": "Privacidade e suporte",
+  "items": [
+   {
+    "q": "O Easel coleta meus dados?",
+    "a": "Suas sessões, sua galeria e suas intenções ficam no seu dispositivo. O Easel envia estatísticas de uso anônimas e relatórios de falhas, nunca vinculados a você, para melhorar o app, e não rastreia você nem mostra anúncios. A <a href=\"{l}privacy/\">política de privacidade</a> lista exatamente o que é enviado."
+   },
+   {
+    "q": "Como apago meus dados?",
+    "a": "Apague o Easel do seu dispositivo; tudo o que ele armazenou é removido junto. Para as estatísticas anônimas, escreva para adam@easelfocus.app."
+   },
+   {
+    "q": "Minha galeria vai para um novo iPhone?",
+    "a": "Sim, com um backup do iPhone ou uma transferência direta para o novo iPhone. O Easel não tem conta nem servidor, então sua galeria existe apenas nos seus dispositivos e nos backups deles."
+   },
+   {
+    "q": "Me perdi no app. Como volto?",
+    "a": "Toda tela tem um caminho de volta: ‹ no canto superior esquerdo da galeria, dos Ajustes e da pergunta de foco; ⌄ nas Estatísticas; OK ou deslizar para baixo nas janelas; Encerrar durante uma sessão. <a href=\"{l}guides/troubleshooting/#lost\">Encontrando o caminho</a>."
+   },
+   {
+    "q": "Como falo com o desenvolvedor ou sugiro um recurso?",
+    "a": "Escreva para <a href=\"mailto:adam@easelfocus.app\">adam@easelfocus.app</a>, ou publique e vote em ideias no <a href=\"https://markockidev.canny.io/easel\">quadro de feedback</a>."
+   }
+  ]
+ }
+]

@@ -1,0 +1,92 @@
+[
+ {
+  "id": "who",
+  "title": "我们是谁",
+  "body": "<p>Easel（“本应用”“我们”）是一款适用于 iPhone 和 iPad 的专注计时器，由独立开发者 <strong>Adam</strong> 开发。Adam 是本政策所述有限数据的控制者。</p>\n<p>联系方式：<a href=\"mailto:adam@easelfocus.app\">adam@easelfocus.app</a>。</p>\n<p>本政策适用于 Easel 应用（包括其小组件、实时活动、Siri 和控制中心功能）以及本网站。</p>"
+ },
+ {
+  "id": "on-device",
+  "title": "保留在你设备上的数据",
+  "body": "<p>Easel 所知道的关于你的大部分信息，从不离开你的 iPhone 或 iPad。Easel 没有账户、没有登录，也没有存储你数据的服务器。它在你的设备上保存：</p>\n<ul>\n  <li><strong>你的专注记录</strong>：每次已完成专注的画作、开始和结束时间、时长、单次或番茄钟，以及你输入或选择的专注目标（如有）。这些数据用于你的画廊、统计、连续记录、里程碑和年度回顾。</li>\n  <li><strong>你最近的专注目标</strong>，会在“最近”下再次提供。</li>\n  <li><strong>偏好设置</strong>：外观、背景音乐、音效、触感、所选的收藏系列和时长、你的每日目标、每日提醒及其时间、周六短讯，以及你是否已看过介绍。</li>\n  <li><strong>画作图像缓存</strong>，让你的画廊可以离线浏览。较旧的图像会被自动移除。</li>\n  <li><strong>小组件和实时活动数据</strong>：今日画作、你今天的专注分钟数、你的连续记录以及小尺寸图像，保存在仅由 Easel 与其自身小组件共享的容器中。</li>\n  <li><strong>少量应用记录</strong>：哪些里程碑和评分提示已经显示过，以及你是否打赏过（以便周六短讯可以停止）。</li>\n</ul>\n<p>这些内容我们都无法看到。它们会根据你自己的 Apple 设置包含在你的设备备份（iCloud 或电脑）中，并在你删除 Easel 时被删除。</p>"
+ },
+ {
+  "id": "analytics",
+  "title": "匿名使用统计",
+  "body": "<p>为了解哪些功能被使用并改进 Easel，App Store 版本的 Easel 会将<strong>匿名使用事件</strong>发送至分析服务 PostHog，使用其<strong>欧盟云</strong>。事件关联的是 Easel 首次打开时在你设备上生成的随机标识符，绝不关联你的姓名、电子邮件、Apple 账户或广告标识符。我们从不调用 PostHog 的“identify”（识别）功能，因此绝不会建立任何个人画像。</p>\n<p>Easel 发送的事件及其附带的详细信息：</p>\n<div class=\"table-wrap\"><table class=\"data\">\n  <tr><th scope=\"col\">事件</th><th scope=\"col\">随附发送的详细信息</th></tr>\n  <tr><td>专注开始</td><td>单次或番茄钟、时长（分钟）、收藏系列名称、是否设定了专注目标（是/否），以及选择了八个固定主题中的哪一个（如有选择）。<strong>绝不包含你输入的文字。</strong></td></tr>\n  <tr><td>专注完成</td><td>单次或番茄钟、时长、画作在大都会艺术博物馆的藏品编号</td></tr>\n  <tr><td>专注提前结束</td><td>单次或番茄钟、时长、进行到的程度（或已完成的段数）</td></tr>\n  <tr><td>番茄钟完成</td><td>段数</td></tr>\n  <tr><td>介绍结束</td><td>是跳过还是完成，以及在哪一页</td></tr>\n  <tr><td>选择收藏系列</td><td>收藏系列名称</td></tr>\n  <tr><td>打开分享 · 保存卡片</td><td>哪种卡片（画作、画廊、年度、里程碑）及格式（快拍或帖子）</td></tr>\n  <tr><td>开启/关闭提醒</td><td>开启或关闭</td></tr>\n  <tr><td>打开年度回顾</td><td>年份</td></tr>\n  <tr><td>达成里程碑</td><td>里程碑数字</td></tr>\n  <tr><td>打开赞助 · 完成打赏</td><td>哪种礼物以及从何处打开；不含任何支付信息</td></tr>\n  <tr><td>请求评分提示</td><td>哪个阶段（第一次、第二次、第三次）</td></tr>\n  <tr><td>打开通知</td><td>哪种通知（提醒、年度回顾、周六短讯）</td></tr>\n  <tr><td>查看界面</td><td>画廊、统计、设置或画作</td></tr>\n  <tr><td>应用生命周期</td><td>安装、更新、打开、转入后台（由 PostHog 的 SDK 自动发送）</td></tr>\n</table></div>\n<p>PostHog 的 SDK 还会随每个事件记录<strong>技术环境信息</strong>：应用版本和构建号、iOS 版本、设备型号、屏幕尺寸、语言与地区设置、时区以及事件发生的时间。与任何互联网服务一样，PostHog 在接收事件时会获得你设备的 <strong>IP 地址</strong>，并可能据此估算大致位置，例如你所在的国家。我们不会用它来识别你。</p>\n<p><strong>我们从不收集</strong>：你的姓名、电子邮件或联系人；你的专注目标文字或你输入的任何内容；精确位置；照片；健康数据；广告标识符（IDFA）；屏幕录制或会话回放。</p>\n<p>Easel 的开发版本从不发送事件。</p>"
+ },
+ {
+  "id": "crashes",
+  "title": "崩溃与错误报告",
+  "body": "<p>如果 Easel 崩溃，你的设备上会生成一份崩溃报告，并在你下次打开应用时发送至 PostHog（欧盟云）。Easel 还会报告少量意外错误，并标注错误发生的位置（例如“画作加载失败”）。这些报告包含技术细节：错误、代码路径（堆栈跟踪）、应用和 iOS 版本以及设备型号，使用同一个匿名标识符。普通的“无网络”错误不会被报告。我们仅将崩溃报告用于查找和修复错误。</p>"
+ },
+ {
+  "id": "met",
+  "title": "来自大都会艺术博物馆的画作",
+  "body": "<p>Easel 从大都会艺术博物馆（The Metropolitan Museum of Art）的开放获取 API（<code>collectionapi.metmuseum.org</code> 和 <code>images.metmuseum.org</code>）下载画作图像和信息。这些请求仅按公开的藏品编号请求艺术作品，不包含任何关于你的信息；但与访问任何网站一样，大都会艺术博物馆的服务器可以看到你设备的 IP 地址。大都会艺术博物馆对这些连接的处理受其自身政策约束。Easel 是独立应用，与大都会艺术博物馆无关联。</p>"
+ },
+ {
+  "id": "apple",
+  "title": "Apple 服务",
+  "body": "<ul>\n  <li><strong>打赏</strong>是完全由 Apple 处理的 App 内购买项目。我们从不会看到你的姓名、支付信息或 Apple 账户；Apple 只会告知 Easel 一笔购买已完成。</li>\n  <li><strong>评分提示</strong>使用 Apple 的标准评分请求；是否显示由 Apple 决定，你留下的任何评分都会提交至 App Store。</li>\n  <li><strong>通知</strong>在你的设备上本地安排。Easel 不使用推送服务器。</li>\n  <li><strong>小组件、实时活动、Siri、快捷指令和控制中心</strong>通过 Apple 的框架在你的设备上运行。Siri 请求由 Apple 依据 Apple 的隐私政策处理。</li>\n  <li><strong>App Store</strong> 下载以及 Apple 自身的分析（如果你选择与开发者共享）受 Apple 的隐私政策约束。Apple 可能会与我们共享汇总的、匿名的 App Store 统计数据。</li>\n</ul>"
+ },
+ {
+  "id": "permissions",
+  "title": "Easel 请求的权限",
+  "body": "<p>每项权限都是可选的，即使不授予任何权限，Easel 也能正常使用。</p>\n<div class=\"table-wrap\"><table class=\"data\">\n  <tr><th scope=\"col\">权限</th><th scope=\"col\">用途</th><th scope=\"col\">在哪里更改</th></tr>\n  <tr><td>通知</td><td>每日提醒（如果你开启）、年度回顾通知（12 月 15 日、12 月 30 日、1 月 2 日）、周六短讯</td><td>Easel 的设置，或 iPhone 设置 → App → Easel → 通知</td></tr>\n  <tr><td>照片（仅添加）</td><td>将分享卡片保存到你的图库。Easel 可以添加图片，但无法查看或读取你的照片。</td><td>iPhone 设置 → App → Easel → 照片</td></tr>\n  <tr><td>实时活动</td><td>在锁定屏幕和灵动岛上显示专注倒计时</td><td>iPhone 设置 → App → Easel → 实时活动</td></tr>\n</table></div>\n<p>Easel 从不请求你的位置、相机、麦克风、通讯录、日历、健康数据或跟踪你的权限。</p>"
+ },
+ {
+  "id": "sharing",
+  "title": "当你分享时",
+  "body": "<p>当你分享卡片时，Easel 会把一张图片（以及在目标接受的情况下，一句附带 App Store 链接的简短文字）交给 Apple 的共享表单。之后发往何处由你决定，你选择的应用或服务（例如 Instagram 或信息）会依据其自身政策处理。卡片会显示画作、你专注的时长，以及（对于单幅画作）你设定的专注目标（如有），因此请在分享前查看预览。</p>"
+ },
+ {
+  "id": "no-tracking",
+  "title": "不跟踪、无广告、不出售",
+  "body": "<p>Easel 不展示广告，不含任何广告 SDK，也不会在其他公司拥有的应用或网站中跟踪你。正因如此，它从不显示 Apple 的“App 跟踪透明度”提示。我们不出售或共享个人信息，也不使用数据经纪商。</p>\n<p>在 App Store 上，Easel 的隐私标签列出所收集的数据为<strong>使用数据</strong>（产品交互）和<strong>诊断</strong>（崩溃数据），且<strong>未与你关联</strong>，并标明<strong>无跟踪</strong>。</p>"
+ },
+ {
+  "id": "basis",
+  "title": "我们可能使用数据的原因（法律依据）",
+  "body": "<p>在适用欧盟和英国《通用数据保护条例》等法律的情况下：</p>\n<ul>\n  <li><strong>使用统计和崩溃报告</strong>：基于我们保持 Easel 可靠并加以改进的正当利益，使用匿名数据，且不进行画像分析。</li>\n  <li><strong>通知和保存到照片</strong>：基于你通过 iOS 权限给予的同意，你可以随时撤回。</li>\n  <li><strong>打赏</strong>：为提供你所请求的购买，由 Apple 处理。</li>\n</ul>"
+ },
+ {
+  "id": "retention",
+  "title": "数据保留期限",
+  "body": "<ul>\n  <li><strong>你设备上的数据</strong>：保留至你删除 Easel 为止。缓存的画作图像会被自动清理。</li>\n  <li><strong>使用统计和崩溃报告</strong>：仅在对了解和修复 Easel 有用的期限内保留，且不超出 PostHog 的保留期限，之后即被删除。</li>\n  <li><strong>你发给我们的电子邮件</strong>：在答复你所需的期限内保留。</li>\n</ul>"
+ },
+ {
+  "id": "rights",
+  "title": "你的权利与选择",
+  "body": "<p>根据你所在的地区，你可能有权访问、更正、删除你的个人数据或获取其副本，有权反对或限制对其的使用，并有权向当地数据保护机构投诉。</p>\n<ul>\n  <li><strong>设备上的数据</strong>：所有内容你都可以在应用中看到，删除 Easel 即可将其移除。</li>\n  <li><strong>使用统计</strong>：这些数据是匿名的，因此我们通常无法将其与你关联。如果你希望我们尝试查找并删除这些数据，或对其提出反对，请写信至 <a href=\"mailto:adam@easelfocus.app\">adam@easelfocus.app</a>。重新安装 Easel 会生成一个新的随机标识符。</li>\n  <li><strong>通知、照片和实时活动</strong>可随时在设置中关闭。</li>\n</ul>\n<p>加利福尼亚州居民：我们不出售或共享 CCPA/CPRA 所定义的个人信息，也不使用敏感个人信息。</p>"
+ },
+ {
+  "id": "transfers",
+  "title": "数据处理地点",
+  "body": "<p>使用统计和崩溃报告发送至 PostHog 的欧盟云，并存储在欧盟境内。PostHog, Inc. 位于美国；任何来自欧盟境外的访问均受 PostHog 的数据处理协议和欧盟委员会标准合同条款的约束。</p>"
+ },
+ {
+  "id": "children",
+  "title": "儿童",
+  "body": "<p>Easel 面向一般受众，并非针对 13 岁以下儿童（或你所在地区的同等最低年龄）。画作经过精心挑选，适合所有人；Easel 不会从任何人（包括儿童）处收集个人信息：没有姓名、联系人或账户。如果你认为有儿童向我们发送了个人信息（例如通过电子邮件），请联系我们，我们会将其删除。</p>"
+ },
+ {
+  "id": "security",
+  "title": "安全",
+  "body": "<p>你的 Easel 数据受你设备自身的安全机制保护，包括其密码和数据保护。Easel 通过互联网发送至 PostHog 或大都会艺术博物馆的所有内容均使用 HTTPS 加密。</p>"
+ },
+ {
+  "id": "website",
+  "title": "本网站",
+  "body": "<p>本网站不使用 Cookie、不使用分析工具，也不使用跟踪脚本。它托管于 GitHub Pages；与任何网站托管服务一样，GitHub 会依据 GitHub 的隐私声明处理你的 IP 地址和基本请求信息，以提供页面并保障其安全。指向其他网站（App Store、我们在 Canny 上的反馈板、markockiadam.com、大都会艺术博物馆）的链接受这些网站自身政策的约束。</p>"
+ },
+ {
+  "id": "changes",
+  "title": "本政策的变更",
+  "body": "<p>当 Easel 的做法发生变化时，我们会在变更上线前更新本页面及下方日期。重大变更也会在此注明。</p>\n<p><strong>2026年11月17日的变更内容</strong>：本版本取代 2026年7月22日的政策。新增内容包括：匿名使用统计和崩溃报告（PostHog，欧盟云）；专注目标和专注提问；通知（每日提醒、年度回顾、周六短讯）；将卡片保存到照片；实时活动、小组件、Siri、快捷指令和控制中心；年度回顾、里程碑和评分提示；赞助打赏；夜晚外观；以及本网站。</p>"
+ },
+ {
+  "id": "contact",
+  "title": "联系方式",
+  "body": "<p>有关隐私的问题或请求：<a href=\"mailto:adam@easelfocus.app\">adam@easelfocus.app</a>。我们会尽快回复，最迟不超过一个月。</p>"
+ }
+]

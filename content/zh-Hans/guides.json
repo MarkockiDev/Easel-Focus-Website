@@ -1,0 +1,156 @@
+[
+ {
+  "slug": "getting-started",
+  "nav": "快速上手",
+  "room": "初次参观",
+  "title": "Easel 快速上手",
+  "seo": "Easel 快速上手：揭示名画的专注计时器",
+  "desc": "在 Easel 中完成第一次专注，一步一步来：选好专注时长，开始，看着一幅来自大都会艺术博物馆的画作从雾中浮现，到 0:00 完全揭开。",
+  "card": "在 Easel 中完成第一次专注，一步一步来：选好专注时长，开始，看着一幅来自大都会艺术博物馆的画作从雾中浮现，到 0:00 完全揭开。",
+  "lede": "Easel 是一款奖励看得见的专注计时器。选好要工作多久，在你专注时，一幅来自大都会艺术博物馆的画作会从雾中慢慢浮现。下面带你走完第一次专注，从打开应用到画作完成。",
+  "body": "\n<h2 id=\"home\">主界面</h2>\n<p>一切都从一个安静的界面开始。从上到下依次是：</p>\n<ul>\n  <li><strong>画廊</strong>（左上角）：你揭开过的画作。</li>\n  <li><strong>设置</strong>（右上角）：外观、声音、提醒、小组件的每日目标等。</li>\n  <li><strong>你要专注于什么？</strong>可选填写的一行，写下你正在做的事。</li>\n  <li><strong>单次或番茄钟</strong>：一次专注，或四段专注加短暂休息。</li>\n  <li><strong>专注时长</strong>：5、15、25、45 或 60 分钟，或选<em>自定义</em>，5 到 120 分钟任选。</li>\n  <li><strong>陪伴画作</strong>：从哪些画作中挑选。<em>全部画作</em>会给你惊喜。</li>\n  <li><strong>开始</strong>。</li>\n</ul>\n<div class=\"figs\"><figure><div class=\"shot\"><img src=\"{p}assets/img/shot-home.jpg\" width=\"603\" height=\"1311\" loading=\"lazy\" alt=\"Easel 主界面：画廊和设置按钮、“你要专注于什么？”一行、单次或番茄钟、5 到 60 分钟或自定义时长、陪伴画作为全部画作，以及“开始”。\"></div><figcaption>主界面，每一次专注都从这里开始。</figcaption></figure><figure><div class=\"shot\"><img src=\"{p}assets/img/shot-setup.jpg\" width=\"603\" height=\"1311\" loading=\"lazy\" alt=\"已输入专注目标的主界面：完成章节初稿，已选 25 分钟。\"></div><figcaption>已填写专注目标并选好 25 分钟。</figcaption></figure></div>\n<h2 id=\"first-session\">你的第一次专注</h2>\n<ol class=\"steps\">\n  <li><strong>选择时长。</strong>25 分钟是个不错的开始。轻点<em>自定义</em>，可以在滚轮上选择 5 到 120 分钟的任意时长。</li>\n  <li><strong>写下要做什么</strong>（可选）。在顶部那一行输入，或者留空，轻点“开始”时 Easel 会问你<em>“你要专注于什么？”</em>。参见<a href=\"{l}guides/focus-question/\">专注提问</a>。</li>\n  <li><strong>轻点“开始”。</strong>Easel 挑选一幅画，并在专注开始前完整加载，所以揭示过程从不需要等待网络。</li>\n  <li><strong>工作。</strong>随着时间流逝，画作从中心向外渐渐清晰。计时器安静地待在顶部，你不必盯着它。</li>\n  <li><strong>到 0:00，画作完全揭开。</strong>底部升起一张米色博物馆展签，写着你专注了多久、为了什么，以及作品名、艺术家和年代。轻点<strong>完成</strong>，它就会挂进你的画廊。</li>\n</ol>\n<div class=\"figs\"><figure><div class=\"shot\"><img src=\"{p}assets/img/shot-fog.jpg\" width=\"603\" height=\"1311\" loading=\"lazy\" alt=\"进行到一半的专注：一幅塞尚肖像正从雾中浮现，剩余 2:23。\"></div><figcaption>过半：雾正在散去。</figcaption></figure><figure><div class=\"shot\"><img src=\"{p}assets/img/shot-revealed.jpg\" width=\"603\" height=\"1311\" loading=\"lazy\" alt=\"塞尚《戴草帽的古斯塔夫·布瓦耶》在 0:00 时完全揭开，下方是米色博物馆展签：5 分钟 · 完成章节初稿、作品名与艺术家、信息和分享按钮，以及“完成”。\"></div><figcaption>0:00：画作揭开，附上展签。</figcaption></figure></div>\n<h2 id=\"where-next\">接下来去哪儿</h2>\n<ul>\n  <li><a href=\"{l}guides/focus-sessions/\">专注与雾中揭画</a>：锁定手机、提前结束、声音。</li>\n  <li><a href=\"{l}guides/pomodoro/\">番茄钟</a>：四段专注加休息，每段一幅新画。</li>\n  <li><a href=\"{l}guides/gallery/\">你的画廊</a>：你获得的每一幅画，附有博物馆展签。</li>\n</ul>\n<div class=\"callout\"><span class=\"label\">在应用里迷路了？</span><p>Easel 的每个界面都有返回的路：左上角的 <strong>‹ 返回</strong>按钮、统计界面的 <strong>⌄</strong>，或在弹出面板上向下轻扫。你总能回到主界面。详见<a href=\"{l}guides/troubleshooting/#lost\">疑难解答</a>。</p></div>"
+ },
+ {
+  "slug": "focus-sessions",
+  "nav": "专注",
+  "room": "专注时",
+  "title": "专注与雾中揭画",
+  "seo": "Easel 专注计时与雾中揭画如何运作",
+  "desc": "Easel 中的专注如何运作：雾中揭画、计时器、离开应用或锁定手机、提前结束、背景音乐、音效与触感反馈。",
+  "card": "Easel 中的专注如何运作：雾中揭画、计时器、离开应用或锁定手机、提前结束、背景音乐、音效与触感反馈。",
+  "lede": "专注是 Easel 的核心：一幅画，在你工作时慢慢揭开。本指南介绍专注过程中会发生什么，以及专注进行时你可以做些什么。",
+  "body": "\n<h2 id=\"reveal\">揭示如何运作</h2>\n<p>每次专注，都会在一层轻柔飘动的雾后挂上一幅画。随着时间流逝，雾从中心向外散开。起初节奏舒缓，临近结束时豁然开朗，让最后几分钟像是一场抵达。到 0:00，整幅画完全清晰，连四角也不例外。</p>\n<p>画作上方显示剩余时间，如果你设了专注目标，也会一并显示。两者都刻意做得很淡：Easel 希望你看着手头的工作，而不是时钟。</p>\n<div class=\"figs\"><figure><div class=\"shot\"><img src=\"{p}assets/img/shot-fog.jpg\" width=\"603\" height=\"1311\" loading=\"lazy\" alt=\"进行中的专注，显示倒计时、专注目标、静音按钮和“结束”。\"></div><figcaption>专注界面：左上角是声音，右上角是“结束”。</figcaption></figure></div>\n<h2 id=\"leaving\">离开应用或锁定手机</h2>\n<p>尽管去吧。计时器锚定在专注结束的那一刻，而不是在应用打开时逐秒累计，所以即使 Easel 在后台或手机已锁定，计时依然准确。回来时，画作的进度正好是它应有的样子。</p>\n<ul>\n  <li>当 Easel 停留在专注界面时，屏幕不会变暗，方便你观看揭示过程。</li>\n  <li>在锁定屏幕和灵动岛上，<strong>实时活动</strong>会显示倒计时。参见<a href=\"{l}guides/widgets-and-live-activities/\">小组件与实时活动</a>。</li>\n  <li>如果专注在你离开时结束，画作会等你回来。</li>\n</ul>\n<h2 id=\"end-early\">提前结束专注</h2>\n<p>轻点右上角的<strong>结束</strong>，然后确认。这幅画将无法完成，因此不会加入你的画廊，这次专注也不计入你的统计和连续记录。在番茄钟中，提前结束会结束整组专注。</p>\n<h2 id=\"sound\">声音、音乐与触感</h2>\n<ul>\n  <li><strong>扬声器按钮</strong>（专注时位于左上角）可为本次专注静音或取消静音。</li>\n  <li><strong>背景音乐</strong>：画作浮现时的轻柔钢琴。在<em>设置 → 专注时</em>中开启。</li>\n  <li><strong>音效</strong>：画作完成时的提示音。</li>\n  <li><strong>触感反馈</strong>：按钮及专注开始、结束时的轻柔震动。</li>\n</ul>\n<h2 id=\"label\">画作揭开之后</h2>\n<p>到 0:00，整幅画完全清晰，屏幕底部升起一张博物馆展签：本次专注的时长和你的专注目标，接着是画作的作品名、艺术家和年代。在展签上你可以：</p>\n<ul>\n  <li>轻点 <strong>ⓘ</strong> 查看完整的博物馆展签：材质、尺寸、来源，以及前往大都会艺术博物馆查看作品的链接。展签面板的高度恰好贴合内容；向下轻扫即可关闭。</li>\n  <li>轻点<strong>分享</strong>，制作一张适合快拍或帖子的装裱卡片（参见<a href=\"{l}guides/sharing/\">分享</a>）。</li>\n  <li>轻点<strong>完成</strong>，把它挂进你的画廊并返回主界面。</li>\n</ul>\n<p>每逢里程碑（10、25、50、100 幅画，乃至更多），轻点“完成”会先打开一个小小的庆祝页面。</p>\n<div class=\"figs\"><figure><div class=\"shot\"><img src=\"{p}assets/img/shot-revealed.jpg\" width=\"603\" height=\"1311\" loading=\"lazy\" alt=\"塞尚《戴草帽的古斯塔夫·布瓦耶》在 0:00 时完全揭开，下方是米色博物馆展签：5 分钟 · 完成章节初稿、作品名与艺术家、信息和分享按钮，以及“完成”。\"></div><figcaption>0:00 时的展签。</figcaption></figure><figure><div class=\"shot\"><img src=\"{p}assets/img/shot-label.jpg\" width=\"603\" height=\"1311\" loading=\"lazy\" alt=\"覆盖在画作上的博物馆展签面板：《戴草帽的古斯塔夫·布瓦耶（生于 1840 年）》，1870–71 年，保罗·塞尚，附材质、尺寸、来源和“在大都会艺术博物馆查看”。\"></div><figcaption>轻点 ⓘ 查看完整的博物馆展签。</figcaption></figure></div>\n"
+ },
+ {
+  "slug": "focus-question",
+  "nav": "你要专注于什么？",
+  "room": "专注目标",
+  "title": "你要专注于什么？设定专注目标",
+  "seo": "在 Easel 中设定专注目标：你要专注于什么？",
+  "desc": "为每次 Easel 专注赋予意义：输入一个专注目标，重用最近的目标，或选择学习、工作、写作、阅读等主题。你的专注目标会随画作一起挂进画廊。",
+  "card": "为每次 Easel 专注赋予意义：输入一个专注目标，重用最近的目标，或选择学习、工作、写作、阅读等主题。",
+  "lede": "Easel 里的每一幅画，都为某件事而得。说出你接下来要做的事，会让专注更容易开始；日后，你的画廊也会记得每幅画是为了什么。",
+  "body": "\n<h2 id=\"type\">直接输入</h2>\n<p>在主界面轻点<em>你要专注于什么？</em>，输入简短的一行，例如<em>“完成章节初稿”</em>。按下键盘上的<strong>前往</strong>即可立即开始。专注目标最多 60 个字符，并会保留到下一次专注，方便你继续同一项任务的下一段。</p>\n<h2 id=\"question\">或者让 Easel 来问</h2>\n<p>如果轻点<strong>开始</strong>时那一行是空的，Easel 会打开一个全屏提问：<em>你要专注于什么？</em>下方显示即将开始的专注（例如<em>25 分钟 · 全部画作</em>），接着是两个展厅：</p>\n<ol class=\"steps\">\n  <li><strong>最近</strong>：你最近的三个专注目标，轻点一下即可重用。</li>\n  <li><strong>一个主题</strong>：学习、工作、写作、阅读、创作、规划、练习或思考。</li>\n</ol>\n<p>选择任意一项即开始专注。若想返回而不开始，轻点左上角的 <strong>‹</strong>。</p>\n<div class=\"figs\"><figure><div class=\"shot\"><img src=\"{p}assets/img/shot-setup.jpg\" width=\"603\" height=\"1311\" loading=\"lazy\" alt=\"已输入专注目标“完成章节初稿”的主界面。\"></div><figcaption>在主界面输入的专注目标。</figcaption></figure><figure><div class=\"shot\"><img src=\"{p}assets/img/shot-question.jpg\" width=\"603\" height=\"1311\" loading=\"lazy\" alt=\"全屏专注提问：你要专注于什么？下方列出最近的专注目标，以及学习、工作等主题。\"></div><figcaption>那一行留空时出现的专注提问。</figcaption></figure></div>\n<h2 id=\"where\">专注目标会出现在哪里</h2>\n<ul>\n  <li>专注期间，淡淡地显示在计时器下方。</li>\n  <li>在实时活动中，显示在锁定屏幕和灵动岛上。</li>\n  <li>在你的画廊中，以<em>“目标：…”</em>显示在画作页面上。</li>\n  <li>在分享卡片上，如果你分享了那幅画。</li>\n</ul>\n<div class=\"callout\"><span class=\"label\">私密</span><p>你的专注目标只保存在你的设备上。Easel 从不把这些文字发送到任何地方。参见<a href=\"{l}privacy/\">隐私政策</a>。</p></div>"
+ },
+ {
+  "slug": "pomodoro",
+  "nav": "番茄钟",
+  "room": "番茄钟",
+  "title": "把 Easel 当作番茄钟使用",
+  "seo": "会揭示名画的番茄钟：Easel 番茄工作法如何运作",
+  "desc": "Easel 的番茄钟模式：四段 25 分钟专注，每段之间休息 5 分钟，每段揭示一幅新画。了解如何开始、跳过休息和结束一组专注。",
+  "card": "Easel 的番茄钟模式：四段 25 分钟专注，每段之间休息 5 分钟，每段揭示一幅新画。",
+  "lede": "番茄工作法把长时间的工作拆成一段段专注，中间穿插短暂的休息。在 Easel 中，每一段都会揭示一幅属于它的画，所以完成一整组，你的画廊里就会多出四幅新作品。",
+  "body": "\n<h2 id=\"how\">一组番茄钟如何运作</h2>\n<ul>\n  <li><strong>四段专注</strong>，每段 25 分钟。</li>\n  <li>前三段结束后各有<strong>一次 5 分钟的休息</strong>。</li>\n  <li>每段都有<strong>一幅新画</strong>，像单次专注一样从雾中揭开。</li>\n</ul>\n<h2 id=\"start\">开始一组番茄钟</h2>\n<ol class=\"steps\">\n  <li>在主界面轻点<strong>番茄钟</strong>。</li>\n  <li>如有需要，在<em>陪伴画作</em>下选择一个收藏系列。</li>\n  <li>轻点<strong>开始</strong>。专注提问界面会将这组显示为<em>4 × 25 分钟</em>。</li>\n</ol>\n<h2 id=\"breaks\">休息期间</h2>\n<p>一段专注结束时，它的画作会揭开并保存，你的休息随即开始。休息界面会显示你刚刚获得的画作和倒计时。休息一下，伸展身体，看看这幅画。准备好后，轻点<strong>开始下一段专注</strong>；你也可以在休息结束前提前开始。</p>\n<h2 id=\"end\">提前结束一组番茄钟</h2>\n<p>在专注或休息期间轻点<strong>结束</strong>。已完成的各段会留在你的画廊中；正在进行的那一段不计入。</p>\n<div class=\"callout\"><span class=\"label\">小提示</span><p>第四幅画揭开、整组番茄钟完成时，会有一段专属的触感反馈作为庆祝。可在<em>设置 → 专注时</em>中开启或关闭触感。</p></div>"
+ },
+ {
+  "slug": "collections",
+  "nav": "收藏系列",
+  "room": "陪伴画作",
+  "title": "选择陪伴你专注的画作",
+  "seo": "Easel 收藏系列：欧洲绘画、日本版画、花鸟",
+  "desc": "在 Easel 中与全部 606 幅画作一同专注，或选择一个收藏系列：欧洲绘画、日本版画、美国绘画、花鸟，葛饰北斋或伦勃朗等某一位艺术家，或某一个时代。",
+  "card": "在 Easel 中与全部 606 幅画作一同专注，或选择一个收藏系列：欧洲绘画、日本版画、美国绘画、花鸟，葛饰北斋或伦勃朗等某一位艺术家，或某一个时代。",
+  "lede": "Easel 的画作来自大都会艺术博物馆馆藏中精心挑选的 600 余幅公有领域作品。你可以让 Easel 给你惊喜，也可以只与某一种风格、某一位艺术家或某一个时代相伴。",
+  "body": "\n<h2 id=\"choose\">选择一个收藏系列</h2>\n<ol class=\"steps\">\n  <li>在主界面轻点<strong>陪伴画作</strong>下方的卡片（初始显示为<em>全部画作</em>）。</li>\n  <li>选择一个收藏系列。每一行都会显示你已揭开其中多少幅作品，例如<em>22 / 90</em>。</li>\n  <li>轻点<strong>完成</strong>。之后的专注只会从这个收藏系列中挑选，直到你更改为止。</li>\n</ol>\n<div class=\"figs\"><figure><div class=\"shot\"><img src=\"{p}assets/img/shot-collections.jpg\" width=\"603\" height=\"1311\" loading=\"lazy\" alt=\"收藏系列面板：全部画作，接着是按风格（欧洲绘画、日本版画、美国绘画、花鸟）和按艺术家，每项都显示已揭开的作品数。\"></div><figcaption>收藏系列，附有你在每个系列中的进度。</figcaption></figure></div>\n<h2 id=\"styles\">按风格</h2>\n<ul>\n  <li><strong>欧洲绘画</strong>：伦勃朗、维米尔、梵高、塞尚、柯罗、库尔贝、马奈、雷诺阿、德加等。</li>\n  <li><strong>日本版画</strong>：葛饰北斋、歌川广重，以及其他江户与明治时期的大师。</li>\n  <li><strong>美国绘画</strong>：肯塞特、英尼斯、丘奇等人的哈德逊河画派风景画。</li>\n  <li><strong>花鸟</strong>：约翰·詹姆斯·奥杜邦、尾形光琳，以及植物画大师。</li>\n</ul>\n<h2 id=\"artists\">按艺术家与按时代</h2>\n<p>在风格下方，面板列出了在 Easel 中有多幅作品的艺术家，以及从文艺复兴到现代（1880 年以后）的各个时代。选一项，与葛饰北斋共度一周，或在十九世纪里度过一个月。</p>\n<h2 id=\"curation\">画作如何挑选</h2>\n<p>每一幅作品都属于公有领域，来自大都会艺术博物馆的开放获取馆藏。这批作品偏重名作，经过精心挑选，宁静且适合所有人：Easel 绝不会从博物馆全部馆藏中随机抽取画作。</p>\n"
+ },
+ {
+  "slug": "gallery",
+  "nav": "你的画廊",
+  "room": "画廊",
+  "title": "你获得的画作画廊",
+  "seo": "你的 Easel 画廊：你揭开的每一幅画",
+  "desc": "你在 Easel 中揭开的每一幅画都会挂进你的画廊。打开一幅画，可以放大欣赏、阅读博物馆展签、查看你当时专注的事，并分享它。",
+  "card": "你在 Easel 中揭开的每一幅画都会挂进你的画廊。",
+  "lede": "每完成一次专注，那幅画就会挂进你的画廊。日积月累，它会成为一份安静的记录，记下你为之付出时间的一切。",
+  "body": "\n<h2 id=\"open\">打开画廊</h2>\n<p>轻点主界面左上角的<strong>画廊按钮</strong>。画廊从左侧滑入；轻点 <strong>‹</strong> 让它滑回去。</p>\n<p>画作按时间排列，最新的在前。底部的卡片显示你的总专注时长、画作数量和当前连续记录；轻点它即可打开<a href=\"{l}guides/statistics/\">统计</a>。</p>\n<div class=\"figs\"><figure><div class=\"shot\"><img src=\"{p}assets/img/shot-gallery.jpg\" width=\"603\" height=\"1311\" loading=\"lazy\" alt=\"画廊：一格格已获得的画作，以及显示专注 57 小时 40 分钟、111 幅画、连续 7 天的卡片。\"></div><figcaption>画廊，底部是你的专注总计。</figcaption></figure><figure><div class=\"shot\"><img src=\"{p}assets/img/shot-exhibit.jpg\" width=\"603\" height=\"1311\" loading=\"lazy\" alt=\"一幅画的页面：塞尚《戴草帽的古斯塔夫·布瓦耶》，下方是作品名、年代、艺术家和材质。\"></div><figcaption>一幅画的专属页面，宛如博物馆的展墙。</figcaption></figure></div>\n<h2 id=\"painting\">画作页面</h2>\n<p>轻点任意一幅画，打开它的页面：先是放大的作品，然后是博物馆展签（作品名、年代、艺术家、材质、尺寸，以及来自大都会艺术博物馆的更多信息），接着是<em>你的参观</em>：你揭开它的日期和时间，以及它是为了什么。</p>\n<ul>\n  <li>轻点<strong>分享</strong>（右上角）制作一张装裱卡片。参见<a href=\"{l}guides/sharing/\">分享</a>。</li>\n  <li>没有网络时，页面会显示设备上已保存的内容，并简短提示更多详情需要联网。</li>\n</ul>\n<h2 id=\"whole\">分享整个画廊</h2>\n<p>画廊右上角的分享按钮会用你最近的画作拼成一张卡片。</p>\n"
+ },
+ {
+  "slug": "sharing",
+  "nav": "分享",
+  "room": "分享",
+  "title": "分享你揭开的画作",
+  "seo": "如何把 Easel 中的画作分享到 Instagram 快拍等平台",
+  "desc": "把你在 Easel 中获得的任意一幅画分享为装裱卡片，可选快拍（9:16）或帖子（4:5）格式。保存到照片，或发送到 Instagram、TikTok、X、Facebook、信息等。",
+  "card": "把你在 Easel 中获得的任意一幅画分享为装裱卡片，可选快拍（9:16）或帖子（4:5）格式。",
+  "lede": "你揭开的每一幅画，都可以成为一次小小的庆祝：一张卡片，画作装在镀金画框里，并写着你为它专注了多久。",
+  "body": "\n<h2 id=\"make\">制作卡片</h2>\n<ol class=\"steps\">\n  <li>轻点<strong>分享</strong>：在 0:00 完成的画作上、画廊中某幅画的页面上、画廊本身、里程碑页面，或年度回顾的结尾。</li>\n  <li>选择<strong>快拍 (9:16)</strong> 用于快拍和 Reels，或选择<strong>帖子 (4:5)</strong> 用于动态。</li>\n  <li>轻点<strong>保存</strong>将其添加到照片，或轻点<strong>分享</strong>打开共享表单。</li>\n</ol>\n<div class=\"figs\"><figure><div class=\"shot\"><img src=\"{p}assets/img/shot-share.jpg\" width=\"603\" height=\"1311\" loading=\"lazy\" alt=\"分享界面：一张快拍卡片，写着“我专注了 1 小时，揭示了”，下方是镀金画框中的塞尚画作，以及“保存”和“分享”按钮。\"></div><figcaption>分享界面，提供快拍和帖子两种格式。</figcaption></figure></div>\n<h2 id=\"apps\">Instagram、TikTok、X 及其他</h2>\n<p>只要已安装相应的应用，Instagram、TikTok、X、Facebook、信息、WhatsApp 和邮件都会出现在<strong>分享</strong>中。如果目标应用接受文字，Easel 会随卡片附上一句简短的话和 App Store 链接。</p>\n<h2 id=\"photos\">保存到照片</h2>\n<p>第一次轻点“保存”时，iOS 会请求允许 Easel <em>添加</em>到你的照片图库。Easel 只能添加图片，无法查看或读取你的照片。如果你拒绝了，可以在 iPhone 的“设置”App 中前往<em>App → Easel → 照片</em>开启。</p>\n"
+ },
+ {
+  "slug": "statistics",
+  "nav": "统计与连续记录",
+  "room": "数字",
+  "title": "统计、连续记录与里程碑",
+  "seo": "Easel 专注统计与连续打卡记录",
+  "desc": "Easel 如何统计你的专注时长、画作和连续记录：周图表、16 周专注日历、当前与最长连续记录，以及 10、25、50 和 100 幅画的里程碑。",
+  "card": "Easel 如何统计你的专注时长、画作和连续记录：周图表、16 周专注日历、当前与最长连续记录，以及 10、25、50 和 100 幅画的里程碑。",
+  "lede": "Easel 会安静地记下你的专注：时长、画作、连续记录、一目了然的一周，以及记下你每个专注日的日历。",
+  "body": "\n<h2 id=\"open\">打开统计</h2>\n<p>打开画廊，轻点底部的卡片（时长 · 画作 · 连续记录）。统计从屏幕底部升起；轻点 <strong>⌄</strong> 关闭。在连接了键盘的 iPad 上，按 <kbd>⌘</kbd><kbd>⇧</kbd><kbd>S</kbd>。</p>\n<div class=\"figs\"><figure><div class=\"shot\"><img src=\"{p}assets/img/shot-stats.jpg\" width=\"603\" height=\"1311\" loading=\"lazy\" alt=\"统计：专注 57 小时 30 分钟，当前连续 6 天，最长连续 12 天，过去七天的柱状图，以及 16 周日历。\"></div><figcaption>统计：总计、连续记录、这一周和这一季。</figcaption></figure></div>\n<h2 id=\"what\">你会看到什么</h2>\n<ul>\n  <li><strong>专注时长</strong>：所有已完成专注的总时长。</li>\n  <li><strong>当前连续与最长连续</strong>：每天至少完成一次专注的连续天数。</li>\n  <li><strong>过去七天</strong>：每天一根柱子，今天在最右边。</li>\n  <li><strong>最近 16 周</strong>（iPad 上为 26 周）：每个方格代表一天；颜色越深，专注越久。</li>\n  <li><strong>画作</strong>：你揭开了多少幅不同的作品，以及完成了多少次专注。</li>\n</ul>\n<h2 id=\"streaks\">连续记录如何计算</h2>\n<p>只要当天完成至少一次专注，这一天就算数。当前连续记录会保持到今天结束，所以昨天延续下来的记录，要到今天过完才会中断。提前结束的专注不计入。</p>\n<h2 id=\"milestones\">里程碑</h2>\n<p>在 10、25、50、100、250、500 和 1,000 幅画时，Easel 会停下来片刻：你最近的三幅画在镀金画框中呈扇形展开，旁边是这个数字。你可以分享它，或继续。</p>\n<p>每年十二月，还有<a href=\"{l}guides/year-in-review/\">年度回顾</a>。</p>\n"
+ },
+ {
+  "slug": "year-in-review",
+  "nav": "年度回顾",
+  "room": "这一年",
+  "title": "年度回顾：你专注的一年",
+  "seo": "Easel 年度回顾：把你一年的专注办成一场展览",
+  "desc": "每年十二月，Easel 的年度回顾会把你一年的专注变成一场小型展览：专注时长、揭示的画作、你最喜爱的艺术家、最长连续记录和年度画作。",
+  "card": "每年十二月，Easel 的年度回顾会把你一年的专注变成一场小型展览：专注时长、揭示的画作、你最喜爱的艺术家、最长连续记录和年度画作。",
+  "lede": "每年十二月，Easel 都会以一场自动播放的小型展览回顾你的一年，配以亨德尔的《水上音乐》，最后附上一张可分享的卡片。",
+  "body": "\n<h2 id=\"when\">何时出现</h2>\n<p>每年 <strong>12 月 15 日至次年 1 月 2 日</strong>，统计顶部会出现一份邀请：<em>“你在 Easel 的一年”</em>，以及<em>走进展览</em>。一月份时，它回顾的是刚刚结束的那一年。截至 12 月 31 日的专注总会被计入。</p>\n<p>如果开启了通知，Easel 会在这一季最多发送三条温和的提醒：12 月 15 日、12 月 30 日和 1 月 2 日。</p>\n<h2 id=\"pages\">展览内容</h2>\n<ol class=\"steps\">\n  <li>这一年。</li>\n  <li>你的专注时长，以及你最专注的时段（早晨、午后或傍晚）。</li>\n  <li>揭示的画作，以及你收藏最多的艺术家。</li>\n  <li>你最长的连续天数，以及你最充实的月份。</li>\n  <li>年度画作：你在最长一次专注中获得的那一幅。</li>\n  <li>一句感谢，以及一张记录你这一年的镀金卡片，可作为快拍或帖子分享。</li>\n</ol>\n<h2 id=\"controls\">观看方式</h2>\n<ul>\n  <li>它会自动播放，每页停留几秒。</li>\n  <li><strong>轻点右侧</strong>前进，<strong>轻点左侧</strong>后退。</li>\n  <li><strong>按住</strong>即可暂停。</li>\n  <li><strong>向下轻扫</strong>即可关闭。</li>\n  <li>使用旁白时，轻扫即可在各页之间切换。</li>\n</ul>\n"
+ },
+ {
+  "slug": "widgets-and-live-activities",
+  "nav": "小组件与实时活动",
+  "room": "应用之外",
+  "title": "小组件、实时活动、Siri 与控制中心",
+  "seo": "Easel 小组件：今日画作、实时活动与控制中心",
+  "desc": "将 Easel 的“今日画作”和“专注与连续”小组件添加到主屏幕、锁定屏幕或待机显示，在实时活动中跟进专注，并通过 Siri、快捷指令或控制中心开始专注。",
+  "card": "将 Easel 的“今日画作”和“专注与连续”小组件添加到主屏幕、锁定屏幕或待机显示，在实时活动中跟进专注，并通过 Siri、快捷指令或控制中心开始专注。",
+  "lede": "Easel 的存在不止于应用之内：一幅随你专注而渐渐清晰的今日画作、一眼可见的连续记录、锁定屏幕上的倒计时，以及控制中心里的一个按钮。",
+  "body": "\n<h2 id=\"painting-of-the-day\">“今日画作”小组件</h2>\n<p>每天早晨，小组件里都会挂上一幅新画，藏在雾中。每专注一分钟，雾就从中心向外散去一些。达成每日目标后，画作完全揭开，并显示作品名和艺术家。</p>\n<p>在<em>设置 → 你的每日仪式 → 每天专注</em>中设定目标：15 到 120 分钟，默认 25 分钟。</p>\n<h2 id=\"add\">添加小组件</h2>\n<ol class=\"steps\">\n  <li>按住主屏幕上的空白区域，直到 App 开始晃动。</li>\n  <li>轻点顶部的<strong>编辑</strong>（或 <strong>+</strong>），然后轻点<strong>添加小组件</strong>。</li>\n  <li>搜索 <strong>Easel</strong>，选择<em>今日画作</em>或<em>专注与连续</em>，选好尺寸后轻点<strong>添加小组件</strong>。</li>\n</ol>\n<p>两个小组件也都提供锁定屏幕尺寸（自定锁定屏幕后轻点小组件区域），小尺寸还可用于待机显示。</p>\n<h2 id=\"live-activity\">实时活动与灵动岛</h2>\n<p>专注开始时，Easel 会在锁定屏幕上显示倒计时；在配备灵动岛的 iPhone 上，也会显示在灵动岛中，并附上你的专注目标和一幅轻微模糊的画作预览。专注结束时，会显示已揭开的画作。</p>\n<div class=\"figs\"><figure><div class=\"shot\"><img src=\"{p}assets/img/shot-live.jpg\" width=\"603\" height=\"1311\" loading=\"lazy\" alt=\"iPhone 锁定屏幕上显示的 Easel 实时活动，包括专注目标“完成章节初稿”和倒计时。\"></div><figcaption>锁定屏幕上的专注实时活动。</figcaption></figure></div>\n<p>没有看到？在 iPhone 的“设置”App 中打开<em>App → Easel</em>，确认<strong>实时活动</strong>已开启。</p>\n<h2 id=\"siri\">Siri 与快捷指令</h2>\n<p>说<em>“在 Easel 中开始专注”</em>、<em>“用 Easel 开始专注”</em>或<em>“在 Easel 中揭示一幅画”</em>。在快捷指令 App 中，<strong>开始专注</strong>操作可以设定 5 到 120 分钟的时长，适合用于自动化。</p>\n<h2 id=\"control-center\">控制中心（iOS 18 及更高版本）</h2>\n<p>打开控制中心，轻点 <strong>+</strong>，然后轻点<strong>添加控制</strong>，搜索 Easel。轻点一下即可打开 Easel，并按你当前的选择开始专注。</p>\n"
+ },
+ {
+  "slug": "reminders-and-notifications",
+  "nav": "提醒",
+  "room": "你的每日仪式",
+  "title": "每日提醒与通知",
+  "seo": "Easel 每日专注提醒与通知",
+  "desc": "开启 Easel 温和的每日提醒并选择提醒时间，了解 Easel 还会发送哪些通知，以及如何逐一关闭。",
+  "card": "开启 Easel 温和的每日提醒并选择提醒时间，了解 Easel 还会发送哪些通知，以及如何逐一关闭。",
+  "lede": "Easel 每天可以发送一条温和的提醒，带你回到专注中，并告诉你当天的画作是哪一幅。通知始终是可选的。",
+  "body": "\n<h2 id=\"daily\">每日提醒</h2>\n<ol class=\"steps\">\n  <li>打开<strong>设置</strong>（主界面右上角）。</li>\n  <li>在<em>II · 你的每日仪式</em>中，开启<strong>每日提醒</strong>。首次开启时 iOS 会请求权限。</li>\n  <li>选择时间（默认 9:00）。</li>\n</ol>\n<p>如果你当天已经专注过，或者时间已过，提醒会顺延到明天。你也可以在介绍的最后一页开启它。</p>\n<div class=\"figs\"><figure><div class=\"shot\"><img src=\"{p}assets/img/shot-settings.jpg\" width=\"603\" height=\"1311\" loading=\"lazy\" alt=\"设置：专注时（背景音乐、音效、触感反馈）、你的每日仪式（每天专注、每日提醒）和支持（成为赞助人、周六短讯）。\"></div><figcaption>设置：你的每日仪式与支持。</figcaption></figure></div>\n<h2 id=\"others\">其他通知</h2>\n<ul>\n  <li><strong>年度回顾</strong>：在这一季（12 月 15 日、12 月 30 日、1 月 2 日）最多三条，且仅在你当年有过专注时发送。</li>\n  <li><strong>周六短讯</strong>：每周六早晨一句关于支持 Easel 的简短话语。可随时在<em>设置 → 支持 → 周六短讯</em>中关闭。打赏后它会自动停止。</li>\n</ul>\n<p>除非你允许，Easel 绝不会发送通知。</p>\n<h2 id=\"off\">关闭通知</h2>\n<p>在 Easel 的设置中逐一关闭各类提醒，或在 iPhone 的“设置”App 中前往<em>App → Easel → 通知</em>全部关闭。</p>\n"
+ },
+ {
+  "slug": "settings-and-appearance",
+  "nav": "设置与外观",
+  "room": "设置",
+  "title": "设置：白天与夜晚、声音、语言",
+  "seo": "Easel 设置：深色模式、声音、触感与语言",
+  "desc": "Easel 设置一览：白天、夜晚或自动外观，背景音乐、音效与触感反馈，每日目标，语言，介绍，隐私与反馈。",
+  "card": "Easel 设置一览：白天、夜晚或自动外观，背景音乐、音效与触感反馈，每日目标，语言，介绍，隐私与反馈。",
+  "lede": "Easel 的设置就像一份展览导览：顶部是今日画作，下面是一个个编号的偏好展厅。",
+  "body": "\n<h2 id=\"open\">打开设置</h2>\n<p>轻点主界面右上角的<strong>齿轮</strong>。设置从右侧滑入；轻点 <strong>‹</strong> 关闭。在连接了键盘的 iPad 上，按 <kbd>⌘</kbd><kbd>,</kbd>。</p>\n<div class=\"figs\"><figure><div class=\"shot\"><img src=\"{p}assets/img/shot-day.jpg\" width=\"603\" height=\"1311\" loading=\"lazy\" alt=\"白天的设置：今日的画架上，外观设为“白天”。\"></div><figcaption>白天。</figcaption></figure><figure><div class=\"shot\"><img src=\"{p}assets/img/shot-night.jpg\" width=\"603\" height=\"1311\" loading=\"lazy\" alt=\"夜晚的设置：同一界面，深炭灰色墙面。\"></div><figcaption>夜晚。</figcaption></figure></div>\n<h2 id=\"rooms\">各个展厅</h2>\n<ol class=\"steps\">\n  <li><strong>画廊</strong>：外观。<em>白天</em>是一面温暖明亮的墙；<em>夜晚</em>是一间深炭灰色的展厅；<em>自动</em>跟随你 iPhone 的浅色与深色设置。</li>\n  <li><strong>专注时</strong>：背景音乐、音效、触感反馈。</li>\n  <li><strong>你的每日仪式</strong>：<em>每天专注</em>（驱散“今日画作”小组件之雾的目标）和每日提醒。</li>\n  <li><strong>支持</strong>：<a href=\"{l}guides/patronage/\">成为赞助人</a>和周六短讯。</li>\n  <li><strong>关于 Easel</strong>：语言、关于开发者、再次查看介绍、隐私政策和反馈。</li>\n</ol>\n<h2 id=\"language\">语言</h2>\n<p>Easel 支持英语、波兰语、西班牙语、法语、简体中文、印地语、日语、韩语和巴西葡萄牙语。在设置中轻点<strong>语言</strong>，会打开 iOS 中 Easel 的设置页面，在那里选择语言；Easel 会以新语言重新启动。</p>\n<h2 id=\"intro\">再次查看介绍</h2>\n<p>轻点<strong>查看介绍</strong>（位于<em>关于 Easel</em>中），即可重温四页的 Easel 使用简介。</p>\n"
+ },
+ {
+  "slug": "patronage",
+  "nav": "赞助",
+  "room": "支持",
+  "title": "赞助：支持 Easel",
+  "seo": "Easel 免费吗？赞助与自愿打赏",
+  "desc": "Easel 免费，没有广告，也没有订阅。如果你想支持它，可以留下一笔一次性打赏：一支细笔、一盒颜料或一个镀金画框。打赏不会解锁任何东西。",
+  "card": "Easel 免费，没有广告，也没有订阅。",
+  "lede": "Easel 免费，由一人独立开发。每座画廊都有它的赞助人；如果 Easel 为你的日子带来了些许平静，你可以成为其中一员。全凭你的心意。",
+  "body": "\n<h2 id=\"gifts\">礼物</h2>\n<p>打开<em>设置 → 支持 → 成为赞助人</em>。共有三种一次性礼物：</p>\n<ul>\n  <li><strong>一支细笔</strong>：为那些让应用更好的细致笔触。</li>\n  <li><strong>一盒颜料</strong>：为接下来的一切添上新色彩。</li>\n  <li><strong>一个镀金画框</strong>：把整件作品挂上墙。真正的赞助人之礼。</li>\n</ul>\n<p>价格由 App Store 以你当地的货币显示。</p>\n<div class=\"figs\"><figure><div class=\"shot\"><img src=\"{p}assets/img/shot-patronage.jpg\" width=\"603\" height=\"1311\" loading=\"lazy\" alt=\"赞助页面：每座画廊都有它的赞助人，三种礼物：一支细笔 $2.99、一盒颜料 $4.99 和一个镀金画框 $9.99。\"></div><figcaption>设置中的赞助页面。</figcaption></figure></div>\n<h2 id=\"what-it-does\">打赏会带来什么</h2>\n<p>应用中不会有任何变化：Easel 的一切本就属于你。打赏是一次性购买，绝不是订阅，完全由 Apple 处理。打赏之后，周六短讯就会停止。</p>\n<p>还有一些不花钱的支持方式：在 App Store 上为 Easel 评分、分享一幅画，或在<a href=\"https://markockidev.canny.io/easel\">反馈板</a>上提出想法。</p>\n"
+ },
+ {
+  "slug": "troubleshooting",
+  "nav": "疑难解答",
+  "room": "帮助",
+  "title": "疑难解答与找回方向",
+  "seo": "Easel 帮助：疑难解答与界面导航",
+  "desc": "Easel 帮助：回到主界面、画作无法加载、看不到实时活动或提醒、小组件的雾没有散去、iPad 键盘快捷键，以及如何联系我们。",
+  "card": "Easel 帮助：回到主界面、画作无法加载、看不到实时活动或提醒、小组件的雾没有散去、iPad 键盘快捷键，以及如何联系我们。",
+  "lede": "有东西不在你预想的位置？从这里开始。如果你的问题没有得到解答，请写信给我们，我们会帮你。",
+  "body": "\n<h2 id=\"lost\">回到主界面</h2>\n<ul>\n  <li><strong>画廊</strong>和<strong>设置</strong>可通过左上角的 <strong>‹</strong> 关闭（或从边缘轻扫）。画廊滑回左侧，设置滑回右侧。</li>\n  <li><strong>统计</strong>可通过左上角的 <strong>⌄</strong> 关闭。</li>\n  <li><strong>弹出面板</strong>（收藏系列、分享、博物馆展签）可通过<strong>完成</strong>或向下轻扫关闭。</li>\n  <li><strong>专注提问</strong>可通过 <strong>‹</strong> 关闭，不会开始专注。</li>\n  <li><strong>专注期间</strong>，轻点<strong>结束</strong>（然后确认）即可回到主界面。</li>\n  <li>在连接了键盘的 iPad 上，按 <kbd>Esc</kbd> 可从任何地方返回。</li>\n</ul>\n<h2 id=\"wont-load\">“画作无法加载”</h2>\n<p>Easel 会在专注开始前下载每一幅新画，所以轻点“开始”时需要联网。请检查网络连接，然后轻点<strong>重试</strong>。看过的画作会保存在你的设备上，因此画廊仍可离线浏览。</p>\n<h2 id=\"live\">锁定屏幕上没有实时活动</h2>\n<p>打开 iPhone 的“设置”App → <em>App → Easel</em>，开启<strong>实时活动</strong>。如果你在第一次提示时轻点了<em>不允许</em>，就在这里更改。</p>\n<h2 id=\"reminder\">没有收到每日提醒</h2>\n<ul>\n  <li>在 iPhone 的“设置”App → <em>App → Easel → 通知</em>中确认通知已开启。</li>\n  <li>如果你今天已经专注过，提醒会等到明天。这是有意为之。</li>\n  <li>专注模式和定时推送摘要可能会延后通知。</li>\n</ul>\n<h2 id=\"widget\">小组件的雾没有散去</h2>\n<p>只有完成的专注才会驱散雾气；提前结束的专注不会。每日目标在<em>设置 → 每天专注</em>中设定。小组件会在 Easel 保存专注时刷新；如果看起来卡住了，打开一次 Easel 即可。</p>\n<h2 id=\"streak\">我的连续记录被重置了</h2>\n<p>连续记录统计的是每天至少完成一次专注的连续天数。某一天没有完成任何专注，连续记录就会中断。你的最长连续记录会保留在统计中。</p>\n<h2 id=\"keyboard\">iPad 键盘快捷键</h2>\n<div class=\"table-wrap\"><table class=\"data\">\n  <tr><th scope=\"col\">按键</th><th scope=\"col\">作用</th></tr>\n  <tr><td><kbd>Return</kbd></td><td>开始专注；画作揭开时为“完成”</td></tr>\n  <tr><td><kbd>Esc</kbd></td><td>结束专注（需确认），关闭面板</td></tr>\n  <tr><td><kbd>⌘</kbd> <kbd>G</kbd></td><td>打开画廊</td></tr>\n  <tr><td><kbd>⌘</kbd> <kbd>,</kbd></td><td>打开设置</td></tr>\n  <tr><td><kbd>⌘</kbd> <kbd>⇧</kbd> <kbd>S</kbd></td><td>打开统计</td></tr>\n</table></div>\n<h2 id=\"data\">换用新 iPhone</h2>\n<p>你的画廊和记录保存在你的设备上。它们会随 iPhone 备份或直接传输转移到新 iPhone；Easel 没有自己的账户或服务器。删除 Easel 会同时删除它们。</p>\n<h2 id=\"contact\">仍未解决？</h2>\n<p>写信至 <a href=\"mailto:adam@easelfocus.app\">adam@easelfocus.app</a>，或在<a href=\"https://markockidev.canny.io/easel\">反馈板</a>上发帖。你也可以浏览<a href=\"{l}faq/\">常见问题</a>。</p>\n"
+ }
+]
