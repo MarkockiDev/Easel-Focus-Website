@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://markockidev.github.io/Easel-Focus-Website/sitemap.xml

@@ -1,0 +1,261 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>Easel: Focus Timer &amp; Art — a quiet moment with a painting</title>
+  <meta name="description" content="Easel is a focus timer for iPhone and iPad. Pick how long you’ll focus, and a public-domain masterpiece from The Met slowly emerges from the fog, fully revealed at 0:00.">
+  <link rel="canonical" href="https://markockidev.github.io/Easel-Focus-Website/">
+  <meta name="apple-itunes-app" content="app-id=6793262483">
+  <meta name="theme-color" content="#F5F2EC" media="(prefers-color-scheme: light)">
+  <meta name="theme-color" content="#161310" media="(prefers-color-scheme: dark)">
+
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="Easel">
+  <meta property="og:title" content="Easel — a quiet moment with a painting">
+  <meta property="og:description" content="A focus timer that reveals a masterpiece from The Met as you focus. Fully unveiled at 0:00.">
+  <meta property="og:url" content="https://markockidev.github.io/Easel-Focus-Website/">
+  <meta property="og:image" content="https://markockidev.github.io/Easel-Focus-Website/assets/img/og.jpg">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="og:image:alt" content="Van Gogh’s Self-Portrait with a Straw Hat emerging from the fog in a gilded frame, beside the words: A quiet moment with a painting.">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Easel — a quiet moment with a painting">
+  <meta name="twitter:description" content="A focus timer that reveals a masterpiece from The Met as you focus.">
+  <meta name="twitter:image" content="https://markockidev.github.io/Easel-Focus-Website/assets/img/og.jpg">
+
+  <link rel="icon" href="favicon-32.png" sizes="32x32" type="image/png">
+  <link rel="icon" href="assets/img/icon-192.png" sizes="192x192" type="image/png">
+  <link rel="apple-touch-icon" href="apple-touch-icon.png">
+  <link rel="preload" href="assets/img/van-gogh.jpg" as="image">
+  <link rel="stylesheet" href="assets/site.css">
+  <script>document.documentElement.classList.add('js')</script>
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "MobileApplication",
+    "name": "Easel: Focus Timer & Art",
+    "operatingSystem": "iOS 17.0 or later",
+    "applicationCategory": "ProductivityApplication",
+    "description": "A focus timer that slowly reveals a public-domain painting from The Met as you focus.",
+    "installUrl": "https://apps.apple.com/app/id6793262483",
+    "offers": { "@type": "Offer", "price": "0", "priceCurrency": "USD" },
+    "author": { "@type": "Person", "url": "https://markockiadam.com" }
+  }
+  </script>
+</head>
+<body>
+  <a class="skip" href="#main">Skip to content</a>
+
+  <header class="top">
+    <div class="wrap">
+      <a class="brand" href="./" aria-label="Easel, home">
+        <img src="assets/img/icon.jpg" alt="" width="36" height="36">
+        Easel
+      </a>
+      <nav aria-label="Primary" class="label">
+        <a class="opt" href="#rooms">The rooms</a>
+        <a class="opt" href="#patronage">Patronage</a>
+        <a href="https://apps.apple.com/app/id6793262483">Download</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main">
+    <section class="hero" aria-labelledby="hero-title">
+      <div class="wrap">
+        <div>
+          <p class="label">A focus timer for iPhone &amp; iPad</p>
+          <h1 id="hero-title">A quiet moment<br>with a <em>painting</em>.</h1>
+          <p class="lede">Choose how long you’ll focus. A masterpiece from <strong>The Met</strong> slowly emerges from the fog while you work, and at <strong>0:00</strong> it’s fully unveiled, and yours to keep.</p>
+          <div class="cta">
+            <a class="badge" href="https://apps.apple.com/app/id6793262483">
+              <picture>
+                <source srcset="assets/img/app-store-badge-white.svg" media="(prefers-color-scheme: dark)">
+                <img src="assets/img/app-store-badge-black.svg" alt="Download on the App Store" width="162" height="54">
+              </picture>
+            </a>
+            <p class="note">Free, with no ads. For iPhone and iPad.</p>
+          </div>
+        </div>
+
+        <figure class="stage" aria-labelledby="demo-caption">
+          <div class="frame">
+            <div class="mat">
+              <div class="reveal" id="reveal">
+                <img class="art" src="assets/img/van-gogh.jpg" width="723" height="900"
+                     alt="Vincent van Gogh, Self-Portrait with a Straw Hat: the painter in a yellow straw hat, painted in short, bright strokes of yellow, blue and orange.">
+                <div class="mist" aria-hidden="true"></div>
+              </div>
+            </div>
+          </div>
+          <figcaption class="museum-label" id="demo-caption">
+            <span class="t">Self-Portrait with a Straw Hat<span>Vincent van Gogh · 1887 · The Met</span></span>
+            <span class="timer" id="timer" aria-hidden="true">25:00</span>
+          </figcaption>
+        </figure>
+      </div>
+    </section>
+
+    <section class="rooms-intro" id="rooms" aria-labelledby="rooms-title">
+      <div class="wrap">
+        <p class="label">An exhibition guide</p>
+        <h2 id="rooms-title">Seven rooms, one quiet idea</h2>
+        <p class="lede">No points, no pets, no noise. Just a painting, slowly coming into view, as long as you stay with your work.</p>
+      </div>
+    </section>
+
+    <!-- I -->
+    <section class="room" aria-labelledby="r1">
+      <div class="wrap">
+        <div class="text">
+          <p class="label"><span class="numeral">I</span> The reveal</p>
+          <h2 id="r1">Focus, and the fog lifts</h2>
+          <p class="lede">Every session hangs a new painting behind a soft, drifting fog. It clears from the centre outward as the minutes pass, so you can feel your progress without watching the clock.</p>
+          <ul class="facts">
+            <li><strong>Fully unveiled at 0:00</strong>, with its museum label: title, artist, date and story.</li>
+            <li><strong>Never waits on the network.</strong> The painting is ready before you begin.</li>
+            <li><strong>Leave and come back.</strong> The timer keeps true time, even with your phone locked.</li>
+          </ul>
+        </div>
+        <div class="shots">
+          <figure class="shot"><img src="assets/img/shot-fog.jpg" width="603" height="1311" loading="lazy" alt="Easel on iPhone during a focus session: a painting half hidden in fog, the countdown above it."></figure>
+          <figure class="shot"><img src="assets/img/shot-revealed.jpg" width="603" height="1311" loading="lazy" alt="The same painting fully revealed at the end of the session, with its title and artist underneath."></figure>
+        </div>
+      </div>
+    </section>
+
+    <!-- II -->
+    <section class="room flip" aria-labelledby="r2">
+      <div class="wrap">
+        <div class="text">
+          <p class="label"><span class="numeral">II</span> Your gallery</p>
+          <h2 id="r2">Every painting you uncover is yours to keep</h2>
+          <p class="lede">Finished sessions hang in your own gallery. Over weeks it becomes a quiet record of everything you’ve made time for.</p>
+          <ul class="facts">
+            <li><strong>Over 600 works</strong> from The Met’s Open Access collection, from Vermeer and Van Gogh to Hokusai.</li>
+            <li><strong>Focus with a collection:</strong> European Paintings, Japanese Prints, Flowers &amp; Birds, American Paintings, or a single artist or era.</li>
+            <li><strong>Share a painting</strong> in a gilded frame, as a Story or a Post.</li>
+          </ul>
+        </div>
+        <figure class="shot"><img src="assets/img/shot-gallery.jpg" width="603" height="1311" loading="lazy" alt="Easel’s gallery on iPhone: a grid of earned paintings, from Audubon’s birds to Van Gogh’s irises, above a card reading 57 hours 30 minutes in focus, 109 paintings, 6-day streak."></figure>
+      </div>
+    </section>
+
+    <!-- III -->
+    <section class="room" aria-labelledby="r3">
+      <div class="wrap">
+        <div class="text">
+          <p class="label"><span class="numeral">III</span> Make it yours</p>
+          <h2 id="r3">What will you focus on?</h2>
+          <p class="lede">Name what you’re working on, or pick a subject: study, writing, reading, creating. Then choose a single session or a Pomodoro set, five minutes to two hours.</p>
+          <ul class="facts">
+            <li><strong>Pomodoro</strong> blocks with short breaks, a new painting for each block.</li>
+            <li><strong>Your intention</strong> travels with the painting into your gallery.</li>
+            <li><strong>Start from anywhere:</strong> Siri, Shortcuts, Control Center or a widget.</li>
+          </ul>
+        </div>
+        <figure class="shot wide"><img src="assets/img/setup.jpg" width="900" height="985" loading="lazy" alt="The setup screen: the intention “Finish the chapter draft”, Single or Pomodoro, durations of 5, 15, 25, 45 and 60 minutes or custom, and Focus with: All paintings."></figure>
+      </div>
+    </section>
+
+    <!-- IV -->
+    <section class="room flip" aria-labelledby="r4">
+      <div class="wrap">
+        <div class="text">
+          <p class="label"><span class="numeral">IV</span> Your focus, in numbers</p>
+          <h2 id="r4">Streaks, statistics and a Year in Review</h2>
+          <p class="lede">See your hours, your paintings and your longest run, a week at a glance and a calendar of every day you showed up.</p>
+          <ul class="facts">
+            <li><strong>Milestones</strong> at 10, 25, 50, 100 paintings and beyond.</li>
+            <li><strong>Year in Review</strong>, every December: your year in focus as a short exhibition, set to Handel.</li>
+            <li><strong>Private by design.</strong> Your history and intentions stay on your device.</li>
+          </ul>
+        </div>
+        <figure class="shot"><img src="assets/img/shot-stats.jpg" width="603" height="1311" loading="lazy" alt="Easel’s Statistics: 57 hours 30 minutes in focus, a 6-day current streak and 12-day best, a chart of the past seven days and a calendar of the last 16 weeks."></figure>
+      </div>
+    </section>
+
+    <!-- V -->
+    <section class="room" aria-labelledby="r5">
+      <div class="wrap">
+        <div class="text">
+          <p class="label"><span class="numeral">V</span> Beyond the app</p>
+          <h2 id="r5">On your Lock Screen, Home Screen and Dynamic Island</h2>
+          <p class="lede">The <em>Painting of the Day</em> widget starts each morning hidden in fog. Every minute you focus clears a little more, until your daily goal unveils it completely.</p>
+          <ul class="facts">
+            <li><strong>Live Activity</strong> keeps your countdown on the Lock Screen and in the Dynamic Island.</li>
+            <li><strong>Focus &amp; Streak</strong> widget, StandBy, and a Control Center button.</li>
+            <li><strong>A gentle daily reminder</strong> that names today’s painting, if you’d like one.</li>
+          </ul>
+        </div>
+        <figure class="shot"><img src="assets/img/shot-live.jpg" width="603" height="1311" loading="lazy" alt="The iPhone Lock Screen with Easel’s Live Activity: the intention “Finish the chapter draft”, a softly blurred painting and the countdown."></figure>
+      </div>
+    </section>
+
+    <!-- VI -->
+    <section class="room flip" aria-labelledby="r6">
+      <div class="wrap">
+        <div class="text">
+          <p class="label"><span class="numeral">VI</span> By day, by night</p>
+          <h2 id="r6">A gallery that keeps your hours</h2>
+          <p class="lede">A warm, lit wall by day, and a candlelit charcoal room for late sessions. Choose one, or let Easel follow your iPhone.</p>
+        </div>
+        <div class="shots">
+          <figure class="shot"><img src="assets/img/shot-day.jpg" width="603" height="1311" loading="lazy" alt="Easel’s Settings by day: a warm off-white wall, today’s painting in a small gilt frame, and the Appearance choice set to By day."></figure>
+          <figure class="shot"><img src="assets/img/shot-night.jpg" width="603" height="1311" loading="lazy" alt="The same Settings screen by night: deep charcoal wall, cream text, Appearance set to By night."></figure>
+        </div>
+      </div>
+    </section>
+
+    <!-- VII -->
+    <section class="room" id="patronage" aria-labelledby="r7">
+      <div class="wrap" style="grid-template-columns: minmax(0, 1fr);">
+        <div class="text">
+          <p class="label"><span class="numeral">VII</span> Patronage</p>
+          <h2 id="r7">Every gallery has its patrons</h2>
+          <p class="lede">Easel is free, with no ads and no subscription, and made by one person. If it brings some calm to your days, a one-time gift helps keep it going. It unlocks nothing, because everything in Easel is already yours.</p>
+        </div>
+        <div class="placards">
+          <div class="placard"><h3>A Fine Brush</h3><p>For the small, careful strokes that make the app better.</p></div>
+          <div class="placard"><h3>A Box of Pigments</h3><p>Fresh colour for whatever comes next.</p></div>
+          <div class="placard"><h3>A Gilded Frame</h3><p>Hangs the whole work on the wall. A true patron’s gift.</p></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="closing" aria-labelledby="closing-title">
+      <div class="wrap">
+        <p class="label">Now showing</p>
+        <h2 id="closing-title">Your next painting is waiting behind the fog</h2>
+        <p class="lede">Easel: Focus Timer &amp; Art. For iPhone and iPad, iOS 17 or later.</p>
+        <div class="cta">
+          <a class="badge" href="https://apps.apple.com/app/id6793262483">
+            <picture>
+              <source srcset="assets/img/app-store-badge-white.svg" media="(prefers-color-scheme: dark)">
+              <img src="assets/img/app-store-badge-black.svg" alt="Download on the App Store" width="162" height="54" loading="lazy">
+            </picture>
+          </a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="wrap">
+      <div class="row">
+        <a class="brand" href="./" aria-label="Easel, home"><img src="assets/img/icon.jpg" alt="" width="36" height="36" loading="lazy">Easel</a>
+        <nav aria-label="Footer">
+          <a href="https://apps.apple.com/app/id6793262483">App Store</a>
+          <a href="https://markockidev.canny.io/easel">Feedback &amp; ideas</a>
+          <a href="https://markockidev.github.io/Easel-privacy-policy/">Privacy policy</a>
+          <a href="https://markockiadam.com">The maker</a>
+        </nav>
+      </div>
+      <p class="fine">Paintings are public-domain works from The Metropolitan Museum of Art’s Open Access collection. Easel is an independent app and is not affiliated with or endorsed by The Met. Apple, the Apple logo, iPhone and iPad are trademarks of Apple Inc., registered in the U.S. and other countries and regions. App Store is a service mark of Apple Inc.</p>
+    </div>
+  </footer>
+
+  <script src="assets/reveal.js" defer></script>
+</body>
+</html>
