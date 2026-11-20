@@ -22,7 +22,7 @@
  {
   "id": "met",
   "title": "Les tableaux du Met",
-  "body": "<p>Easel télécharge les images et les informations des tableaux depuis l’API Open Access du Metropolitan Museum of Art (<code>collectionapi.metmuseum.org</code> et <code>images.metmuseum.org</code>). Ces requêtes ne demandent que des œuvres, par leur numéro d’objet public. Elles ne contiennent rien sur vous, mais, comme lors de la visite de n’importe quel site web, les serveurs du Met peuvent voir l’adresse IP de votre appareil. Le traitement de ces connexions par le Met est régi par ses propres politiques. Easel est indépendant et n’est pas affilié au Met.</p>"
+  "body": "<p>Easel télécharge les images et les informations des tableaux depuis l’API Open Access du Metropolitan Museum of Art (<code>collectionapi.metmuseum.org</code> et <code>images.metmuseum.org</code>). Ces requêtes ne demandent que des œuvres, par leur numéro d’objet public. Elles ne contiennent rien sur vous, mais, comme lors de la visite de n’importe quel site web, les serveurs du Met peuvent voir l’adresse IP de votre appareil. Le traitement de ces connexions par le Met est régi par ses propres politiques. Easel est indépendant et n’est pas affilié au Met.</p>\n<p>Lorsque le serveur d’images du Met est inaccessible, Easel télécharge les mêmes images du domaine public depuis Wikimedia Commons (<code>commons.wikimedia.org</code>, <code>upload.wikimedia.org</code>), géré par la Wikimedia Foundation. Ces requêtes ne contiennent pas non plus d’informations sur vous ; les serveurs de Wikimedia peuvent voir l’adresse IP de votre appareil, selon la politique de confidentialité de la Wikimedia Foundation.</p>"
  },
  {
   "id": "apple",
@@ -72,7 +72,7 @@
  {
   "id": "security",
   "title": "Sécurité",
-  "body": "<p>Vos données Easel sont protégées par la sécurité propre à votre appareil, notamment son code d’accès et sa protection des données. Tout ce qu’Easel envoie sur Internet, à PostHog ou au Met, est chiffré en HTTPS.</p>"
+  "body": "<p>Vos données Easel sont protégées par la sécurité propre à votre appareil, notamment son code d’accès et sa protection des données. Tout ce qu’Easel envoie sur Internet, à PostHog, au Met ou à Wikimedia, est chiffré en HTTPS.</p>"
  },
  {
   "id": "website",

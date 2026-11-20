@@ -22,7 +22,7 @@
  {
   "id": "met",
   "title": "Obrazy z The Met",
-  "body": "<p>Easel pobiera obrazy i informacje o nich z API Open Access Metropolitan Museum of Art (<code>collectionapi.metmuseum.org</code> i <code>images.metmuseum.org</code>). Żądania te dotyczą wyłącznie dzieł sztuki, wskazywanych przez ich publiczny numer obiektu. Nie zawierają żadnych informacji o tobie, ale, jak przy odwiedzaniu każdej strony internetowej, serwery The Met widzą adres IP twojego urządzenia. Sposób, w jaki The Met obsługuje te połączenia, regulują jego własne zasady. Easel jest niezależny i nie jest powiązany z The Met.</p>"
+  "body": "<p>Easel pobiera obrazy i informacje o nich z API Open Access Metropolitan Museum of Art (<code>collectionapi.metmuseum.org</code> i <code>images.metmuseum.org</code>). Żądania te dotyczą wyłącznie dzieł sztuki, wskazywanych przez ich publiczny numer obiektu. Nie zawierają żadnych informacji o tobie, ale, jak przy odwiedzaniu każdej strony internetowej, serwery The Met widzą adres IP twojego urządzenia. Sposób, w jaki The Met obsługuje te połączenia, regulują jego własne zasady. Easel jest niezależny i nie jest powiązany z The Met.</p>\n<p>Gdy serwer obrazów The Met jest niedostępny, Easel pobiera te same obrazy z domeny publicznej z Wikimedia Commons (<code>commons.wikimedia.org</code>, <code>upload.wikimedia.org</code>), prowadzonego przez Fundację Wikimedia. Te zapytania również nie zawierają niczego o tobie; serwery Wikimedia widzą adres IP twojego urządzenia, zgodnie z polityką prywatności Fundacji Wikimedia.</p>"
  },
  {
   "id": "apple",
@@ -72,7 +72,7 @@
  {
   "id": "security",
   "title": "Bezpieczeństwo",
-  "body": "<p>Twoje dane w Easel są chronione przez zabezpieczenia twojego urządzenia, w tym kod dostępu i ochronę danych. Wszystko, co Easel wysyła przez internet, do PostHog lub The Met, jest szyfrowane za pomocą HTTPS.</p>"
+  "body": "<p>Twoje dane w Easel są chronione przez zabezpieczenia twojego urządzenia, w tym kod dostępu i ochronę danych. Wszystko, co Easel wysyła przez internet, do PostHog, The Met lub Wikimedia, jest szyfrowane za pomocą HTTPS.</p>"
  },
  {
   "id": "website",

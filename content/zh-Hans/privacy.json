@@ -22,7 +22,7 @@
  {
   "id": "met",
   "title": "来自大都会艺术博物馆的画作",
-  "body": "<p>Easel 从大都会艺术博物馆（The Metropolitan Museum of Art）的开放获取 API（<code>collectionapi.metmuseum.org</code> 和 <code>images.metmuseum.org</code>）下载画作图像和信息。这些请求仅按公开的藏品编号请求艺术作品，不包含任何关于你的信息；但与访问任何网站一样，大都会艺术博物馆的服务器可以看到你设备的 IP 地址。大都会艺术博物馆对这些连接的处理受其自身政策约束。Easel 是独立应用，与大都会艺术博物馆无关联。</p>"
+  "body": "<p>Easel 从大都会艺术博物馆（The Metropolitan Museum of Art）的开放获取 API（<code>collectionapi.metmuseum.org</code> 和 <code>images.metmuseum.org</code>）下载画作图像和信息。这些请求仅按公开的藏品编号请求艺术作品，不包含任何关于你的信息；但与访问任何网站一样，大都会艺术博物馆的服务器可以看到你设备的 IP 地址。大都会艺术博物馆对这些连接的处理受其自身政策约束。Easel 是独立应用，与大都会艺术博物馆无关联。</p>\n<p>当无法连接大都会艺术博物馆的图像服务器时，Easel 会从维基媒体基金会运营的 Wikimedia Commons(<code>commons.wikimedia.org</code>, <code>upload.wikimedia.org</code>)下载同样的公有领域图像。这些请求同样不包含任何关于你的信息；Wikimedia 的服务器可以看到你设备的 IP 地址，其处理受维基媒体基金会自身的隐私政策约束。</p>"
  },
  {
   "id": "apple",
@@ -72,7 +72,7 @@
  {
   "id": "security",
   "title": "安全",
-  "body": "<p>你的 Easel 数据受你设备自身的安全机制保护，包括其密码和数据保护。Easel 通过互联网发送至 PostHog 或大都会艺术博物馆的所有内容均使用 HTTPS 加密。</p>"
+  "body": "<p>你的 Easel 数据受你设备自身的安全机制保护，包括其密码和数据保护。Easel 通过互联网发送至 PostHog、大都会艺术博物馆或 Wikimedia 的所有内容均使用 HTTPS 加密。</p>"
  },
  {
   "id": "website",

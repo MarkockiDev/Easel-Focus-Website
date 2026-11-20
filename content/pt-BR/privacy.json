@@ -22,7 +22,7 @@
  {
   "id": "met",
   "title": "Pinturas do The Met",
-  "body": "<p>O Easel baixa imagens e informações das pinturas pela API Open Access do Metropolitan Museum of Art (<code>collectionapi.metmuseum.org</code> e <code>images.metmuseum.org</code>). Essas solicitações pedem apenas obras de arte, pelo número de objeto público delas. Elas não contêm nada sobre você, mas, como ao visitar qualquer site, os servidores do The Met podem ver o endereço IP do seu dispositivo. O tratamento dessas conexões pelo The Met é regido pelas políticas dele. O Easel é independente e não tem afiliação com o The Met.</p>"
+  "body": "<p>O Easel baixa imagens e informações das pinturas pela API Open Access do Metropolitan Museum of Art (<code>collectionapi.metmuseum.org</code> e <code>images.metmuseum.org</code>). Essas solicitações pedem apenas obras de arte, pelo número de objeto público delas. Elas não contêm nada sobre você, mas, como ao visitar qualquer site, os servidores do The Met podem ver o endereço IP do seu dispositivo. O tratamento dessas conexões pelo The Met é regido pelas políticas dele. O Easel é independente e não tem afiliação com o The Met.</p>\n<p>Quando o servidor de imagens do The Met não está acessível, o Easel baixa as mesmas imagens de domínio público do Wikimedia Commons (<code>commons.wikimedia.org</code>, <code>upload.wikimedia.org</code>), mantido pela Fundação Wikimedia. Essas solicitações também não contêm nada sobre você; os servidores da Wikimedia podem ver o endereço IP do seu dispositivo, conforme a política de privacidade da Fundação Wikimedia.</p>"
  },
  {
   "id": "apple",
@@ -72,7 +72,7 @@
  {
   "id": "security",
   "title": "Segurança",
-  "body": "<p>Seus dados do Easel são protegidos pela própria segurança do seu dispositivo, incluindo o código de acesso e a proteção de dados. Tudo o que o Easel envia pela internet, para a PostHog ou para o The Met, é criptografado com HTTPS.</p>"
+  "body": "<p>Seus dados do Easel são protegidos pela própria segurança do seu dispositivo, incluindo o código de acesso e a proteção de dados. Tudo o que o Easel envia pela internet, para a PostHog, para o The Met ou para a Wikimedia, é criptografado com HTTPS.</p>"
  },
  {
   "id": "website",

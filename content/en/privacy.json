@@ -22,7 +22,7 @@
  {
   "id": "met",
   "title": "Paintings from The Met",
-  "body": "<p>Easel downloads painting images and information from The Metropolitan Museum of Art’s Open Access API (<code>collectionapi.metmuseum.org</code> and <code>images.metmuseum.org</code>). These requests ask only for artworks, by their public object number. They contain nothing about you, but, as with visiting any website, The Met’s servers can see your device’s IP address. The Met’s handling of these connections is governed by its own policies. Easel is independent and is not affiliated with The Met.</p>"
+  "body": "<p>Easel downloads painting images and information from The Metropolitan Museum of Art’s Open Access API (<code>collectionapi.metmuseum.org</code> and <code>images.metmuseum.org</code>). These requests ask only for artworks, by their public object number. They contain nothing about you, but, as with visiting any website, The Met’s servers can see your device’s IP address. The Met’s handling of these connections is governed by its own policies. Easel is independent and is not affiliated with The Met.</p>\n<p>When The Met’s image server can’t be reached, Easel downloads the same public-domain images from Wikimedia Commons (<code>commons.wikimedia.org</code>, <code>upload.wikimedia.org</code>), run by the Wikimedia Foundation. These requests also contain nothing about you; Wikimedia’s servers can see your device’s IP address, under the Wikimedia Foundation’s own privacy policy.</p>"
  },
  {
   "id": "apple",
@@ -72,7 +72,7 @@
  {
   "id": "security",
   "title": "Security",
-  "body": "<p>Your Easel data is protected by your device’s own security, including its passcode and data protection. Everything Easel sends over the internet, to PostHog or The Met, is encrypted with HTTPS.</p>"
+  "body": "<p>Your Easel data is protected by your device’s own security, including its passcode and data protection. Everything Easel sends over the internet, to PostHog, The Met or Wikimedia, is encrypted with HTTPS.</p>"
  },
  {
   "id": "website",

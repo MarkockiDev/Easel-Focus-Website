@@ -22,7 +22,7 @@
  {
   "id": "met",
   "title": "메트로폴리탄 미술관의 작품",
-  "body": "<p>Easel은 메트로폴리탄 미술관(The Metropolitan Museum of Art)의 오픈 액세스 API(<code>collectionapi.metmuseum.org</code> 및 <code>images.metmuseum.org</code>)에서 그림 이미지와 정보를 다운로드합니다. 이 요청은 공개된 객체 번호로 작품만을 요청합니다. 요청에는 사용자에 관한 정보가 전혀 담기지 않지만, 다른 웹사이트를 방문할 때와 마찬가지로 메트로폴리탄 미술관의 서버는 기기의 IP 주소를 볼 수 있습니다. 메트로폴리탄 미술관이 이러한 연결을 처리하는 방식은 미술관 자체 정책을 따릅니다. Easel은 독립 앱이며 메트로폴리탄 미술관과 제휴 관계가 없습니다.</p>"
+  "body": "<p>Easel은 메트로폴리탄 미술관(The Metropolitan Museum of Art)의 오픈 액세스 API(<code>collectionapi.metmuseum.org</code> 및 <code>images.metmuseum.org</code>)에서 그림 이미지와 정보를 다운로드합니다. 이 요청은 공개된 객체 번호로 작품만을 요청합니다. 요청에는 사용자에 관한 정보가 전혀 담기지 않지만, 다른 웹사이트를 방문할 때와 마찬가지로 메트로폴리탄 미술관의 서버는 기기의 IP 주소를 볼 수 있습니다. 메트로폴리탄 미술관이 이러한 연결을 처리하는 방식은 미술관 자체 정책을 따릅니다. Easel은 독립 앱이며 메트로폴리탄 미술관과 제휴 관계가 없습니다.</p>\n<p>메트로폴리탄 미술관의 이미지 서버에 연결할 수 없을 때, Easel은 위키미디어 재단이 운영하는 Wikimedia Commons(<code>commons.wikimedia.org</code>, <code>upload.wikimedia.org</code>)에서 같은 퍼블릭 도메인 이미지를 내려받습니다. 이 요청에도 사용자에 관한 정보는 담기지 않으며, Wikimedia의 서버는 기기의 IP 주소를 볼 수 있고 이는 위키미디어 재단의 개인정보 처리방침을 따릅니다.</p>"
  },
  {
   "id": "apple",
@@ -72,7 +72,7 @@
  {
   "id": "security",
   "title": "보안",
-  "body": "<p>사용자의 Easel 데이터는 암호와 데이터 보호를 포함한 기기 자체 보안으로 보호됩니다. Easel이 인터넷을 통해 PostHog나 메트로폴리탄 미술관으로 보내는 모든 데이터는 HTTPS로 암호화됩니다.</p>"
+  "body": "<p>사용자의 Easel 데이터는 암호와 데이터 보호를 포함한 기기 자체 보안으로 보호됩니다. Easel이 인터넷을 통해 PostHog, 메트로폴리탄 미술관, Wikimedia로 보내는 모든 데이터는 HTTPS로 암호화됩니다.</p>"
  },
  {
   "id": "website",
